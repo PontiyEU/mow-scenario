@@ -1,0 +1,256 @@
+{tags
+	{"multi"
+        {"3v3_ivanchichi_vernon"
+            {"name" "[Ivanchichi]3x3 Vernon"}
+        }
+        {"3v3_gatr_shtrafbat"
+            {"name" "[Gatr]3x3 Shtrafbat"}
+        }
+        {"3v3_pontiy_moskow"
+            {"name" "[Pontiy]3x3 Moskow"}
+        }
+        {"3v3_pontiy_dobovka"
+            {"name" "[Pontiy]3x3 Dubovka"}
+        }
+        {"2v2_pontiy_escape"
+            {"name" "[Pontiy]2x2 Escape"}
+        }
+        {"3v3_pontiy_factory"
+            {"name" "[Pontiy]3x3 Factory"}
+        }
+        {"4v4_gatr_ride"
+            {"name" "[Gatr]3x3 Formula-1"}
+        }
+		{"farmland"
+			{"name" "Farmland"}
+		}
+		{"town"
+			{"name" "Town"}
+		}
+		{"station"
+			{"name" "Hills"}
+		}
+		{"hunting"
+			{"name" "Hunting"}
+		}
+		{"suburb_3"
+			{"name" "Grand suburb"}
+		}
+		{"sevastopol"
+			{"name" "Sevastopol"}
+		}
+		{"moskow"
+			{"name" "Moskow"}
+		}
+		{"desert_airport"
+			{"name" "Desert airport"}
+		}
+		{"docks"
+			{"name" "Docks"}
+		}
+		{"falaise"
+			{"name" "Falaise"}
+		}
+		{"castle"
+			{"name" "Castle"}
+		}
+		{"city"
+			{"name" "Urban"}
+		}
+		{"farm"
+			{"name" "Farm"}
+		}
+		{"road"
+			{"name" "Road"}
+		}
+		{"frontline7"
+			{"name" "Winter assault"}
+		}
+		{"frontline11"
+			{"name" "Jungle battle"}
+		}
+		{"frontline12"
+			{"name" "Trainyard"}
+		}
+		{"test"
+			{"name" "Test"}
+		}
+		{"trainyard"
+			{"name" "Station"}
+		}
+		{"slurb"
+			{"name" "Winter church"}
+		}
+		{"fort_ruins"
+			{"name" "Ruins"}
+		}
+		{"lakeland"
+			{"name" "Lakeland"}
+		}
+		{"lighthouse"
+			{"name" "Lighthouse"}
+		}
+		{"ocean_island"
+			{"name" "Island"}
+		}
+		{"stronghold"
+			{"name" "Stronghold"}
+		}
+		{"suburb"
+			{"name" "Suburb 2"}
+		}
+		{"swampland"
+			{"name" "Swampland"}
+		}
+		{"tram_depot"
+			{"name" "Tramway depot"}
+		}
+		{"trench"
+			{"name" "Sand pit"}
+		}
+		{"village_combat"
+			{"name" "Village"}
+		}
+		{"warehouse"
+			{"name" "Workshop"}
+		}
+		{"workshop2"
+			{"name" "Workshop2"}
+		}
+		{"canyon"
+			{"name" "Canyon"}
+		}
+		{"chicken_old"
+			{"name" "Khutor"}
+		}
+		{"chicken"
+			{"name" "Poultry-yard"}
+		}
+		{"frontline2"
+			{"name" "Railway crossings"}
+		}
+		{"frontline2_2x2"
+			{"name" "Railways (small)"}
+		}
+		{"frontline3_2x2"
+			{"name" "Snowy Castle"}
+		}
+		{"frontline4_2x2"
+			{"name" "Swampland Fort"}
+		}
+		{"frontline6"
+			{"name" "City edge"}
+		}
+		{"frontline8"
+			{"name" "Frozen tracks"}
+		}
+		{"frontline9"
+			{"name" "Silent Town"}
+		}
+		{"bocage"
+			{"name" "Bocage"}
+		}
+		{"jungle"
+			{"name" "Jungle"}
+		}
+		{"bazerville"
+			{"name" "Bazerville"}
+		}
+		{"trainyard1"
+			{"name" "Trainyard"}
+		}
+		{"frag_town"
+			{"name" "Frag town"}
+		}
+		{"port"
+			{"name" "Port"}
+		}
+		{"oasis"
+			{"name" "Oasis"}
+		}
+		{"flank_assault"
+			{"name" "Flank assault"}
+		}
+		{"frontline5_2x2"
+			{"name" "Ice village"}
+		}
+		{"church"
+			{"name" "Church"}
+		}
+		{"crossroads"
+			{"name" "Crossroads"}
+		}
+		{"province"
+			{"name" "Province"}
+		}
+		{"forest"
+			{"name" "Forest"}
+		}
+		{"dubovka"
+			{"name" "Dubovka"}
+		}
+		{"village"
+			{"name" "Village"}
+		}
+		{"fields"
+			{"name" "Fields"}
+		}
+		{"borovaya"
+			{"name" "River"}
+		}
+		{"desert_walk"
+			{"name" "Desert walk"}
+		}
+		{"country_roads"
+			{"name" "Country roads"}
+		}
+		{"farmstead2"
+			{"name" "Gruneburg"}
+		}
+		{"japan_village"
+			{"name" "Japan village"}
+		}
+		{"farmstead"
+			{"name" "Dunverde"}
+		}
+		{"desert_hills"
+			{"name" "Crusader"}
+		}
+		{"kanawa_mine"
+			{"name" "Kanawa mine"}
+		}
+		{"deadriver"
+			{"name" "Dead river"}
+		}
+		{"rustle_of_sands"
+			{"name" "Rustle of sands"}
+		}
+		{"ardennes_original"
+			{"name" "Ardennes"}
+		}
+		{"bridges_quartet"
+			{"name" "Bridges quartet"}
+		}
+		{"country"
+			{"name" "Country"}
+		}
+		{"country_roads"
+			{"name" "Country roads"}
+		}
+		{"Countryside"
+			{"name" "Countryside"}
+		}
+		{"dead_hils"
+			{"name" "Dead hills"}
+		}
+		{"desert_hills"
+			{"name" "Desert hills"}
+		}
+		{"disaster"
+			{"name" "Disaster"}
+		}
+		{"Gold_rush"
+			{"name" "Gold rush"}
+		}
+	}
+}
