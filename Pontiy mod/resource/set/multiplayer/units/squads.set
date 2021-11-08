@@ -1,0 +1,154 @@
+;SDL
+;------------------------------------------------------------------------------
+;	Содержимое content поля:
+; 		content поле содержит список unitId (bread или entity). 
+;		Символ ':' после unitId указывает на количество юнитов данного типа.
+;		Символ '*' указывает на id текущего блока юнита. 
+;		Юниты в круглых скобках будут посажены(прилинкованы) к юниту указанному перед '(' скобкой.
+;		Спец символы '*','(',')' обязательно должны быть окружены пробелами!
+;		Первый в списке юнит становиться командиром. 
+;------------------------------------------------------------------------------
+;
+;	Пример:	{"t34m"	{content "mp/rus/oficer * ( mp/rus/tankman:4 ) m72 ( mp/rus/smg:3 ) mp/rus/sturmovik:2"}}
+;								
+;		mp/rus/oficer - будет командиром
+;		'*' заменяется на t34m
+;		mp/rus/tankman:4 - 4 танкиста, экипаж t34m
+;		mp/rus/smg:3 - 3 smg-ника, разъезжающие на m72
+;		mp/rus/sturmovik:2 - 2 штурмовика, чтоб офицеру не было скучно :)
+;
+;------------------------------------------------------------------------------
+
+(define "squad_with1types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1"}
+		{tags "frontline_cp squad infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with1types_cp"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1"}
+		{tags "frontline_cp squad infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{cp %cp}
+		{fore %f}
+	}
+)
+
+(define "squad_with2types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2"}
+		{tags "frontline_cp squad infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with3types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3"}
+		{tags "frontline_cp squad infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with3types_cp"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3"}
+		{tags "frontline_cp squad infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{cp %cp}
+		{fore %f}
+	}
+)
+
+(define "squad_1"
+	("squad_with1types" side(rus) name(%name) c1(%c1) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+	("squad_with1types" side(ger) name(%name) c1(%c1) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+	("squad_with1types" side(usa) name(%name) c1(%c1) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+	("squad_with1types" side(eng) name(%name) c1(%c1) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+)
+
+(define "squad_2"
+	("squad_with2types" side(rus) name(%name) c1(%c1) c2(%c2) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+	("squad_with2types" side(ger) name(%name) c1(%c1) c2(%c2) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+	("squad_with2types" side(usa) name(%name) c1(%c1) c2(%c2) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+	("squad_with2types" side(eng) name(%name) c1(%c1) c2(%c2) c(%c) co(%co) g(%g) b(%b) t(%t) cost(%cost) f(%f))
+)
+
+;("squad_with1types" side(rus) name(home_guard) c(0) g(reg_0) c1(home_guard:1) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+;("squad_with1types" side(ger) name(home_guard) c(0) g(reg_0) c1(home_guard:2) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+;("squad_with1types" side(usa) name(home_guard) c(0) g(reg_0) c1(home_guard:2) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+;("squad_with1types" side(eng) name(home_guard) c(0) g(reg_0) c1(home_guard:2) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+
+("squad_with3types" side(rus) name(riflemans) c(0) g(reg_2) c1(rifle:3) c2(rifle2:2) c3(rifle3:1) b(squad1) t(all infan_squad riflemans use_charge) cost(0) f(-1))
+("squad_with3types" side(ger) name(riflemans) c(0) g(reg_2) c1(rifle:3) c2(rifle2:2) c3(rifle3:1) b(squad1) t(all infan_squad riflemans use_charge) cost(0) f(-1))
+("squad_with3types" side(usa) name(riflemans) c(0) g(reg_2) c1(rifle:3) c2(rifle2:2) c3(rifle3:1) b(squad1) t(all infan_squad riflemans use_charge) cost(0) f(-1))
+("squad_with3types" side(eng) name(riflemans) c(0) g(reg_2) c1(rifle:3) c2(rifle2:2) c3(rifle3:1) b(squad1) t(all infan_squad riflemans use_charge) cost(0) f(-1))
+
+("squad_with3types" side(rus) name(smgs) c(0) g(reg_1) c1(smg:3) c2(smg:2) c3(smg:1) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+("squad_with3types" side(ger) name(smgs) c(0) g(reg_1) c1(smg:3) c2(smg2:2) c3(smg3:1) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+("squad_with3types" side(usa) name(smgs) c(0) g(reg_1) c1(smg:3) c2(smg2:2) c3(smg3:1) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+("squad_with3types" side(eng) name(smgs) c(0) g(reg_1) c1(smg:3) c2(smg2:2) c3(smg3:1) b(squad1) t(all infan_squad smgs use_charge) cost(0) f(-1))
+
+("squad_with1types" side(rus) name(mgs) c(0) g(reg_s) c1(mgun:1) b(squad1) t(all infan_squad mgunners use_charge) cost(0) f(-1))
+("squad_with1types" side(ger) name(mgs) c(0) g(reg_s) c1(mgun:1) b(squad1) t(all infan_squad mgunners use_charge) cost(0) f(-1))
+("squad_with1types" side(usa) name(mgs) c(0) g(reg_s) c1(mgun:2) b(squad1) t(all infan_squad mgunners use_charge) cost(0) f(-1))
+("squad_with1types" side(eng) name(mgs) c(0) g(reg_s) c1(mgun:2) b(squad1) t(all infan_squad mgunners use_charge) cost(0) f(-1))
+
+("squad_with2types" side(rus) name(bazookers) c1(bazooker:1) c2(smg:1) c(0) g(anti) b(squad1) t(all infan_squad bazookers use_charge) cost(0) f(0))
+("squad_with2types" side(ger) name(bazookers) c1(bazooker:1) c2(smg:1) c(0) g(anti) b(squad1) t(all infan_squad bazookers use_charge) cost(0) f(0))
+("squad_with2types" side(usa) name(bazookers) c1(bazooker:1) c2(smg:1) c(0) g(anti) b(squad1) t(all infan_squad bazookers use_charge) cost(0) f(0))
+("squad_with2types" side(eng) name(bazookers) c1(bazooker:1) c2(smg:1) c(0) g(anti) b(squad1) t(all infan_squad bazookers use_charge) cost(0) f(0))
+
+("squad_with2types" side(rus) name(at_rifle) c1(at_rifle:1) c2(smg:1) c(0) g(anti2) b(squad1) t(all infan_squad at_rifle use_charge) cost(0) f(-1))
+("squad_with2types" side(ger) name(at_rifle) c1(at_rifle:1) c2(smg:1) c(0) g(anti2) b(squad1) t(all infan_squad at_rifle use_charge) cost(0) f(-1))
+("squad_with2types" side(eng) name(at_rifle) c1(at_rifle:1) c2(smg:1) c(0) g(anti2) b(squad1) t(all infan_squad at_rifle use_charge) cost(0) f(-1))
+("squad_2" name(flamers) c(0) g(anti) c1(flamer:1) c2(smg:2) b(squad1) t(all infan_squad flamers use_charge) cost(0) f(-1))
+
+("squad_with3types" side(rus) name(elite) c(0) g(spe_1) c1(elite:3) c2(elite2:2) c3(elite2:1) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+("squad_with3types" side(ger) name(elite) c(0) g(spe_1) c1(elite:2) c2(elite2:2) c3(elite3:2) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+("squad_with3types" side(usa) name(elite) c(0) g(spe_1) c1(elite:3) c2(elite2:2) c3(elite2:1) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+("squad_with3types" side(eng) name(elite) c(0) g(spe_1) c1(elite:3) c2(elite2:2) c3(elite2:1) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+
+("squad_with3types" side(rus) name(stormtroopers) c(0) g(spe_2) c1(sturmovik:3) c2(sturmovik2:2) c3(sturmovik3:1) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+("squad_with3types" side(ger) name(stormtroopers) c(0) g(spe_2) c1(sturmovik:3) c2(sturmovik2:2) c3(sturmovik3:1) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+("squad_with3types" side(usa) name(stormtroopers) c(0) g(spe_2) c1(sturmovik:3) c2(sturmovik2:2) c3(sturmovik3:1) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+("squad_with3types" side(eng) name(stormtroopers) c(0) g(spe_2) c1(sturmovik:3) c2(sturmovik2:2) c3(sturmovik3:1) b(squad1) t(all infan_squad stormtroopers use_charge) cost(0) f(-1))
+
+;///////////////////////////// Specialized infantry ///////////////////////
+
+("squad_1" name(ap_miners)	c(0) g(min) c1(antipersonel_miner:4) b(squad2) t(all infan_squad ap_miners use_charge) cost(0) f(-1))
+("squad_1" name(at_miners)	c(0) g(min) c1(antitank_miner:4) b(squad2) t(all infan_squad at_miners use_charge) cost(0) f(-1))
+("squad_1" name(sappers)	c(0) g(min) c1(saper:2) b(squad2) t(all infan_squad sappers use_charge) cost(0) f(-1))
+
+("squad_1" name(scouts)	 c(0) g(steal_1) c1(scout:1)  b(squad2) t(all infan_squad scouts use_charge)  cost(0) f(-1))
+("squad_1" name(snipers) c(0) g(steal_2) c1(sniper:1) b(squad2) t(all infan_squad snipers use_charge) cost(0) f(-1))
+
+("squad_with1types" side(rus) name(tankmans) c(0) g(reg_0) c1(tankman:2) b(squad2) t(all infan_squad smgs use_charge) cost(0) f(-1))
+("squad_with1types" side(ger) name(tankmans) c(0) g(reg_0) c1(tankman:2) b(squad2) t(all infan_squad smgs use_charge) cost(0) f(-1))
+("squad_with1types" side(usa) name(tankmans) c(0) g(reg_0) c1(tankman:2) b(squad2) t(all infan_squad smgs use_charge) cost(0) f(-1))
+("squad_with1types" side(eng) name(tankmans) c(0) g(reg_0) c1(tankman:2) b(squad2) t(all infan_squad smgs use_charge) cost(0) f(-1))
+
+("squad_1" name(officer) c(0) g(spe_3)   c1(oficer:1) b(squad2) t(all infan_squad officer use_charge) cost(0) f(-1))
+
+;("squad_1" name(engineer)		c(0) g(engi) c1(engineer:1) b(squad2) t(all infan_squad engineers use_charge) cost(0) f(-1))

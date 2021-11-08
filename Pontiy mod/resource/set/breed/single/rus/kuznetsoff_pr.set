@@ -1,0 +1,25 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "rus-com"}
+	{portrait "kuznetsov_pr"}
+	{icon "officer"}
+	{icon_priority 2}
+	{nationality rus}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" expert
+		}
+		{"rifle" expert
+		}
+		{"smg" expert
+		}
+		{"mgun" basic
+		}
+	}
+}

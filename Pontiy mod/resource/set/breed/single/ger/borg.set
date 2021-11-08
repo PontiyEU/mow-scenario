@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "ger-paratrooper"}
+	{portrait "borg"}
+	{icon "riflemans"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head helmet1_ger}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" expert
+		}
+		{"smg" expert
+		}
+		{"mgun" basic
+		}
+		{"rifle" basic
+		}
+	}
+	{inventory
+		{item "bandage" 6}
+		{item "knife_ger"}
+		{item "pistol ammo" 32}
+		{item "valter"}
+	}
+}

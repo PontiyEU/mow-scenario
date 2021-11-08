@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "ger-com_hp"}
+	{portrait "admiral"}
+	{icon "officer"}
+	{icon_priority 2}
+	{nationality ger}
+	{armors
+		{head cap1_ger}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" expert
+		}
+		{"smg" none
+		}
+		{"mgun" none
+		}
+		{"rifle" none
+		}
+	}
+	{inventory
+		{item "valter"}
+		{item "ammo pistol" 32}
+		{item "knife_ger"}
+	}
+}

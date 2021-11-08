@@ -1,0 +1,33 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "eng-com"}
+	{portrait "consul"}
+	{icon "officer"}
+	{icon_priority 2}
+	{nationality usa}
+	{armors
+		{head helmet2_eng}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" expert
+		}
+		{"smg" none
+		}
+		{"mgun" none
+		}
+		{"rifle" none
+		}
+	}
+	{inventory
+		{item "colt"}
+		{item "ammo pistol" 32}
+		{item "knife_union"}
+	}
+}

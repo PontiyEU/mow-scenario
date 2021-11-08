@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "rus-com"}
+	{portrait "Smirnoff"}
+	{icon "officer"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head cap1_rus}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" basic		}
+		{"rifle" basic		}
+		{"smg" basic		}
+		{"mgun" expert		}
+	}
+	{inventory
+		{item "ammo pistol" 18}
+		{item "tt"}
+		{item "grenade f1" 2}
+		{item "bandage" 6}
+	}
+}

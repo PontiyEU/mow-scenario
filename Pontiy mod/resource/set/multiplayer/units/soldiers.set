@@ -1,0 +1,329 @@
+;SDL
+(define "tankman"
+    {tags   "tankman %side crew man"}
+    {score  0}
+    {cp     999}
+    {order  10}
+    {basic}
+    {breed}
+    {cw 0}
+    {cost 0}
+)
+{"mp/rus/tankman" ("tankman" side(rus))}
+{"mp/ger/tankman" ("tankman" side(ger))}
+{"mp/usa/tankman" ("tankman" side(usa))}
+{"mp/eng/tankman" ("tankman" side(eng))}
+
+(define "tankman2"
+    {tags   "tankman %side crew man"}
+    {score  0}
+    {cp     999}
+    {order  10}
+    {basic}
+    {breed}
+    {cw 0}
+    {cost 0}
+)
+{"mp/rus/tankman2" ("tankman2" side(rus))}
+{"mp/ger/tankman2" ("tankman2" side(ger))}
+{"mp/usa/tankman2" ("tankman2" side(usa))}
+{"mp/eng/tankman2" ("tankman2" side(eng))}
+
+
+(define "vehicle_supporter"
+    {tags   "supporter %side infantry man"}
+    {score  0}
+    {cp     999}
+    {order  0}
+    {basic}
+    {breed}
+    {cw 0}
+    {cost 0}
+)
+{"mp/rus/vehicle_supporter" ("vehicle_supporter" side(rus))}
+{"mp/ger/vehicle_supporter" ("vehicle_supporter" side(ger))}
+{"mp/usa/vehicle_supporter" ("vehicle_supporter" side(usa))}
+{"mp/eng/vehicle_supporter" ("vehicle_supporter" side(eng))}
+
+(define "home_guard"
+    {tags   "home_guard %side infantry man"}
+    {score  0}
+    {cp     999}
+    {order  0}
+    {basic}
+    {breed}
+    {cw 0}
+    {cost 0}
+)
+{"mp/rus/home_guard" ("home_guard" side(rus))}
+{"mp/ger/home_guard" ("home_guard" side(ger))}
+{"mp/usa/home_guard" ("home_guard" side(usa))}
+{"mp/eng/home_guard" ("home_guard" side(eng))}
+
+(define "engineer"
+    {tags   "supporter %side infantry man"}
+    {score  0}
+    {order  0}
+    {cp     999}
+    {basic}
+    {breed}
+    {cw 0}
+    {cost 0}
+)
+{"mp/rus/engineer" ("engineer" side(rus))}
+{"mp/ger/engineer" ("engineer" side(ger))}
+{"mp/usa/engineer" ("engineer" side(usa))}
+{"mp/eng/engineer" ("engineer" side(eng))}
+
+
+(define "smg"
+    {tags   "smg %side infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/smg" ("smg" side(rus))}
+{"mp/usa/smg" ("smg" side(usa))}
+{"mp/eng/smg" ("smg" side(eng))}
+{"mp/ger/smg" ("smg" side(ger))}
+
+{"mp/rus/smg2" ("smg" side(rus))}
+{"mp/usa/smg2" ("smg" side(usa))}
+{"mp/eng/smg2" ("smg" side(eng))}
+{"mp/ger/smg2" ("smg" side(ger))}
+
+{"mp/rus/smg3" ("smg" side(rus))}
+{"mp/usa/smg3" ("smg" side(usa))}
+{"mp/eng/smg3" ("smg" side(eng))}
+{"mp/ger/smg3" ("smg" side(ger))}
+
+(define "rifle"
+    {tags   "rifle %side infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/rifle" ("rifle" side(rus))}
+{"mp/ger/rifle" ("rifle" side(ger))}
+{"mp/usa/rifle" ("rifle" side(usa))}
+{"mp/eng/rifle" ("rifle" side(eng))}
+
+{"mp/rus/rifle2" ("rifle" side(rus))}
+{"mp/ger/rifle2" ("rifle" side(ger))}
+{"mp/usa/rifle2" ("rifle" side(usa))}
+{"mp/eng/rifle2" ("rifle" side(eng))}
+
+{"mp/rus/rifle3" ("rifle" side(rus))}
+{"mp/ger/rifle3" ("rifle" side(ger))}
+{"mp/usa/rifle3" ("rifle" side(usa))}
+{"mp/eng/rifle3" ("rifle" side(eng))}
+
+(define "mgun"
+    {tags   "mgun %side infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/mgun" ("mgun" side(rus))}
+{"mp/ger/mgun" ("mgun" side(ger))}
+
+(define "mgun_light"
+    {tags   "mgun_light %side infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/usa/mgun" ("mgun_light" side(usa))}
+{"mp/eng/mgun" ("mgun_light" side(eng))}
+
+(define "saper"
+    {tags   "saper %side mine infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/saper" ("saper" side(rus))}
+{"mp/usa/saper" ("saper" side(usa))}
+{"mp/eng/saper" ("saper" side(eng))}
+{"mp/ger/saper" ("saper" side(ger))}
+
+(define "antipersonel_miner"
+    {tags   "antipersonel_miner %side mine infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/antipersonel_miner" ("antipersonel_miner" side(rus))}
+{"mp/usa/antipersonel_miner" ("antipersonel_miner" side(usa))}
+{"mp/eng/antipersonel_miner" ("antipersonel_miner" side(eng))}
+{"mp/ger/antipersonel_miner" ("antipersonel_miner" side(ger))}
+
+
+(define "antitank_miner"
+    {tags   "antitank_miner %side mine infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/antitank_miner" ("antitank_miner" side(rus))}
+{"mp/usa/antitank_miner" ("antitank_miner" side(usa))}
+{"mp/eng/antitank_miner" ("antitank_miner" side(eng))}
+{"mp/ger/antitank_miner" ("antitank_miner" side(ger))}
+
+(define "oficer"
+    {tags   "oficer %side spec infantry man"}
+    {score  0}
+    {order  0}
+    {breed}
+    {basic}
+    {cw 0}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/oficer" ("oficer" side(rus))}
+{"mp/usa/oficer" ("oficer" side(usa))}
+{"mp/eng/oficer" ("oficer" side(eng))}
+{"mp/ger/oficer" ("oficer" side(ger))}
+
+(define "elite"
+    {tags   "elite %side infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/elite" ("elite" side(rus))}
+{"mp/ger/elite" ("elite" side(ger))}
+{"mp/eng/elite" ("elite" side(eng))}
+{"mp/usa/elite" ("elite" side(usa))}
+
+{"mp/rus/elite2" ("elite" side(rus))}
+{"mp/ger/elite2" ("elite" side(ger))}
+{"mp/eng/elite2" ("elite" side(eng))}
+{"mp/usa/elite2" ("elite" side(usa))}
+
+{"mp/rus/elite3" ("elite" side(rus))}
+{"mp/ger/elite3" ("elite" side(ger))}
+{"mp/eng/elite3" ("elite" side(eng))}
+{"mp/usa/elite3" ("elite" side(usa))}
+
+
+(define "sturmovik"
+    {tags   "sturmovik %side spec infantry man"}
+    {score  0}
+    {cp     999}
+    {order  0}
+    {basic}
+    {breed}
+    {cw 0}
+    {cost 0}
+)
+{"mp/rus/sturmovik" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik" ("sturmovik" side(eng))}
+{"mp/usa/sturmovik" ("sturmovik" side(usa))}
+
+{"mp/rus/sturmovik2" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik2" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik2" ("sturmovik" side(eng))}
+{"mp/usa/sturmovik2" ("sturmovik" side(usa))}
+
+{"mp/rus/sturmovik3" ("sturmovik" side(rus))}
+{"mp/ger/sturmovik3" ("sturmovik" side(ger))}
+{"mp/eng/sturmovik3" ("sturmovik" side(eng))}
+{"mp/usa/sturmovik3" ("sturmovik" side(usa))}
+
+
+(define "flamer"
+    {tags   "flamer %side spec infantry man"}
+    {score  0}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+    {cp 999}
+)
+{"mp/rus/flamer" ("flamer" side(rus))}
+{"mp/usa/flamer" ("flamer" side(usa))}
+{"mp/eng/flamer" ("flamer" side(eng))}
+{"mp/ger/flamer" ("flamer" side(ger))}
+
+(define "sniper"
+    {tags   "sniper %side spec infantry man"}
+    {score  0}
+    {cp     999}
+    {order  0}
+    {cw     0}
+    {basic}
+    {breed}
+    {cost 0}
+)
+{"mp/rus/sniper" ("sniper" side(rus))}
+{"mp/usa/sniper" ("sniper" side(usa))}
+{"mp/eng/sniper" ("sniper" side(eng))}
+{"mp/ger/sniper" ("sniper" side(ger))}
+
+(define "scout"
+    {tags   "scout %side spec infantry man"}
+    {score  0}
+    {order  0}
+    {cp     999}
+    {cw     0}
+    {basic}
+    {breed}
+    {cost 0}
+)
+{"mp/rus/scout" ("scout" side(rus))}
+{"mp/usa/scout" ("scout" side(usa))}
+{"mp/eng/scout" ("scout" side(eng))}
+{"mp/ger/scout" ("scout" side(ger))}
+
+(define "bazooker"
+    {tags   "bazooker %side spec infantry man"}
+    {score  0}
+    {cp     999}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+)
+{"mp/rus/bazooker" ("bazooker" side(rus))}
+{"mp/ger/bazooker" ("bazooker" side(ger))}
+{"mp/usa/bazooker" ("bazooker" side(usa))}
+{"mp/eng/bazooker" ("bazooker" side(eng))}
+
+(define "at_rifle"
+    {tags   "at_rifle %side spec infantry man"}
+    {score  0}
+    {cp     999}
+    {order  0}
+    {basic}
+    {breed}
+    {cost 0}
+)
+{"mp/rus/at_rifle" ("at_rifle" side(rus))}
+{"mp/ger/at_rifle" ("at_rifle" side(ger))}
+{"mp/eng/at_rifle" ("at_rifle" side(eng))}

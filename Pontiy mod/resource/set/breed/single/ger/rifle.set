@@ -1,0 +1,30 @@
+{breed
+	{behaviour soldier}
+	{skin "ger-rifleman"}
+	{portrait "ger_rifle"}
+	{icon "riflemans"}
+	{icon_priority 0}
+	{nationality ger}
+	{armors
+		{head helmet1_ger}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" 	none	}
+		{"smg" 		none	}
+		{"mgun" 	none	}
+		{"rifle" 	expert	}
+	}
+	{inventory
+		{item "mauzer"}
+		{item "ammo rifle" 17}
+		{item "m24x5 grenade"}
+		{item "m24 grenade"}
+		{item "bandage" 6}
+	}
+}

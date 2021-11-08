@@ -1,0 +1,35 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "us_soldier_afri"}
+	{portrait "corporal"}
+	{icon "smgs"}
+	{icon_priority 0}
+	{nationality usa}
+	{armors
+		{head helmet1_usa}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" expert
+		}
+		{"pistol" expert
+		}
+		{"smg" expert
+		}
+		{"mgun" expert
+		}
+		{"rifle" expert
+		}
+	}
+	{inventory
+		{item "thompson"}
+		{item "ammo pistol" 130 -60}
+		{item "mk1 grenade" 6.5 1.5}
+		{item "n73at grenade" 2}
+		{item "bandage" 7}
+	}
+}

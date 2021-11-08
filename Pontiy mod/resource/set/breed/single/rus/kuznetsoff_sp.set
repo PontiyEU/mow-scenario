@@ -1,0 +1,34 @@
+{breed
+	{behaviour soldier}
+	{hero}
+	{skin "rus-specnaz_hp"}
+	{portrait "kuznetsov_sp"}
+	{icon "snipers"}
+	{icon_priority 2}
+	{nationality rus}
+	{armors
+		{head fieldcap1_rus}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert
+		}
+		{"avoidance" advanced
+		}
+		{"pistol" expert
+		}
+		{"rifle" expert
+		}
+		{"smg" basic
+		}
+		{"mgun" none
+		}
+	}
+	{inventory
+		{item "ammo pistol" 18}
+		{item "tt"}
+		{item "grenade f1" 2}
+		{item "bandage" 6}
+	}
+}

@@ -1,0 +1,27 @@
+{breed
+	{behaviour soldier}
+	{skin "eng-com"}
+	{portrait "eng_officer"}
+	{nationality eng}
+	{icon "officer"}
+	{icon_priority 2}
+	{armors
+		{head "helmet2_eng"}
+	}
+	{perks
+		{vision mp_soldier
+		}
+		{"melee" expert}
+		{"avoidance" advanced
+		}
+		{"pistol" expert		}
+		{"smg" none     		}
+		{"mgun" none    		}
+		{"rifle" none   		}
+	}
+	{inventory
+		{item "colt"}
+		{item "ammo pistol" 32}
+		{item "knife_union"}
+	}
+}

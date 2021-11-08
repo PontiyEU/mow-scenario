@@ -1,0 +1,233 @@
+(define "generic_v"
+    {charge %c}
+    {score %sc}
+    {icon %i}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+    {cw %cw}
+    {cp %cp}
+)
+
+; vehicle with tankmans
+(define "v"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman:%n )"}
+)
+; vehicle with supporters
+(define "vs"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vehicle_supporter:%n )"}
+)
+; vehicle with engineers
+(define "ve"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/engineer:%n )"}
+)
+; vehicle with smg & support units
+(define "vs+"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/vehicle_supporter:%n ) mp/%s/vehicle_supporter:%m"}
+)
+; vehicle with tankmans & support units
+(define "v+"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman:%n ) mp/%s/vehicle_supporter:%m"}
+)
+; vehicle with tankmans & amount limit
+(define "va"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman:%n )"}
+)
+; APC with supporters
+(define "vb"
+    ("generic_v" c(%c) sc(%sc) t(%t %s) g(%g) i(%i) b(%b) cw(%cw) cp(%cp))
+    {content "* ( mp/%s/tankman:1 mp/%s/vehicle_supporter:%n)"}
+)
+
+(define "how"
+	{"%name(%side)"
+   		{charge %c}
+    	{score %sc}
+    	{icon %i}
+ 		{charge %c}
+		{content "%c1 ( mp/%side/vehicle_supporter:2 ) %c2 ( mp/%side/vehicle_supporter:2 )"}
+		{tags "all cannon heavy_art fixed %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+		{info %c2}
+	}
+)
+
+;------------------------------------------------------------------------------
+
+{"zis5inf"          ("vs" c(0) t(all vehicle use_charge inf) s(rus) n(2) g(vh_sup)   sc(0) a(1) b(vh_cn) i(21) cw(0) cp(0)) {cost 0} {fore -1}}
+{"blitz3_6inf"      ("vs" c(0) t(all vehicle use_charge inf) s(ger) n(2) g(vh_sup)   sc(0) a(1) b(vh_cn) i(22) cw(0) cp(0)) {cost 0} {fore -1}}
+{"gmc_inf"          ("vs" c(0) t(all vehicle use_charge inf) s(usa) n(2) g(vh_sup)   sc(0) a(1) b(vh_cn) i(22) cw(0) cp(0)) {cost 0} {fore -1}}
+{"bedford_inf"      ("vs" c(0) t(all vehicle use_charge inf) s(eng) n(2) g(vh_sup)   sc(0) a(1) b(vh_cn) i(22) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"m72"              ("vs" c(0) t(all moto vehicle use_charge) s(rus) n(2) g(vh_0)   sc(0) a(1) b(auto) i(0) cw(0) cp(0)) {cost 0} {fore -1}}
+{"r12"              ("vs" c(0) t(all moto vehicle use_charge) s(ger) n(2) g(vh_0)   sc(0) a(1) b(auto) i(0) cw(0) cp(0)) {cost 0} {fore -1}}
+{"gaz67b"         	("vs" c(0) t(all moto vehicle use_charge) s(rus) n(3) g(vh_2)   sc(0) a(1) b(auto) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"kubel_mgun"     	("vs" c(0) t(all moto vehicle use_charge) s(ger) n(3) g(vh_2)   sc(0) a(1) b(auto) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"willysmb"         ("vs" c(0) t(all moto vehicle use_charge) s(usa) n(3) g(vh_1)   sc(0) a(1) b(auto) i(0) cw(0) cp(0)) {cost 0} {fore -1}}
+{"willysmb_eng"     ("vs" c(0) t(all moto vehicle use_charge) s(eng) n(3) g(vh_1)   sc(0) a(1) b(auto) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"willysat"         ("vs" c(0) t(all moto vehicle use_charge) s(usa) n(2) g(vh_2)   sc(0) a(1) b(auto) i(7) cw(0) cp(0)) {cost 0} {fore -1}}
+{"dodgewc55"      	("vs" c(0) t(all moto vehicle use_charge) s(eng) n(4) g(vh_2)   sc(0) a(1) b(auto) i(6) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"m3"               ("vs" c(0) t(all afv vehicle use_charge) s(rus) n(2) g(apc)   sc(0) a(1) b(auto) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"sdkfz251_1"       ("vs" c(0) t(all afv vehicle use_charge) s(ger) n(2) g(apc)   sc(0) a(1) b(auto) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m3_ally"          ("vs" c(0) t(all afv vehicle use_charge) s(eng) n(2) g(apc)   sc(0) a(1) b(auto) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m3_ally"          ("vs" c(0) t(all afv vehicle use_charge) s(usa) n(2) g(apc)   sc(0) a(1) b(auto) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"zis5"             ("vs" c(0) t(all vehicle use_charge) s(rus) n(2) g(vh_sup0)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+{"blitz3_6"         ("vs" c(0) t(all vehicle use_charge) s(ger) n(2) g(vh_sup0)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+{"gmc_cckw"   	    ("vs" c(0) t(all vehicle use_charge) s(usa) n(2) g(vh_sup0)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+{"bedford" 	        ("vs" c(0) t(all vehicle use_charge) s(eng) n(2) g(vh_sup0)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"zis5eng"          ("ve" c(0) t(all vehicle use_charge) s(rus) n(2) g(engi)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+{"blitz3_6eng"      ("ve" c(0) t(all vehicle use_charge) s(ger) n(2) g(engi)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+{"gmc_eng"          ("ve" c(0) t(all vehicle use_charge) s(usa) n(2) g(engi)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+{"bedford_eng"      ("ve" c(0) t(all vehicle use_charge) s(eng) n(2) g(engi)  sc(0) a(1) b(auto) i(30) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"zis5art"          ("vs" c(0) t(all vehicle use_charge) s(rus) n(2) g(vh_sup)   sc(0) a(1) b(auto) i(13) cw(0) cp(0)) {cost 0} {fore -1}}
+{"blitz3_6art"      ("vs" c(0) t(all vehicle use_charge) s(ger) n(2) g(vh_sup)   sc(0) a(1) b(auto) i(14) cw(0) cp(0)) {cost 0} {fore -1}}
+{"gmc_art"          ("vs" c(0) t(all vehicle use_charge) s(usa) n(2) g(vh_sup)   sc(0) a(1) b(auto) i(14) cw(0) cp(0)) {cost 0} {fore -1}}
+{"bedford_art"      ("vs" c(0) t(all vehicle use_charge) s(eng) n(2) g(vh_sup)   sc(0) a(1) b(auto) i(14) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"degtyarev_stan"   ("vs" c(0) t(all stan fixed) s(rus) n(2) g(vh_cn1)    sc(0) a(3) b(vh_cn) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"mg34_stan"        ("vs" c(0) t(all stan fixed) s(ger) n(2) g(vh_cn1)    sc(0) a(3) b(vh_cn) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"browning_stan"    ("vs" c(0) t(all stan fixed) s(usa) n(2) g(vh_cn1)    sc(0) a(3) b(vh_cn) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"vickers_mgun"    	("vs" c(0) t(all stan fixed) s(eng) n(2) g(vh_cn1)    sc(0) a(3) b(vh_cn) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"kpvt"             ("vs" c(0) t(all stan fixed) s(rus) n(2) g(vh_cn2)    sc(0) a(2) b(vh_cn) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"flak38_wheeled"   ("vs" c(0) t(all stan fixed) s(ger) n(2) g(vh_cn2)    sc(0) a(2) b(vh_cn) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"oerlikon"         ("vs" c(0) t(all stan fixed) s(usa) n(1) g(vh_cn2)    sc(0) a(2) b(vh_cn) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"oerlikon"         ("vs" c(0) t(all stan fixed) s(eng) n(1) g(vh_cn2)    sc(0) a(2) b(vh_cn) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"bm37"             ("vs" c(0) t(all mortar fixed use_charge) s(rus) n(2) g(vh_cn3) sc(0) a(3) b(vh_cn) i(3) cw(0) cp(0)) {cost 0} {fore -1}}
+{"sgrw42"           ("vs" c(0) t(all mortar fixed use_charge) s(ger) n(2) g(vh_cn3) sc(0) a(3) b(vh_cn) i(3) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m1mortar"         ("vs" c(0) t(all mortar fixed use_charge) s(usa) n(2) g(vh_cn3) sc(0) a(3) b(vh_cn) i(3) cw(0) cp(0)) {cost 0} {fore -1}}
+{"ml3"				("vs" c(0) t(all mortar fixed use_charge) s(eng) n(2) g(vh_cn3) sc(0) a(3) b(vh_cn) i(3) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"m37"              ("vs" c(0) t(all use_charge cannon fixed) s(rus) n(2) g(vh_cn4) sc(0) a(2) b(vh_cn) i(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pak35"            ("vs" c(0) t(all use_charge cannon fixed) s(ger) n(2) g(vh_cn4) sc(0) a(2) b(vh_cn) i(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m3cannon"         ("vs" c(0) t(all use_charge cannon fixed) s(usa) n(2) g(vh_cn4) sc(0) a(2) b(vh_cn) i(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m8_howitzer"      ("vs" c(0) t(all use_charge cannon fixed) s(usa) n(2) g(vh_cn4)  sc(0) a(2) b(vh_cn) i(5) cw(0) cp(0)) {cost 0} {fore -1}}
+{"qf2"       	  	("vs" c(0) t(all use_charge cannon fixed) s(eng) n(2) g(vh_cn4) sc(0) a(2) b(vh_cn) i(4) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"zis3"             ("vs" c(0) t(all use_charge cannon fixed) s(rus) n(2) g(vh_cn5)  sc(0) a(2) b(vh_cn) i(5) cw(0) cp(0)) {cost 0} {fore -1}}
+{"zis2"             ("vs" c(0) t(all use_charge cannon fixed) s(rus) n(2) g(vh_cn5)  sc(0) a(2) b(vh_cn) i(15) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pak40"            ("vs" c(0) t(all use_charge cannon fixed) s(ger) n(2) g(vh_cn5)  sc(0) a(2) b(vh_cn) i(5) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m5"               ("vs" c(0) t(all use_charge cannon fixed) s(usa) n(2) g(vh_cn5)  sc(0) a(2) b(vh_cn) i(5) cw(0) cp(0)) {cost 0} {fore -1}}
+{"qf6"              ("vs" c(0) t(all use_charge cannon fixed) s(eng) n(2) g(vh_cn5)  sc(0) a(2) b(vh_cn) i(5) cw(0) cp(0)) {cost 0} {fore -1}}
+{"qf17"             ("vs" c(0) t(all use_charge cannon fixed) s(eng) n(2) g(vh_cn6)  sc(0) a(2) b(vh_cn) i(8) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pdr25"            ("vs" c(0) t(all use_charge long_range cannon fixed) s(eng) n(2) g(vh_cn7)  sc(0) a(2) b(vh_cn) i(20) cw(4) cp(0)) {cost 0} {fore -1}}
+
+{"d1"               ("vs" c(0) t(all cannon heavy_art fixed use_charge) s(rus) n(2) g(vh_cn) sc(0) a(1) b(vh_cn) i(7) cw(0) cp(0)) {cost 0} {fore -1}}
+{"sfh18"            ("vs" c(0) t(all cannon heavy_art fixed use_charge) s(ger) n(2) g(vh_cn) sc(0) a(1) b(vh_cn) i(6) cw(0) cp(0)) {cost 0} {fore -1}}
+{"sturmpz1"         ("va" c(0) t(all cannon heavy_art fixed use_charge) s(ger) n(3) g(vh_cn) sc(0) a(1) b(vh_cn) i(9) cw(0) cp(0)) {cost 0} {fore -1}}   ;addon
+{"hummel"           ("va" c(0) t(all cannon heavy_art fixed use_charge) s(ger) n(4) g(vh_cn) sc(0) a(1) b(vh_cn) i(7) cw(0) cp(0)) {cost 0} {fore -1}}
+{"bl6"             	("vs" c(0) t(all cannon heavy_art fixed use_charge) s(eng) n(2) g(vh_cn) sc(0) a(1) b(vh_cn) i(8) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m114"             ("vs" c(0) t(all cannon heavy_art fixed use_charge) s(usa) n(2) g(vh_cn) sc(0) a(1) b(vh_cn) i(8) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m7"               ("va" c(0) t(all cannon heavy_art fixed use_charge) s(usa) n(4) g(vh_cn) sc(0) a(1) b(vh_cn) i(9) cw(0) cp(0))  {cost 0} {fore -1}}
+
+("how" side(rus) name(how_a) c(0) c1(t20) c2(d1) t(all cannon heavy_art fixed how_a use_charge) g(vh_cn) sc(0) a(1) b(vh_cn) i(11) cw(0) cost(0) f(-1))
+("how" side(ger) name(how_a) c(0) c1(steyr_rso) c2(sfh18) t(all cannon heavy_art fixed how_a use_charge) g(vh_cn) sc(0) a(1) b(vh_cn) i(11) cw(0) cost(0) f(-1))
+("how" side(eng) name(how_a) c(0) c1(universal_carrier) c2(bl6) t(all cannon heavy_art fixed how_a use_charge) g(vh_cn) sc(0) a(1) b(vh_cn) i(11) cw(0) cost(0) f(-1))
+("how" side(usa) name(how_a) c(0) c1(universal_carrier_usa) c2(m114) t(all cannon heavy_art fixed how_a use_charge) g(vh_cn) sc(0) a(1) b(vh_cn) i(11) cw(0) cost(0) f(-1))
+
+{"bm13"             ("vs+" c(0) t(all art vehicle use_charge) s(rus) n(2) g(art) sc(0) b(vh_cn) i(3) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"nebelwerfer42"    ("vs" c(0) t(all cannon art fixed use_charge) s(ger) n(2) g(art) sc(0) a(1) b(vh_cn) i(10) cw(0) cp(0)) {cost 0} {fore -1}}   ;addon
+{"sdkfz4"           ("v+" c(0) t(all art vehicle use_charge) s(ger) n(2) g(art) sc(0) b(vh_cn) i(3) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"land_mattress"    ("vs" c(0) t(all cannon art fixed use_charge) s(eng) n(2) g(art) sc(0) a(1) b(vh_cn) i(10) cw(0) cp(0)) {cost 60} {fore -1}}   ;addon
+{"m4a3c"            ("v+" c(0) t(all art vehicle use_charge) s(usa) n(4) g(art) sc(0) b(vh_cn) i(3) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"ba64"         	("vs" c(0) t(all moto vehicle use_charge) s(rus) n(2) g(l1)   sc(0) a(2) b(lt) i(0) cw(0) cp(0)) {cost 0} {fore -1}}
+{"sdkfz223"         ("vs" c(0) t(all moto vehicle use_charge) s(ger) n(2) g(vh_mt)   sc(0) a(2) b(lt) i(0) cw(0) cp(0)) {cost 0} {fore -1}}
+{"sdkfz222"         ("vs" c(0) t(all moto vehicle use_charge) s(ger) n(2) g(vh_mt)   sc(0) a(2) b(lt) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m20"      		("vb" c(0) t(all afv use_charge vehicle) s(usa) n(1) g(l1)      sc(0) b(lt) i(0) cw(0) cp(6)) {cost 0} {fore -1}}
+
+{"t26"              ("v" c(0) t(all afv use_charge vehicle) s(rus) n(3) g(l2)      sc(0) b(lt) i(12) cw(0) cp(0)) {cost 0} {fore -1}}        ;addon
+{"ba11"             ("v" c(0) t(all afv use_charge vehicle) s(rus) n(4) g(l1)      sc(0) b(lt) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pz1b"             ("v" c(0) t(all tankl vehicle use_charge) s(ger) n(2) g(l1)    sc(0) b(lt) i(10) cw(0) cp(0)) {cost 0} {fore -1}}     ;addon
+{"pz2l"             ("v" c(0) t(all tankl vehicle use_charge) s(ger) n(3) g(l1)	sc(0) b(lt) i(4) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"sdkfz7_1"         ("v" c(0) t(all tankl vehicle use_charge) s(ger) n(5) g(l1)	sc(0) b(lt) i(5) cw(0) cp(0)) {cost 0} {fore 0}}
+{"m16"      		("v" c(0) t(all afv use_charge vehicle) s(usa) n(3) g(l1)      sc(0) b(lt) i(1) cw(0) cp(0)) {cost 0} {fore 0}}
+{"m8grayhound"      ("v" c(0) t(all afv use_charge vehicle) s(usa) n(3) g(l1)      sc(0) b(lt) i(2) cw(0) cp(0)) {cost 0} {fore 0}}
+{"mk2daimler"       ("v" c(0) t(all afv use_charge vehicle) s(eng) n(3) g(l1)      sc(0) b(lt) i(11) cw(0) cp(0)) {cost 0} {fore 0}}        ;addon
+{"mk7"    			("v" c(0) t(all afv use_charge vehicle) s(eng) n(3) g(l1)      sc(0) b(lt) i(2) cw(0) cp(0)) {cost 0} {fore 0}} ;Mk7 Tetrarch
+
+{"t34m"             ("v" c(0) t(all tankx vehicle use_charge) s(rus) n(1) g(m0)   sc(0) b(lt) i(8) cw(0) cp(0)) {cost 0}}
+{"pz3m"             ("v" c(0) t(all tankx vehicle use_charge) s(ger) n(1) g(m0)   sc(0) b(lt) i(8) cw(0) cp(0)) {cost 0}}
+{"m4a3m"            ("v" c(0) t(all tankx vehicle use_charge) s(eng) n(2) g(m0)   sc(0) b(lt) i(8) cw(0) cp(0)) {cost 0}}
+{"m4a3m"            ("v" c(0) t(all tankx vehicle use_charge) s(usa) n(2) g(m0)   sc(0) b(lt) i(8) cw(0) cp(0)) {cost 0}}
+
+{"t70"              ("v" c(0) t(all afv use_charge vehicle) s(rus) n(2) g(l2)      sc(0) b(lt) i(11) cw(0) cp(0)) {cost 0} {fore -1}}     ;addon
+{"bt7a"             ("v" c(0) t(all tankl vehicle use_charge) s(rus) n(3) g(l2)    sc(0) b(lt) i(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"sdkfz234"         ("v" c(0) t(all afv use_charge vehicle) s(ger) n(3) g(l2)      sc(0) b(lt) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"zsu37"            ("v" c(0) t(all afv vehicle use_charge) s(rus) n(4) g(l3) sc(0) b(lt) i(14) cw(0) cp(0)) {cost 0} {fore -1}}		;addon
+{"welberwind"       ("v" c(0) t(all tankz vehicle) s(ger) n(4) g(l3)   sc(0) b(lt) i(5) cw(0) cp(0)) {cost 0} {fore -1}}
+{"crusaderaa2"      ("v" c(0) t(all tankz vehicle) s(eng) n(3) g(l3)   sc(0) b(lt) i(5) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m19"              ("v" c(0) t(all tankz vehicle) s(usa) n(4) g(l3)   sc(0) b(lt) i(14) cw(0) cp(0)) {cost 0} {fore -1}}      		;addon
+
+{"t34_0"            ("v" c(0) t(all tankm vehicle) s(rus) n(4) g(m0) 	sc(0) b(ht) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"t34_2"            ("v" c(0) t(all tankm vehicle) s(rus) n(4) g(m1)  sc(0) b(ht) i(3) cw(0) cp(0)) {cost 0} {fore -1}}
+{"t34_1"            ("v" c(0) t(all tankm vehicle) s(rus) n(4) g(m2)  sc(0) b(ht) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"kv2"              ("v" c(0) t(all tankh vehicle heavy_spa) s(rus) n(4) g(hasu2) sc(0) b(ht) i(11) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pz4e"             ("v" c(0) t(all tankm vehicle) s(ger) n(4) g(m1)   sc(0) b(ht) i(2) cw(0) cp(0)) {cost 0} {fore -1}}    ;addon
+{"pz3"              ("v" c(0) t(all tankm vehicle) s(ger) n(4) g(m0)   sc(0) b(ht) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pz4g"             ("v" c(0) t(all tankm vehicle) s(ger) n(4) g(m2)  sc(0) b(ht) i(7) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pz4h"             ("v" c(0) t(all tankh vehicle) s(ger) n(4) g(m3)  sc(0) b(ht) i(3) cw(0) cp(0)) {cost 0} {fore -1}}
+{"mk3"              ("v" c(0) t(all tankm vehicle) s(eng) n(4) g(m0)   sc(0) b(ht) i(12) m(2) cw(0)   cp(0)) {cost 0} {fore -1}}  ;addon valentine
+{"mk2a"             ("v" c(0) t(all tankm vehicle) s(eng) n(4) g(m0)   sc(0) b(ht) i(10) m(2) cw(0)   cp(0)) {cost 0} {fore -1}}  ;addon matilda
+{"mk6"       	    ("v" c(0) t(all tankm vehicle) s(eng) n(4) g(m1)   sc(0) b(ht) i(2) cw(0) cp(0)) {cost 0} {fore -1}} ; addon Crusader
+{"mk8"              ("v" c(0) t(all tankm vehicle) s(eng) n(4) g(m1)  sc(0) b(ht) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m5a1"             ("v" c(0) t(all tankm vehicle) s(usa) n(4) g(m)    sc(0) b(ht) i(12) m(2) cw(0)   cp(0)) {cost 0} {fore -1}}  ;addon Stuart
+{"grant_m3"         ("v" c(0) t(all tankm vehicle) s(usa) n(4) g(m0)   sc(0) b(ht) i(15) m(2) cw(0)   cp(0)) {cost 0} {fore -1}}  ;addon Lee Grant
+{"m24"              ("v" c(0) t(all tankm vehicle use_charge) s(usa) n(4) g(m0)   sc(0) b(ht) i(13) m(2) cw(0)   cp(0)) {cost 0} {fore -1}} ;addon chafee
+{"m4a1"             ("v" c(0) t(all tankm vehicle) s(usa) n(4) g(m1)  sc(0) b(ht) i(11) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m4a1_eng"         ("v" c(0) t(all tankm vehicle) s(eng) n(4) g(m1)  sc(0) b(ht) i(11) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m4a2"             ("v" c(0) t(all tankm vehicle) s(usa) n(4) g(m1)  sc(0) b(ht) i(2) cw(0) cp(0)) {cost 0} {fore  -1}}
+{"kv1"              ("v" c(0) t(all tankh vehicle) s(rus) n(4) g(h0)  sc(0) b(ht) i(10) m(2) cw(0) cp(0)) {cost 0} {fore -1}} ;addon
+{"mk4"              ("v" c(0) t(all tankh vehicle) s(eng) n(4) g(h1)  sc(0) b(ht) i(4) m(2) cw(0)   cp(0)) {cost 0} {fore -1}}
+{"m4a3e2"           ("v" c(0) t(all tankh vehicle) s(usa) n(4) g(h1)  sc(0) b(ht) i(4) m(2) cw(0)   cp(0)) {cost 0} {fore -1}}
+
+{"t34_3"            ("v" c(0) t(all tankh vehicle) s(rus) n(4) g(m4)  sc(0) b(ht) i(4) m(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"kv85"             ("v" c(0) t(all tankh vehicle) s(rus) n(4) g(m5)  sc(0) b(ht) i(5) m(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"is1"            	("v" c(0) t(all tankh vehicle) s(rus) n(4) g(h0)  sc(0) b(ht) i(6) m(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pz5g"             ("v" c(0) t(all tankh vehicle) s(ger) n(4) g(h0)  sc(0) b(ht) i(3) m(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pz6e"             ("v" c(0) t(all tankh vehicle) s(ger) n(4) g(h1)  sc(0) b(ht) i(4) m(4) cw(0) cp(0)) {cost 0} {fore -1}}   ; Tiger I
+{"m4a3vc"           ("v" c(0) t(all tankh vehicle) s(eng) n(4) g(m3)  sc(0) b(ht) i(3) m(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"centurion"        ("v" c(0) t(all tankh vehicle) s(eng) n(4) g(h2)  sc(0) b(ht) i(4) m(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m4a2_76w"         ("v" c(0) t(all tankh vehicle) s(usa) n(4) g(m3)  sc(0) b(ht) i(3) m(2) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"is2_44"           ("v+" c(0) t(all tankh vehicle) s(rus) n(4) g(h2) sc(0) b(ht) i(6) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"is3"              ("v+" c(0) t(all tankh vehicle) s(rus) n(4) g(h2) sc(0) b(ht) i(7) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"pz6bh"            ("v+" c(0) t(all tankh vehicle) s(ger) n(4) g(h2) sc(0) b(ht) i(5) m(4) cw(0) cp(0)) {cost 0} {fore -1}}     ; Tiger II
+{"m26"              ("v+" c(0) t(all tankh vehicle) s(usa) n(4) g(h2) sc(0) b(ht) i(5) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"m8"               ("v" c(0) t(all tankl vehicle use_charge) s(usa) n(4) g(asu) sc(0) b(asu) i(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"su76"             ("va" c(0) t(all spa vehicle) s(rus) n(4) g(lasu)  sc(0) a(2) b(asu) i(6) cw(0) cp(0)) {cost 0} {fore -1}}
+{"zis_30"           ("va" c(0) t(all spa vehicle) s(rus) n(4) g(lasu)  sc(0) a(2) b(asu) i(7) cw(0) cp(0)) {cost 0} {fore -1}}
+{"su85"             ("v" c(0) t(all spa vehicle) s(rus) n(4) g(asu)  sc(0) b(asu) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"su122"             ("v" c(0) t(all spa vehicle) s(rus) n(4) g(asu)  sc(0) b(asu) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+{"hetzer"           ("v" c(0) t(all spa vehicle) s(ger) n(4) g(asu)  sc(0) b(asu) i(16) cw(0) cp(0)) {cost 0} {fore -1}}
+{"stug4g"           ("v" c(0) t(all spa vehicle) s(ger) n(4) g(asu)  sc(0) b(asu) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"bishop"           ("v" c(0) t(all spa vehicle long_range) s(eng) n(4) g(vh_cn7) sc(0) b(asu) i(13) cw(0) cp(0)) {cost 0} {fore -1}}      ;addon
+{"archer"           ("v" c(0) t(all spa vehicle) s(eng) n(4) g(asu)  sc(0) b(asu) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"su100"            ("v" c(0) t(all spa vehicle) s(rus) n(4) g(hasu) sc(0) b(asu) i(9) cw(0) cp(0)) {cost 0} {fore -1}}     ;addon
+{"achilles"         ("v" c(0) t(all spa vehicle) s(eng) n(4) g(asu) sc(0) b(asu) i(11) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m18"              ("v" c(0) t(all spa vehicle) s(usa) n(4) g(hasu) sc(0) b(asu) i(1) cw(0) cp(0)) {cost 0} {fore -1}}
+{"m36"              ("v" c(0) t(all spa vehicle) s(usa) n(4) g(hasu) sc(0) b(asu) i(2) cw(0) cp(0)) {cost 0} {fore -1}}
+
+{"isu152"           ("v" c(0) t(all spa vehicle heavy_spa) s(rus) n(4) g(hasu2) sc(0) b(asu) i(2) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"nashorn"          ("v+" c(0) t(all spa vehicle) s(ger) n(4) g(hasu2) sc(0) b(asu) i(12) m(4) cw(0) cp(10)) {cost 0} {fore -1}}    ;addon
+{"jagdpanther"      ("v+" c(0) t(all spa vehicle nash_jagdp) s(ger) n(4) g(hasu) sc(0) b(asu) i(11) m(4) cw(0) cp(0)) {cost 0} {fore -1}} ;addon
+{"elefant"          ("v+" c(0) t(all spa vehicle elef_jagdt) s(ger) n(4) g(hasu) sc(0) b(asu) i(13) m(4) cw(0) cp(0)) {cost 0} {fore -1}} ;addon
+{"jagdtiger"        ("v+" c(0) t(all spa vehicle elef_jagdt) s(ger) n(5) g(hasu) sc(0) b(asu) i(2) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
+{"tortez"           ("v+" c(0) t(all spa vehicle) s(eng) n(4) g(hasu1) sc(0) b(asu) i(2) m(4) cw(0) cp(0)) {cost 0} {fore -1}}
