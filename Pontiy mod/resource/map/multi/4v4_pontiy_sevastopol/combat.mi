@@ -1365,7 +1365,6 @@
 		{Position 977.23 -816.67}
 		{xform zl -178.99}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1389,7 +1388,6 @@
 		{Position 1426.2 -2268.92}
 		{xform zl -18.68}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1413,7 +1411,6 @@
 		{Position 979.13 -846.26}
 		{xform zl -178.99}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1437,7 +1434,6 @@
 		{Position 977.49 -831.19}
 		{xform zl -178.99}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1460,7 +1456,6 @@
 	{Human "single/rus/oficer" 0xc076
 		{Position 935.09 -817.77}
 		{xform zl -38.92}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1477,7 +1472,6 @@
 		{Position 1408.01 -2292.18}
 		{xform zl -59.63}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1501,7 +1495,6 @@
 		{Position 1436.87 -2214.84}
 		{xform zl -6.51}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1525,7 +1518,6 @@
 		{Position 1438.86 -2119.76}
 		{xform zl 1.33}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1548,7 +1540,6 @@
 	{Entity "degtyarev_stan" 0x8144
 		{Position 1463.45 -2028.19}
 		{xform zl 6.11}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1571,7 +1562,6 @@
 	{Human "single/rus/sailor1" 0xa025
 		{Position 1418.9 -1965.35}
 		{xform zl 22.28}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -1595,7 +1585,6 @@
 		{Position 1378.93 -1863.11}
 		{xform zl 19.92}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1618,7 +1607,6 @@
 	{Human "single/rus/sailor1" 0xa02a
 		{Position 1393.69 -1903.84}
 		{xform zl 22.28}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -1641,7 +1629,6 @@
 	{Entity "m37" 0xd035
 		{Position 1188.19 -1767.87}
 		{xform zl -71.29 y 1.89 zw 33.28}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1694,7 +1681,6 @@
 		{Position 1381.08 -1584.07}
 		{xform zl -6.25}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1718,7 +1704,6 @@
 		{Position 1388.39 -1517.28}
 		{xform zl -6.24}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1742,7 +1727,6 @@
 		{Position 1415.4 -1443.1}
 		{xform zl -67.04}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1765,7 +1749,6 @@
 	{Entity "degtyarev_stan" 0x8148
 		{Position 1567.56 -1292.6}
 		{xform zl -4.3}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1788,7 +1771,6 @@
 	{Human "single/rus/sailor" 0xe02e
 		{Position 1506.01 -1416.37}
 		{xform zl -79.01}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -1812,7 +1794,6 @@
 		{Position 1534.36 -1353.01}
 		{xform zl -13.04}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1836,7 +1817,6 @@
 		{Position 1558.18 -1138.73}
 		{xform zl -8.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1859,7 +1839,6 @@
 	{Entity "zis3" 0xb004
 		{Position 1356.3 -1194.65}
 		{xform zl -81.17 y 1.99 zw 49.78}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1881,7 +1860,6 @@
 		{Position 1574.01 -1025.68}
 		{xform zl -6.34}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1905,7 +1883,6 @@
 		{Position 1598.2 -823.72}
 		{xform zl 3.03}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -1928,7 +1905,6 @@
 	{Human "single/rus/sailor" 0xe028
 		{Position 1582.67 -945.91}
 		{xform zl -12.28}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -1951,7 +1927,6 @@
 	{Human "single/rus/sailor1" 0xe02a
 		{Position 1483.13 -689.64}
 		{xform zl -2.15}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -1974,7 +1949,6 @@
 	{Human "single/rus/sailor1" 0xe02c
 		{Position 1501.75 -553.43}
 		{xform zl -6.46}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -1997,7 +1971,6 @@
 	{Entity "maxim" 0xe033
 		{Position 1160.35 -550.79}
 		{xform zl -65.84 y 10.18 zw 25.64}
-		{SpawnedInFog}
 		{Placer
 			{State "driver" {Disable}}
 		}
@@ -2021,7 +1994,6 @@
 		{xform zl -15.27}
 		{Saturation 1.1}
 		{IgnoreSaturation 0}
-		{SpawnedInFog}
 		{Impregnability harmless}
 		{Extender "cannon"
 			{animation
@@ -2115,7 +2087,6 @@
 	{Entity "zis3" 0xb000
 		{Position 1405.67 393}
 		{xform zl -175.95 y 2.38 zw 166.98}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2136,7 +2107,6 @@
 	{Entity "maxim" 0xe03c
 		{Position 1426.38 497.83}
 		{xform zl -179.97 y 1.71 zw 160.53}
-		{SpawnedInFog}
 		{Placer
 			{State "driver" {Disable}}
 		}
@@ -2175,7 +2145,6 @@
 		{Position 1811.24 357.26}
 		{xform zl -36.32}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2198,7 +2167,6 @@
 	{Human "single/rus/sailor" 0xa029
 		{Position 1850.12 444.79}
 		{xform zl 20.7}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -2222,7 +2190,6 @@
 		{Position 1952.32 549.01}
 		{xform zl -77.68}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2245,7 +2212,6 @@
 	{Human "single/rus/sailor1" 0xa032
 		{Position 1837.59 508.94}
 		{xform zl 11.82}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -2269,7 +2235,6 @@
 		{Position 1988.64 648.54}
 		{xform zl -71.36}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2292,7 +2257,6 @@
 	{Human "single/rus/sailor1" 0xa038
 		{Position 2068.05 664.17}
 		{xform zl -72.36}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -2315,7 +2279,6 @@
 	{Entity "degtyarev_stan" 0x821e
 		{Position 2137.55 772.92}
 		{xform zl -12.36}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2339,7 +2302,6 @@
 		{Position 2129.17 855.13}
 		{xform zl -6.02}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2362,7 +2324,6 @@
 	{Human "single/rus/sailor" 0xa024
 		{Position 2135.79 918.86}
 		{xform zl 33.99}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -2386,7 +2347,6 @@
 		{Position 2089.43 969.74}
 		{xform zl 45.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2409,7 +2369,6 @@
 	{Entity "degtyarev_stan" 0xc02f
 		{Position 2219.02 1731.99}
 		{xform zl -125.51}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2433,7 +2392,6 @@
 		{Position 2355.99 1692}
 		{xform zl -74.73}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -2457,7 +2415,6 @@
 		{Position 2573.36 1825.47}
 		{xform zl -2.7}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2480,7 +2437,6 @@
 	{Entity "maxim_quad" 0x814c
 		{Position 2456.68 1706.78}
 		{xform zl -65.89}
-		{SpawnedInFog}
 		{Simulation {Able 0}}
 		{Extender "cannon"
 			{disable}
@@ -2501,7 +2457,6 @@
 		{Position 2486.03 1750.45}
 		{xform zl -59.69}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -2518,7 +2473,6 @@
 		{Position 2619.89 2099.39}
 		{xform zl 1.45}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -2542,7 +2496,6 @@
 		{Position 2564.28 1784.15}
 		{xform zl -60.71}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -2566,7 +2519,6 @@
 		{Position 2585.39 1888.27}
 		{xform zl -7.39}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -2589,7 +2541,6 @@
 	{Entity "m37" 0xc073
 		{Position 2433.82 1952.83}
 		{xform zl 179.48 y 0.1 zw 127.22}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2611,7 +2562,6 @@
 		{Position 2324.2 1887.25}
 		{xform zl -20.69}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -2635,7 +2585,6 @@
 		{Position 2467.39 2065.25}
 		{xform zl -26.41}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -2659,7 +2608,6 @@
 		{Position 2598.23 1987.42}
 		{xform zl -7.37}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2682,7 +2630,6 @@
 	{Entity "degtyarev_stan" 0xa005
 		{Position 2658.85 2158.78}
 		{xform zl -8.96}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2706,7 +2653,6 @@
 		{Position 2741.13 2487.67}
 		{xform zl -70.91}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2730,7 +2676,6 @@
 		{Position 2698.97 2439.91}
 		{xform zl -11.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2754,7 +2699,6 @@
 		{Position 2655.22 2268.42}
 		{xform zl -14.02}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2777,7 +2721,6 @@
 	{Entity "degtyarev_stan" 0xa01a
 		{Position 2707.95 2355.97}
 		{xform zl -16.7}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2800,7 +2743,6 @@
 	{Entity "m37" 0x8208
 		{Position 2551.67 2432.05}
 		{xform zl -48.5 y 1.46 zw 75.99}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2822,7 +2764,6 @@
 		{Position 2841.35 2511.75}
 		{xform zl -73.45}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2846,7 +2787,6 @@
 		{Position 2439.74 2306.74}
 		{xform zl -2.03}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2863,7 +2803,6 @@
 		{Position 2423.8 2380.44}
 		{xform zl 0.24}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2880,7 +2819,6 @@
 		{Position 2423.17 2339.58}
 		{xform zl -26.08}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -2897,7 +2835,6 @@
 		{Position 2405.88 2286.15}
 		{xform zl -66.81}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -3116,7 +3053,7 @@
 	}
 	{Human "single/rus/rifle" 0xf705
 		{Position 2952.08 2023.83}
-		{xform zl -94.17 y 6.94 zw -43.32}
+		{xform zl -93.51 y 6.94 zw -43.32}
 		{Extender "vitality"
 			{Dead}
 			{Energy 0.01}
@@ -3239,7 +3176,6 @@
 	{Human "single/rus/sailor1" 0xc006
 		{Position 517.46 1787.17}
 		{xform zl -103.46}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3263,7 +3199,6 @@
 		{Position 598.78 1763.16}
 		{xform zl -104.92}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3287,7 +3222,6 @@
 		{Position 455.38 1744.02}
 		{xform zl -44.44}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3311,7 +3245,6 @@
 		{Position 890.69 1845.33}
 		{xform zl -37.3}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3335,7 +3268,6 @@
 		{Position 701.84 1737.42}
 		{xform zl -93.45}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3359,7 +3291,6 @@
 		{Position 830.33 1781.13}
 		{xform zl -45.7}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3383,7 +3314,6 @@
 		{Position 964.15 1889.93}
 		{xform zl -96.32}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3407,7 +3337,6 @@
 		{Position 1182.77 2026.46}
 		{xform zl -27.93}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3430,7 +3359,6 @@
 	{Human "single/rus/sailor1" 0xd00b
 		{Position 1858.18 403.26}
 		{xform zl -37.33}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3453,7 +3381,6 @@
 	{Entity "degtyarev_stan" 0xf020
 		{Position 876.03 1787.62}
 		{xform zl -34.17}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3476,7 +3403,6 @@
 	{Human "single/rus/sniper" 0x8202
 		{Position 1099.42 1897.11}
 		{xform zl -24.99}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3499,7 +3425,6 @@
 	{Human "single/rus/sniper" 0x820a
 		{Position 786.34 1737.67}
 		{xform zl -36.44}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3523,7 +3448,6 @@
 		{Position 1197.33 2153.5}
 		{xform zl 17.05}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3547,7 +3471,6 @@
 		{Position 1208.75 2119.27}
 		{xform zl 29.07}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3571,7 +3494,6 @@
 		{Position 1222.78 2079.37}
 		{xform zl -28.92}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3594,7 +3516,6 @@
 	{Human "single/rus/sailor1" 0xd003
 		{Position 1168.72 1998.63}
 		{xform zl -34.59}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3617,7 +3538,6 @@
 	{Human "single/rus/sailor" 0xd007
 		{Position 1031.26 1882.14}
 		{xform zl -82.01}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3640,7 +3560,6 @@
 	{Entity "zis3" 0xe013
 		{Position 1008.86 2157.9}
 		{xform zl -43.48 y 2.59 zw -0.37}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3660,7 +3579,6 @@
 	{Entity "degtyarev_stan" 0xf01c
 		{Position 1176.1 1956.33}
 		{xform zl -38.14}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3682,7 +3600,6 @@
 	{Entity "61k" 0xc028
 		{Position 635.72 2097.48}
 		{xform zl 84.07 y 2.85 zw -105.15}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3706,7 +3623,6 @@
 	{Entity "zis3" 0xe046
 		{Position 412.66 2010.16}
 		{xform zl -2.76 y 2.7 zw -122.06}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3726,7 +3642,6 @@
 	{Entity "zis3" 0xe04b
 		{Position 381.37 2373.42}
 		{xform zl 20.05 y 1.91 zw -170.44}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3746,7 +3661,6 @@
 	{Human "single/rus/sailor" 0xd002
 		{Position 215.01 1893.67}
 		{xform zl -137.14}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3769,7 +3683,6 @@
 	{Human "single/rus/sailor" 0xd00d
 		{Position 133.32 2020.45}
 		{xform zl 164.96}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3793,7 +3706,6 @@
 		{Position 171.67 2104.68}
 		{xform zl 153.27}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3817,7 +3729,6 @@
 		{Position 213.48 2317.59}
 		{xform zl -153.11}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 123}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3835,7 +3746,6 @@
 		{Position 213.94 2463.21}
 		{xform zl 142.3}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3859,7 +3769,6 @@
 		{Position 231.9 2216.1}
 		{xform zl 144.33}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3882,7 +3791,6 @@
 	{Entity "zis3" 0xe050
 		{Position 137.31 2660.46}
 		{xform zl 15.33 y 4.61 zw -161.96}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3902,7 +3810,6 @@
 	{Entity "61k" 0xc08a
 		{Position 617.63 2656.01}
 		{xform zl 59.14 y 1.18 zw -64.63}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3927,7 +3834,6 @@
 		{Position 1599.05 2838.31}
 		{xform zl -10.82}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3951,7 +3857,6 @@
 		{Position 1396.75 2694.05}
 		{xform zl -162.56}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3975,7 +3880,6 @@
 		{Position 1279.04 2786.35}
 		{xform zl -104.16}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -3992,7 +3896,6 @@
 		{Position 1345.79 2775.5}
 		{xform zl -108.75}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4016,7 +3919,6 @@
 		{Position 1521.9 2667.38}
 		{xform zl -83.92}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4040,7 +3942,6 @@
 		{Position 1444.8 2640.25}
 		{xform zl -72.55}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4063,7 +3964,6 @@
 	{Human "single/rus/sailor1" 0xd005
 		{Position 1485.86 2651.03}
 		{xform zl -62.91}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4086,7 +3986,6 @@
 	{Entity "zis3" 0xa01c
 		{Position 1432.78 2853.89}
 		{xform zl -43.35 y 2.44 zw 3.62}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4106,7 +4005,6 @@
 	{Human "single/rus/sailor" 0xc004
 		{Position 1581.54 2752.33}
 		{xform zl -17.95}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4129,7 +4027,6 @@
 	{Human "single/rus/sniper" 0xc00a
 		{Position 1561.43 2679.63}
 		{xform zl -22.95}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4153,7 +4050,6 @@
 		{Position 1571.27 2717.74}
 		{xform zl -5.91}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4177,7 +4073,6 @@
 		{Position 1602.93 2881.69}
 		{xform zl -8.61}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4200,7 +4095,6 @@
 	{Entity "degtyarev_stan" 0xf00e
 		{Position 1616.09 2791.07}
 		{xform zl -12.36}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4223,7 +4117,6 @@
 	{Human "single/rus/sniper" 0x8227
 		{Position 1611.24 2936.52}
 		{xform zl -8.61}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 500}
@@ -4246,7 +4139,6 @@
 	{Entity "t34_0" 0xe025
 		{Position 2144.19 -1384.38 -15.19}
 		{xform zl 44.32 y 2.6 zw -43.88}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -4265,7 +4157,6 @@
 	{Entity "zis5" 0x81a3
 		{Position 1952.61 -1856.4 -3.84}
 		{xform zl -5.46 y 7.33 zw 2.6}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 934}
 		}
@@ -4276,7 +4167,6 @@
 	{Entity "t34_0" 0xa01d
 		{Position 2149.71 -1518.7 -15.6}
 		{xform zl 5.39 y 2.31 zw -5.14}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -4295,7 +4185,6 @@
 	{Entity "t34_0" 0x825c
 		{Position 2151.77 -1235.19 -15.06}
 		{xform zl 17.73 y 4.45 zw -14.82}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -4314,7 +4203,6 @@
 	{Entity "degtyarev_stan" 0xe000
 		{Position 3529.79 -2294.64}
 		{xform zl -4.3}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4339,7 +4227,6 @@
 		{Position 3510.87 -2176.41}
 		{xform zl 5.91}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4363,7 +4250,6 @@
 		{Position 3389.63 -2038.83}
 		{xform zl -3.76}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4387,7 +4273,6 @@
 		{Position 3429.43 -1785.16}
 		{xform zl -5.57}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4411,7 +4296,6 @@
 		{Position 3410.14 -1910.49}
 		{xform zl -4.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4435,7 +4319,6 @@
 		{Position 3448.82 -2117.95}
 		{xform zl 51.88}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4458,7 +4341,6 @@
 	{Entity "degtyarev_stan" 0xf802
 		{Position 3614.49 -1626.18}
 		{xform zl -4.3}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4488,7 +4370,6 @@
 		{Position 3598.96 -1554.12}
 		{xform zl -6.47}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4512,7 +4393,6 @@
 		{Position 3599.06 -1495.06}
 		{xform zl 44.01}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4536,7 +4416,6 @@
 		{Position 3573.26 -1700.8}
 		{xform zl -11.07}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4559,7 +4438,6 @@
 	{Entity "m37" 0xe005
 		{Position 3126.31 -1846.57}
 		{xform zl 170.6 y 2.37 zw -177.26}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4579,7 +4457,6 @@
 	{Entity "maxim_quad" 0xbd39
 		{Position 3566.16 -765.46}
 		{xform zl 4.74}
-		{SpawnedInFog}
 		{Simulation {Able 0}}
 		{Extender "cannon"
 			{disable}
@@ -4600,7 +4477,6 @@
 		{Position 3532.62 -723.62}
 		{xform zl 9.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4624,7 +4500,6 @@
 		{Position 3535.08 -833.63}
 		{xform zl -0.48}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4648,7 +4523,6 @@
 		{Position 3435.23 -993.67}
 		{xform zl 1.6}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4688,7 +4562,6 @@
 		{Position 3647.2 -434.04}
 		{xform zl 8.1}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4713,7 +4586,6 @@
 		{Position 3582.75 -615.4}
 		{xform zl -61.35}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4737,7 +4609,6 @@
 		{Position 3633.41 -339.22}
 		{xform zl 9.14}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4761,7 +4632,6 @@
 		{Position 3737.79 -156.5}
 		{xform zl 3.05}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4785,7 +4655,6 @@
 		{Position 3744.3 -194.22}
 		{xform zl -1.93}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4809,7 +4678,6 @@
 		{Position 3666.03 -272.71}
 		{xform zl -61.87}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4832,7 +4700,6 @@
 	{Entity "degtyarev_stan" 0xf806
 		{Position 3732.86 54.08}
 		{xform zl 20.15}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4857,7 +4724,6 @@
 		{Position 3728.66 -65.63}
 		{xform zl 0.7}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4881,7 +4747,6 @@
 		{Position 3679.21 106.77}
 		{xform zl 31.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4904,7 +4769,6 @@
 	{Entity "m37" 0x80b0
 		{Position 3263.75 162.18}
 		{xform zl -158.99 y 2.13 zw 140.08}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4924,7 +4788,6 @@
 	{Entity "degtyarev_stan" 0xf808
 		{Position 3589.2 679.53}
 		{xform zl 66.43}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -4949,7 +4812,6 @@
 		{Position 3692.91 538.04}
 		{xform zl 14.7}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4973,7 +4835,6 @@
 		{Position 3709.61 353.25}
 		{xform zl 10.13}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -4997,7 +4858,6 @@
 		{Position 3509.44 830.18}
 		{xform zl -21.76}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5014,7 +4874,6 @@
 		{Position 3524.63 980.78}
 		{xform zl -10.64}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5031,7 +4890,6 @@
 		{Position 3540.48 900.84}
 		{xform zl -39.76}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5048,7 +4906,6 @@
 		{Position 3530.09 958.76}
 		{xform zl -11.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5065,7 +4922,6 @@
 		{Position 3526.73 939.13}
 		{xform zl 22.25}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5081,7 +4937,6 @@
 	{Entity "zis3" 0xc053
 		{Position 3427.11 1009.18}
 		{xform zl 180 y 0.14 zw -121.35}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5101,7 +4956,6 @@
 	{Entity "m37" 0xbd14
 		{Position 3419.35 871.62}
 		{xform zl 146.54 y 1.94 zw 131.4}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5121,7 +4975,6 @@
 	{Entity "zis5" 0x8205
 		{Position 3315.28 1001.37}
 		{xform zl 114.2 y 2.03 zw 110.26}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 197}
 		}
@@ -5138,7 +4991,6 @@
 		{Position 3518.14 844.31}
 		{xform zl -47.41}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5155,7 +5007,6 @@
 		{Position 3603.45 910.16}
 		{xform zl 169.6}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5172,7 +5023,6 @@
 		{Position 3516.72 885.15}
 		{xform zl -6.81}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5189,7 +5039,6 @@
 		{Position 3545.7 977.55}
 		{xform zl -3.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5206,7 +5055,6 @@
 		{Position 3543.9 954.2}
 		{xform zl -5.19}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5223,7 +5071,6 @@
 		{Position 3542.24 930.73}
 		{xform zl -5.36}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5240,7 +5087,6 @@
 		{Position 3518.8 913.48}
 		{xform zl -7.5}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5257,7 +5103,6 @@
 		{Position 3528.08 834.68}
 		{xform zl -4.72}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5274,7 +5119,6 @@
 		{Position 3539.02 883.04}
 		{xform zl -19.09}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5291,7 +5135,6 @@
 		{Position 3535.98 853}
 		{xform zl -42.64}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5308,7 +5151,6 @@
 		{Position 3553.96 1007.3}
 		{xform zl 27.58}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5324,7 +5166,6 @@
 	{Entity "m37" 0xbd23
 		{Position 3214.79 1393.52}
 		{xform zl 142.6 y 1.88 zw -154.49}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5344,7 +5185,6 @@
 	{Entity "degtyarev_stan" 0xf000
 		{Position 3929.34 1447.72}
 		{xform zl -29.03}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5369,7 +5209,6 @@
 		{Position 3846.9 1373.72}
 		{xform zl -43.22}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5393,7 +5232,6 @@
 		{Position 3982.76 1597.93}
 		{xform zl -29.16}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5417,7 +5255,6 @@
 		{Position 3645.69 1342.86}
 		{xform zl -39.94}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5441,7 +5278,6 @@
 		{Position 3751.22 1363.6}
 		{xform zl -110.96}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5465,7 +5301,6 @@
 		{Position 4083.78 1789.2}
 		{xform zl -27.71}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5489,7 +5324,6 @@
 		{Position 4289.44 2064.95}
 		{xform zl 48.64}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5513,7 +5347,6 @@
 		{Position 4280.23 1916.01}
 		{xform zl -87.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5537,7 +5370,6 @@
 		{Position 4146.29 1906.94}
 		{xform zl -35.05}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5560,7 +5392,6 @@
 	{Entity "degtyarev_stan" 0xf013
 		{Position 3831.78 2502.9}
 		{xform zl -5.1}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5584,7 +5415,6 @@
 		{Position 3760.23 1915.95}
 		{xform zl 170.02}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5601,7 +5431,6 @@
 		{Position 3793.96 2443.01}
 		{xform zl -15.27}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5624,7 +5453,6 @@
 	{Human "single/rus/oficer" 0xc0ba
 		{Position 3666.21 1906.96}
 		{xform zl -35.58}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5641,7 +5469,6 @@
 		{Position 3732.05 1872.8}
 		{xform zl 177.62}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5658,7 +5485,6 @@
 		{Position 3738.42 1952.24}
 		{xform zl -153.58}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5675,7 +5501,6 @@
 		{Position 3831.97 2365.4}
 		{xform zl 55.74}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5699,7 +5524,6 @@
 		{Position 3714.61 1792.08}
 		{xform zl 162.38}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5716,7 +5540,6 @@
 		{Position 3700.69 1834.86}
 		{xform zl 130.88}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5733,7 +5556,6 @@
 		{Position 3771.2 1979.91}
 		{xform zl 178.45}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5777,7 +5599,6 @@
 		{Position 5369.15 -1278.34 -9.77}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5795,7 +5616,6 @@
 		{Position 5364.03 -1246.81 -9.38}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5813,7 +5633,6 @@
 		{Position 5577.65 -1004 -11.79}
 		{xform zl -103.08 y 1.07 zw -71.6}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 285}
 		{Able "-emit_passangers_on_enemy"}
@@ -5821,7 +5640,6 @@
 	{Entity "pz3f" 0x81eb
 		{Position 3840.51 -2097.69 -16.24}
 		{xform zl 71.72 y 2.31 zw 105.03}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -5835,7 +5653,6 @@
 	{Human "single/ger/oficer" 0x81df
 		{Position 5359.04 -1218.95}
 		{xform zl 176.17}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5851,7 +5668,6 @@
 		{Position 5357.29 -1124.83}
 		{xform zl 171.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5867,7 +5683,6 @@
 		{Position 5355.05 -1094.7 -9.02}
 		{xform zl -173.75}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5883,7 +5698,6 @@
 		{Position 5358.06 -1152.9}
 		{xform zl 179.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5899,7 +5713,6 @@
 		{Position 5353.46 -1069.12}
 		{xform zl 175.24}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5915,7 +5728,6 @@
 		{Position 5359.38 -1183.95 -9.51}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -5964,7 +5776,6 @@
 	{Entity "pz3f" 0x900d
 		{Position 3843.96 -2032.57 -16.62}
 		{xform zl 36.94 y 1.55 zw 140.03}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -5976,41 +5787,40 @@
 		{Able "-emit_passangers_on_enemy"}
 	}
 	{Human "single/ger/tank_crew" 0x9013
-		{Position 3764.57 -1838.61}
-		{xform zl -134.44 y 3.55 zw 131.02}
+		{Position 3625.43 -1949.2}
+		{xform zl -114.44 y 3.22 zw 112.53}
 		{Player 0}
 		{MID 44}
 		{NameId 30 50}
 		{LastItem "valter"}
 	}
 	{Human "single/ger/tank_crew" 0x9014
-		{Position 3764.57 -1838.61}
-		{xform zl -134.44 y 3.55 zw 131.02}
+		{Position 3625.43 -1949.2}
+		{xform zl -114.44 y 3.22 zw 112.53}
 		{Player 0}
 		{MID 45}
 		{NameId 131 143}
 		{LastItem "valter"}
 	}
 	{Human "single/ger/tank_crew" 0x9015
-		{Position 3764.57 -1838.61}
-		{xform zl -134.44 y 3.55 zw 131.02}
+		{Position 3625.43 -1949.2}
+		{xform zl -114.44 y 3.22 zw 112.53}
 		{Player 0}
 		{MID 56}
 		{NameId 57 62}
 		{LastItem "valter"}
 	}
 	{Human "single/ger/tank_com" 0x9016
-		{Position 3764.57 -1838.61}
-		{xform zl -134.44 y 3.55 zw 131.02}
+		{Position 3860.13 -1968.7}
+		{xform zl 5.85 y 10.17 zw 170.72}
 		{Player 0}
 		{MID 57}
 		{NameId 110 126}
 		{LastItem "mp40"}
 	}
 	{Entity "pz3f" 0x9017
-		{Position 3846.96 -1969.24 -16.88}
-		{xform zl 47.89 y 3 zw 128.76}
-		{SpawnedInFog}
+		{Position 3850.24 -1969.82 -16.85}
+		{xform zl 46.78 y 2.97 zw 129.69}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6056,7 +5866,6 @@
 	{Entity "pz4e" 0x9021
 		{Position 4065.28 -503.32 -7.27}
 		{xform zl -140.14 y 3.44 zw -39.77}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6104,7 +5913,6 @@
 	{Entity "pz4e" 0x902b
 		{Position 4067.42 -442.73 -4.98}
 		{xform zl -140.96 y 3.47 zw -38.97}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6152,7 +5960,6 @@
 	{Entity "pz4e" 0x9035
 		{Position 4068.42 -382.79 -2.75}
 		{xform zl -142.88 y 3.62 zw -37.05}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6204,7 +6011,6 @@
 	{Entity "pz1" 0x903c
 		{Position 3988.25 -2111.01 -16.07}
 		{xform zl 167.41 y 2.09 zw 10.87}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6251,7 +6057,6 @@
 	{Entity "pz1" 0x9043
 		{Position 3989.88 -2053.92 -16.01}
 		{xform zl 168.77 y 2.3 zw 9.49}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6298,7 +6103,6 @@
 	{Entity "pz1" 0x904a
 		{Position 3990.06 -1996.64 -16.08}
 		{xform zl 171.36 y 2.39 zw 7.68}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6325,7 +6129,6 @@
 	{Entity "sdkfz223" 0x9050
 		{Position 3988.61 -1868.17 -15.76}
 		{xform zl 162.31 y 3.74 zw 15.61}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6358,7 +6161,6 @@
 	{Entity "sdkfz223" 0x9056
 		{Position 3991.42 -1816.61 -16.08}
 		{xform zl 150.63 y 3.51 zw 28.16}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6392,7 +6194,6 @@
 	{Entity "sdkfz223" 0x905c
 		{Position 3991.5 -1768.5 -16.31}
 		{xform zl 164.09 y 2.75 zw 14.97}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6536,7 +6337,6 @@
 	{Entity "sdkfz251" 0x9070
 		{Position 3801.3 -1797.93 -15.99}
 		{xform zl 164.06 y 5.61 zw 9.5}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6679,7 +6479,6 @@
 	{Entity "sdkfz251" 0x9087
 		{Position 3804.87 -1743.6 -15.9}
 		{xform zl 165.45 y 5.54 zw 10.09}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6794,7 +6593,6 @@
 	{Entity "sdkfz251_10" 0x9099
 		{Position 3809.43 -1688.19 -17.03}
 		{xform zl 177.57 y 3.26 zw -0.3}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6816,7 +6614,6 @@
 	{Entity "pz3m" 0x909c
 		{Position 3956.76 18.54 5.95}
 		{xform zl -178.79 y 5.25 zw -1.99}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 815}
 		}
@@ -6835,7 +6632,6 @@
 	{Entity "pz3m" 0x909f
 		{Position 3958.91 91.01 6.39}
 		{xform zl 170.51 y 4.74 zw 9.52}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 114}
 		}
@@ -6854,7 +6650,6 @@
 	{Entity "pz3m" 0x90a2
 		{Position 3958.11 162.29 6.33}
 		{xform zl 172.81 y 4.77 zw 7}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 450}
 		}
@@ -6897,7 +6692,6 @@
 	{Entity "stug4g" 0x90ab
 		{Position 3805.49 -1539.81 -16.78}
 		{xform zl -24.18 y 0.82 zw -155.21}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6951,7 +6745,6 @@
 	{Entity "stug4g" 0x90b4
 		{Position 3805.13 -1471.83 -16.61}
 		{xform zl 59.79 y 0.66 zw 120.51}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -7000,7 +6793,6 @@
 	{Entity "stug4g" 0x90bd
 		{Position 3805.28 -1405.14 -16.41}
 		{xform zl 6.18 y 0.72 zw 176.4}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -7017,7 +6809,6 @@
 	{Human "single/ger/flamer" 0x90d2
 		{Position 4121.4 -1818.43}
 		{xform zl 164.64}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -7033,7 +6824,6 @@
 		{Position 4209.01 -1817.33}
 		{xform zl -179.43}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7048,7 +6838,6 @@
 	{Human "single/ger/oficer" 0x90d4
 		{Position 4144.99 -1816.58}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7064,7 +6853,6 @@
 		{Position 4208.56 -1885.61 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7080,7 +6868,6 @@
 		{Position 4185.03 -1884.31 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7096,7 +6883,6 @@
 		{Position 4162.52 -1882.08 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7112,7 +6898,6 @@
 		{Position 4141.85 -1881.95 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7128,7 +6913,6 @@
 		{Position 4211.63 -1864.5 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7144,7 +6928,6 @@
 		{Position 4192.23 -1865.12 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7160,7 +6943,6 @@
 		{Position 4168.49 -1863.25 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7176,7 +6958,6 @@
 		{Position 4143.33 -1863.32 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7192,7 +6973,6 @@
 		{Position 4120.05 -1862.41 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7208,7 +6988,6 @@
 		{Position 4182.61 -1814.73}
 		{xform zl 146.51}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7224,7 +7003,6 @@
 		{Position 4160.72 -1817.54}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7240,7 +7018,6 @@
 		{Position 4207.81 -1840.26}
 		{xform zl 152.73}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 544}
 		{NameId 100 24}
@@ -7251,7 +7028,6 @@
 		{Position 4185.2 -1846}
 		{xform zl -155.3}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 545}
 		{NameId 104 119}
@@ -7262,7 +7038,6 @@
 		{Position 4167.66 -1842.75}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 546}
 		{NameId 49 138}
@@ -7273,7 +7048,6 @@
 		{Position 4145.25 -1841.05}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 547}
 		{NameId 82 15}
@@ -7284,7 +7058,6 @@
 		{Position 4121.55 -1842.08}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 548}
 		{NameId 65 59}
@@ -7294,7 +7067,6 @@
 	{Human "single/ger/flamer" 0x90f9
 		{Position 4120.69 -1701.65}
 		{xform zl 161.07}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -7310,7 +7082,6 @@
 		{Position 4208.3 -1700.55}
 		{xform zl -179.43}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7325,7 +7096,6 @@
 	{Human "single/ger/oficer" 0x90fb
 		{Position 4144.28 -1699.8}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7341,7 +7111,6 @@
 		{Position 4207.85 -1768.83 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7357,7 +7126,6 @@
 		{Position 4184.32 -1767.53 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7373,7 +7141,6 @@
 		{Position 4161.81 -1765.3 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7389,7 +7156,6 @@
 		{Position 4141.14 -1765.17 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7405,7 +7171,6 @@
 		{Position 4210.92 -1747.72 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7421,7 +7186,6 @@
 		{Position 4191.52 -1748.34 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7437,7 +7201,6 @@
 		{Position 4167.78 -1746.47 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7453,7 +7216,6 @@
 		{Position 4142.62 -1746.54 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7469,7 +7231,6 @@
 		{Position 4119.34 -1745.63 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7485,7 +7246,6 @@
 		{Position 4181.9 -1697.95}
 		{xform zl 146.51}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7501,7 +7261,6 @@
 		{Position 4160.01 -1700.76}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7517,7 +7276,6 @@
 		{Position 4207.1 -1723.48}
 		{xform zl 152.73}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 563}
 		{NameId 29 58}
@@ -7528,7 +7286,6 @@
 		{Position 4184.49 -1729.22}
 		{xform zl -155.3}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 564}
 		{NameId 65 106}
@@ -7539,7 +7296,6 @@
 		{Position 4166.95 -1725.97}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 565}
 		{NameId 37 142}
@@ -7550,7 +7306,6 @@
 		{Position 4144.54 -1724.27}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 566}
 		{NameId 103 8}
@@ -7561,7 +7316,6 @@
 		{Position 4120.84 -1725.3}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 567}
 		{NameId 114 56}
@@ -7571,7 +7325,6 @@
 	{Human "single/ger/flamer" 0x9120
 		{Position 4114.63 -1587.25}
 		{xform zl -173.07}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -7587,7 +7340,6 @@
 		{Position 4202.24 -1586.15}
 		{xform zl -179.43}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7602,7 +7354,6 @@
 	{Human "single/ger/oficer" 0x9122
 		{Position 4138.22 -1585.4}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7618,7 +7369,6 @@
 		{Position 4201.79 -1654.43 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7634,7 +7384,6 @@
 		{Position 4178.26 -1653.13 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7650,7 +7399,6 @@
 		{Position 4155.75 -1650.9 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7666,7 +7414,6 @@
 		{Position 4135.08 -1650.77 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7682,7 +7429,6 @@
 		{Position 4204.86 -1633.32 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7698,7 +7444,6 @@
 		{Position 4185.46 -1633.94 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7714,7 +7459,6 @@
 		{Position 4161.72 -1632.07 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7730,7 +7474,6 @@
 		{Position 4136.56 -1632.14 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7746,7 +7489,6 @@
 		{Position 4113.28 -1631.23 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7762,7 +7504,6 @@
 		{Position 4175.84 -1583.55}
 		{xform zl 146.51}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7778,7 +7519,6 @@
 		{Position 4153.95 -1586.36}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7794,7 +7534,6 @@
 		{Position 4201.04 -1609.08}
 		{xform zl 152.73}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 582}
 		{NameId 115 79}
@@ -7805,7 +7544,6 @@
 		{Position 4178.43 -1614.82}
 		{xform zl -155.3}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 583}
 		{NameId 21 81}
@@ -7816,7 +7554,6 @@
 		{Position 4160.89 -1611.57}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 584}
 		{NameId 101 103}
@@ -7827,7 +7564,6 @@
 		{Position 4138.48 -1609.87}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 585}
 		{NameId 78 136}
@@ -7838,7 +7574,6 @@
 		{Position 4114.78 -1610.9}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 586}
 		{NameId 77 78}
@@ -7848,7 +7583,6 @@
 	{Human "single/ger/sniper" 0x9134
 		{Position 4008.68 -2289.42}
 		{xform zl 109.72}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7863,7 +7597,6 @@
 	{Human "single/ger/sniper" 0x9136
 		{Position 4052.31 -2293.62}
 		{xform zl 109.72}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7878,7 +7611,6 @@
 	{Human "single/ger/sniper" 0x9138
 		{Position 4097.3 -2294.61}
 		{xform zl 109.72}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -7923,7 +7655,6 @@
 	{Entity "sgrw42" 0x913d
 		{Position 4321.9 -1845.46}
 		{xform zl -178.49}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -7970,7 +7701,6 @@
 	{Entity "sgrw42" 0x9142
 		{Position 4323.34 -1794.64}
 		{xform zl -179.85}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8017,7 +7747,6 @@
 	{Entity "sgrw42" 0x9147
 		{Position 4321.03 -1741.21}
 		{xform zl -179.6}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8064,7 +7793,6 @@
 	{Entity "flak38_wheeled" 0xa804
 		{Position 4319.2 -1520.6 -15.55}
 		{xform zl -32.53 y 0.94 zw -146.24}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8114,7 +7842,6 @@
 	{Entity "flak38_wheeled" 0xa809
 		{Position 4317.85 -1475.82}
 		{xform zl -3.72 y 0.82 zw -174.71}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8164,7 +7891,6 @@
 	{Entity "flak38_wheeled" 0xa80e
 		{Position 4316.84 -1433.92}
 		{xform zl -2.63 y 0.82 zw -175.42}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8214,7 +7940,6 @@
 	{Entity "pak41-le" 0x914c
 		{Position 4289.62 -1270.73}
 		{xform zl -175.67 y 1.93 zw -0.12}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8264,7 +7989,6 @@
 	{Entity "pak41-le" 0x9151
 		{Position 4285.86 -1228.33}
 		{xform zl 161.39 y 1.68 zw 24.79}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8314,7 +8038,6 @@
 	{Entity "pak41-le" 0x9156
 		{Position 4281.82 -1185.13}
 		{xform zl 153.44 y 2.42 zw 31.55}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -8481,8 +8204,8 @@
 		{LastItem "valter"}
 	}
 	{Human "mp/ger/tankman2" 0xa824
-		{Position 3856.87 -1968.06}
-		{xform zl 6.2 y 10.16 zw 170.54}
+		{Position 3625.43 -1949.2}
+		{xform zl -114.44 y 3.22 zw 112.53}
 		{Player 0}
 		{MID 69}
 		{NameId 78 145}
@@ -8545,7 +8268,6 @@
 	{Human "single/ger/flamer" 0x822f
 		{Position 4118.41 -1464.08}
 		{xform zl -173.07}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 300}
@@ -8561,7 +8283,6 @@
 		{Position 4206.02 -1462.98}
 		{xform zl -179.43}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8576,7 +8297,6 @@
 	{Human "single/ger/oficer" 0x8231
 		{Position 4142 -1462.23}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8592,7 +8312,6 @@
 		{Position 4205.57 -1531.26 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8608,7 +8327,6 @@
 		{Position 4182.04 -1529.96 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8624,7 +8342,6 @@
 		{Position 4159.53 -1527.73 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8640,7 +8357,6 @@
 		{Position 4138.86 -1527.6 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8656,7 +8372,6 @@
 		{Position 4208.64 -1510.15 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8672,7 +8387,6 @@
 		{Position 4189.24 -1510.77 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8688,7 +8402,6 @@
 		{Position 4165.5 -1508.9 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8704,7 +8417,6 @@
 		{Position 4140.34 -1508.97 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8720,7 +8432,6 @@
 		{Position 4117.06 -1508.06 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8736,7 +8447,6 @@
 		{Position 4179.62 -1460.38}
 		{xform zl 146.51}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8752,7 +8462,6 @@
 		{Position 4157.73 -1463.19}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8768,7 +8477,6 @@
 		{Position 4204.82 -1485.91}
 		{xform zl 152.73}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 93}
 		{NameId 137 60}
@@ -8779,7 +8487,6 @@
 		{Position 4182.21 -1491.65}
 		{xform zl -155.3}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 94}
 		{NameId 12 112}
@@ -8790,7 +8497,6 @@
 		{Position 4164.67 -1488.4}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 95}
 		{NameId 110 54}
@@ -8801,7 +8507,6 @@
 		{Position 4142.26 -1486.7}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 96}
 		{NameId 120 112}
@@ -8812,7 +8517,6 @@
 		{Position 4118.56 -1487.73}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 97}
 		{NameId 134 125}
@@ -8822,7 +8526,6 @@
 	{Human "single/ger/sniper" 0x8247
 		{Position 4140.22 -2293.43}
 		{xform zl 109.72}
-		{SpawnedInFog}
 		{Extender "vitality"
 			{Health
 				{max 200}
@@ -8873,7 +8576,6 @@
 	{Entity "pz1" 0x824d
 		{Position 3990.54 -1936.61 -16.01}
 		{xform zl 168.81 y 2.3 zw 9.49}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -8924,7 +8626,6 @@
 	{Entity "pz3f" 0x825a
 		{Position 3848.25 -1904.35 -16.46}
 		{xform zl 45.17 y 3.49 zw 130.63}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -8954,7 +8655,6 @@
 	{Entity "sdkfz223" 0x8261
 		{Position 3994.54 -1718.35 -16.18}
 		{xform zl 175.33 y 2.92 zw 3.54}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -9002,7 +8702,6 @@
 	{Entity "sgrw42" 0x8266
 		{Position 4321.11 -1686.39}
 		{xform zl -179.6}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -9145,7 +8844,6 @@
 	{Entity "sdkfz251" 0x827a
 		{Position 3811.86 -1628.84 -16.02}
 		{xform zl 165.73 y 5.7 zw 9.82}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -9191,7 +8889,6 @@
 	{Entity "stug4g" 0x8283
 		{Position 3800.13 -1339.93 -16.14}
 		{xform zl 76.07 y 1.6 zw 106.68}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -9238,7 +8935,6 @@
 	{Entity "pak41-le" 0x8288
 		{Position 4277.41 -1138.57}
 		{xform zl 180 y 2.2 zw 5.01}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -9288,7 +8984,6 @@
 	{Entity "flak38_wheeled" 0x828d
 		{Position 4314.21 -1389.34}
 		{xform y 0.82 zw -178.07}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -9348,7 +9043,6 @@
 	{Entity "pz4e" 0x8295
 		{Position 4070.54 -319.91 -0.98}
 		{xform zl -162.41 y 3.3 zw -17.55}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -9369,7 +9063,6 @@
 	{Entity "pz3m" 0x8297
 		{Position 3965.65 241.31 6.33}
 		{xform zl 172.81 y 4.77 zw 7}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 163}
 		}
@@ -9411,8 +9104,7 @@
 	}
 	{Entity "m37" 0xf008
 		{Position 579.71 3221.43}
-		{xform zl 179.48 y 0.1 zw 6.81}
-		{SpawnedInFog}
+		{xform zl 179.47 y 0.1 zw 6.82}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -9471,7 +9163,6 @@
 	{Entity "m37" 0xf00d
 		{Position 642.94 3287.99}
 		{xform zl 179.48 y 0.1 zw -90.82}
-		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -9585,7 +9276,6 @@
 	{Entity "zis5" 0xf024
 		{Position 676.13 3191.07}
 		{xform zl 40.45 y 1.2 zw -78.3}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 466}
 		}
@@ -9683,7 +9373,6 @@
 	{Entity "zis5" 0xf031
 		{Position 679.15 3192.47}
 		{xform zl 17.77 y 0.97 zw -68.09}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 759}
 		}
@@ -9794,7 +9483,6 @@
 	{Entity "zis5" 0xf040
 		{Position 1951.15 -1706.01 -4.24}
 		{xform zl -8.37 y 7.38 zw 9.41}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 648}
 		}
@@ -9829,7 +9517,6 @@
 	{Entity "t26" 0xf044
 		{Position 2103.75 -2116.13 -8.1}
 		{xform zl -8.32 y 3.24 zw 5.97}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -9870,7 +9557,6 @@
 	{Entity "t26" 0xf048
 		{Position 2110.44 -1991.09 -10.8}
 		{xform zl -7.83 y 3.49 zw 4.32}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -9911,7 +9597,6 @@
 	{Entity "t26" 0xf04c
 		{Position 2119.6 -1853.28 -12.89}
 		{xform zl -1.95 y 3.85 zw -0.67}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -9952,7 +9637,6 @@
 	{Entity "t26" 0xf050
 		{Position 2123.93 -1707.02 -14.05}
 		{xform zl -1.62 y 4.69 zw 0.27}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -10059,7 +9743,6 @@
 	{Entity "zis5" 0x81b7
 		{Position 677.62 3197.32 77.28}
 		{xform zl 40.31 y 1.75 zw -84.97}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 843}
 		}
@@ -10176,7 +9859,6 @@
 	{Entity "zis5" 0xb016
 		{Position 679.64 3197.23 76.99}
 		{xform zl 17.06 y 0.62 zw -60.92}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 1}
 		}
@@ -10293,7 +9975,6 @@
 	{Entity "zis5" 0xb029
 		{Position 673.74 3203.07 77.35}
 		{xform zl 68.01 y 1.61 zw -114.03}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 375}
 		}
@@ -10410,7 +10091,6 @@
 	{Entity "zis5" 0xb047
 		{Position 677.61 3198.46 77.16}
 		{xform zl 52.93 y 1.32 zw -97.64}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 436}
 		}
@@ -10469,7 +10149,6 @@
 	{Entity "61k" 0xf055
 		{Position 593.07 3240.03}
 		{xform zl 177.78}
-		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -10521,7 +10200,6 @@
 	{Entity "61k" 0xf05a
 		{Position 594.32 3237.72}
 		{xform zl -179.83}
-		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -10575,7 +10253,6 @@
 	{Entity "zis3" 0xa80a
 		{Position 578.29 3246.6}
 		{xform zl 180 y 1.56 zw -1.53}
-		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -10636,7 +10313,6 @@
 	{Entity "zis3" 0xa812
 		{Position 582.8 3252.53}
 		{xform zl 180 y 1.56 zw -13.67}
-		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -10827,7 +10503,6 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 196}
 		}
@@ -11022,7 +10697,6 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 152}
 		}
@@ -11207,7 +10881,6 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 807}
 		}
@@ -11392,7 +11065,6 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 195}
 		}
@@ -11435,7 +11107,6 @@
 	{Entity "kv1" 0xb008
 		{Position 2164.37 -843.42 -9.81}
 		{xform zl 35.28 y 3.85 zw -31.09}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -11481,7 +11152,6 @@
 	{Entity "kv1" 0xb01a
 		{Position 2158.64 -668.2 -2.63}
 		{xform zl 37.14 y 4.84 zw -33}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -11530,7 +11200,6 @@
 	{Entity "t34_0" 0xc009
 		{Position 2134.63 -1110.98 -14.22}
 		{xform zl 14.81 y 4.78 zw -12}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -11581,7 +11250,6 @@
 	{Entity "kv1" 0xc011
 		{Position 2134.48 -494.96 2.82}
 		{xform zl 38.87 y 5.32 zw -34.76}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -11630,7 +11298,6 @@
 	{Entity "kv1" 0xc019
 		{Position 2101.7 -303.67 7.28}
 		{xform zl 38.48 y 4.88 zw -34.34}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -13519,7 +13186,6 @@
 	{Entity "il-2" 0xa009
 		{Position 844.94 2990.16}
 		{xform zl -51.59}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 23}
 		}
@@ -13687,11 +13353,11 @@
 	{Link 0x900c {0x900d "charger"}}
 	{Link 0x9009 {0x900d "commander"}}
 	{Link 0xa825 {0x900d "gunner2"}}
-	{Link 0x9015 {0x9017 "gunner"}}
-	{Link 0x9016 {0x9017 "driver"}}
-	{Link 0x9013 {0x9017 "charger"}}
-	{Link 0x9014 {0x9017 "commander"}}
-	{Link 0xa824 {0x9017 "gunner2"}}
+	{Link 0x9013 {0x9017 "gunner"}}
+	{Link 0x9015 {0x9017 "driver"}}
+	{Link 0x9014 {0x9017 "charger"}}
+	{Link 0xa824 {0x9017 "commander"}}
+	{Link 0x9016 {0x9017 "gunner2"}}
 	{Link 0x901e {0x9021 "driver"}}
 	{Link 0x901f {0x9021 "gunner"}}
 	{Link 0x901d {0x9021 "charger"}}
@@ -14287,11 +13953,11 @@
 	{Tags "pl" "ger" "pl2" 0x900b}
 	{Tags "pl" "ger" "pl2" 0x900c}
 	{Tags "pl" "ger" "pl2" "pz3f" "hidden" 0x900d}
-	{Tags "pl" "ger" 0x9013}
-	{Tags "pl" "ger" 0x9014}
-	{Tags "pl" "ger" 0x9015}
-	{Tags "pl" "ger" 0x9016}
-	{Tags "pl" "ger" "pz3f" "hidden" 0x9017}
+	{Tags "pl" "ger" "pl3" 0x9013}
+	{Tags "pl" "ger" "pl3" 0x9014}
+	{Tags "pl" "ger" "pl3" 0x9015}
+	{Tags "pl" "ger" "pl3" 0x9016}
+	{Tags "pl" "ger" "pz3f" "hidden" "pl3" 0x9017}
 	{Tags "pl" "ger" "pl1" 0x901d}
 	{Tags "pl" "ger" "pl1" 0x901e}
 	{Tags "pl" "ger" "pl1" 0x901f}
@@ -28419,7 +28085,9 @@
 	{Helpers
 		{event "art_battery/planted"}
 		{event "gameover"}
+		{event "ger_reinf/ju87_attack"}
 		{event "ger_reinf/karlthor"}
+		{event "ger_reinf/messer_attack"}
 		{event "ger_reinf/wave1"}
 		{event "ger_reinf/wave2"}
 		{event "ger_reinf/wave3"}
@@ -28428,6 +28096,7 @@
 		{event "ger_reinf/wave6"}
 		{event "lines/first_line"}
 		{event "port_captured"}
+		{event "rus_reinf/il2"}
 		{event "rus_reinf/wave1"}
 		{event "rus_reinf/wave2"}
 		{event "rus_reinf/wave3"}
@@ -29265,6 +28934,11 @@
 							{approach "teleport & rotate"}
 						}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"delay"
 						{time 5}
 					}
@@ -29495,6 +29169,11 @@
 							{approach "teleport & rotate"}
 						}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"delay"
 						{time 60}
 					}
@@ -29610,6 +29289,11 @@
 							{approach "teleport & rotate"}
 						}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"delay"
 						{time 60}
 					}
@@ -29668,6 +29352,11 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 				}
 			}
@@ -29792,6 +29481,11 @@
 							{approach "teleport & rotate"}
 						}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"delay"
 						{time 60}
 					}
@@ -29906,6 +29600,11 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 					{"delay"
 						{time 150}
@@ -30022,6 +29721,11 @@
 							{approach "teleport & rotate"}
 						}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"delay"
 						{time 60}
 					}
@@ -30136,6 +29840,11 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 				}
 			}
@@ -30262,6 +29971,11 @@
 					}
 					{"delay"
 						{time 60}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 					{"waypoint"
 						{who
@@ -30493,6 +30207,11 @@
 					{"delay"
 						{time 55}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -30663,6 +30382,11 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 				}
 			}
@@ -30790,6 +30514,11 @@
 					{"delay"
 						{time 60}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -30904,6 +30633,11 @@
 					}
 					{"delay"
 						{time 120}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 					{"waypoint"
 						{who
@@ -31022,6 +30756,11 @@
 					}
 					{"event"
 						{event "ger_reinf/karlthor"}
+						{mode set}
+						{delay 0}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
 						{mode set}
 						{delay 0}
 					}
@@ -31504,6 +31243,11 @@
 					{"delay"
 						{time 120}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -31619,6 +31363,11 @@
 					{"delay"
 						{time 120}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -31733,6 +31482,11 @@
 					}
 					{"delay"
 						{time 60}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 					{"waypoint"
 						{who
@@ -31972,235 +31726,10 @@
 					{"delay"
 						{time 60}
 					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag ger_inf}
-										}
-									}
-									{include
-										{tag
-											{tag pl4}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "33"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag ger_inf}
-										}
-									}
-									{include
-										{tag
-											{tag pl3}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "19"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag ger_inf}
-										}
-									}
-									{include
-										{tag
-											{tag pl2}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "26"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag ger_inf}
-										}
-									}
-									{include
-										{tag
-											{tag pl1}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "12"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"delay"
-						{time 60}
-					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag pz4e}
-										}
-									}
-									{include
-										{tag
-											{tag pl1}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "0"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag pz4e}
-										}
-									}
-									{include
-										{tag
-											{tag pl2}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "3"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag pz4e}
-										}
-									}
-									{include
-										{tag
-											{tag pl3}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "6"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"waypoint"
-						{who
-							{type actor}
-							{actors
-								{source advanced}
-								{ignore_captured_by_user 0}
-								{group
-									{select
-										{tag
-											{tag pz4e}
-										}
-									}
-									{include
-										{tag
-											{tag pl4}
-										}
-									}
-								}
-							}
-						}
-						{action
-							{type start}
-							{waypoint "9"}
-							{clone}
-							{make_squad}
-							{approach "teleport & rotate"}
-						}
-					}
-					{"delay"
-						{time 60}
+					{"event"
+						{event "ger_reinf/ju87_attack"}
+						{mode set}
+						{delay 0}
 					}
 					{"waypoint"
 						{who
@@ -32326,6 +31855,246 @@
 								{group
 									{select
 										{tag
+											{tag pz4e}
+										}
+									}
+									{include
+										{tag
+											{tag pl1}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "0"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag pz4e}
+										}
+									}
+									{include
+										{tag
+											{tag pl2}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "3"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag pz4e}
+										}
+									}
+									{include
+										{tag
+											{tag pl3}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "6"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag pz4e}
+										}
+									}
+									{include
+										{tag
+											{tag pl4}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "9"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 60}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag ger_inf}
+										}
+									}
+									{include
+										{tag
+											{tag pl4}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "33"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag ger_inf}
+										}
+									}
+									{include
+										{tag
+											{tag pl3}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "19"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag ger_inf}
+										}
+									}
+									{include
+										{tag
+											{tag pl2}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "26"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag ger_inf}
+										}
+									}
+									{include
+										{tag
+											{tag pl1}
+										}
+									}
+								}
+							}
+						}
+						{action
+							{type start}
+							{waypoint "12"}
+							{clone}
+							{make_squad}
+							{approach "teleport & rotate"}
+						}
+					}
+					{"event"
+						{event "ger_reinf/ju87_attack"}
+						{mode set}
+						{delay 0}
+					}
+					{"delay"
+						{time 60}
+					}
+					{"waypoint"
+						{who
+							{type actor}
+							{actors
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
 											{tag pz3f}
 										}
 									}
@@ -32428,6 +32197,11 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
 					}
 					{"delay"
 						{time 60}
@@ -32544,6 +32318,11 @@
 							{approach "teleport & rotate"}
 						}
 					}
+					{"event"
+						{event "ger_reinf/ju87_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"delay"
 						{time 60}
 					}
@@ -32659,6 +32438,11 @@
 							{approach "teleport & rotate"}
 						}
 					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode set}
+						{delay 0}
+					}
 					{"delay"
 						{time 60}
 					}
@@ -32773,6 +32557,11 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "ger_reinf/ju87_attack"}
+						{mode set}
+						{delay 0}
 					}
 				}
 			}
@@ -33211,13 +33000,22 @@
 			}
 			{"rus_reinf/wave1"
 				{condition
+					{expression "1 & !2"}
 					{terms
 						{"1.event"
 							{id "rus_reinf/wave1"}
 						}
+						{"2.event"
+							{id "gameover"}
+						}
 					}
 				}
 				{actions
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -33495,17 +33293,31 @@
 							{waypoint "52"}
 						}
 					}
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
+					}
 				}
 			}
 			{"rus_reinf/wave2"
 				{condition
+					{expression "1 & !2"}
 					{terms
 						{"1.event"
 							{id "rus_reinf/wave2"}
 						}
+						{"2.event"
+							{id "gameover"}
+						}
 					}
 				}
 				{actions
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -33815,17 +33627,31 @@
 							{waypoint "52"}
 						}
 					}
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
+					}
 				}
 			}
 			{"rus_reinf/wave3"
 				{condition
+					{expression "1 & !2"}
 					{terms
 						{"1.event"
 							{id "rus_reinf/wave3"}
 						}
+						{"2.event"
+							{id "gameover"}
+						}
 					}
 				}
 				{actions
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -34070,18 +33896,32 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
 					}
 				}
 			}
 			{"rus_reinf/wave4"
 				{condition
+					{expression "1 & !2"}
 					{terms
 						{"1.event"
 							{id "rus_reinf/wave4"}
 						}
+						{"2.event"
+							{id "gameover"}
+						}
 					}
 				}
 				{actions
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
+					}
 					{"waypoint"
 						{who
 							{type actor}
@@ -34326,6 +34166,11 @@
 							{make_squad}
 							{approach "teleport & rotate"}
 						}
+					}
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode set}
+						{delay 0}
 					}
 				}
 			}
@@ -34646,8 +34491,11 @@
 					{terms
 						{"1.cmp_i"
 							{var "messer_destroyed$"}
-							{op "<<"}
-							{value 6}
+							{op "!="}
+							{value 0}
+						}
+						{"2.event"
+							{id "ger_reinf/messer_attack"}
 						}
 					}
 				}
@@ -34805,6 +34653,14 @@
 								{attack_altitude 15}
 							}
 						}
+					}
+					{"event"
+						{event "ger_reinf/messer_attack"}
+						{mode reset}
+						{delay 0}
+					}
+					{"trigger"
+						{name "aviation/messer_attack"}
 					}
 				}
 			}
@@ -34813,8 +34669,11 @@
 					{terms
 						{"1.cmp_i"
 							{var "ju87_destroyed$"}
-							{op "<<"}
-							{value 2}
+							{op "!="}
+							{value 0}
+						}
+						{"2.event"
+							{id "ger_reinf/ju87_attack"}
 						}
 					}
 				}
@@ -35048,6 +34907,14 @@
 								{attack_altitude 15}
 							}
 						}
+					}
+					{"event"
+						{event "ger_reinf/ju87_attack"}
+						{mode reset}
+						{delay 0}
+					}
+					{"trigger"
+						{name "aviation/ju87_attack"}
 					}
 				}
 			}
@@ -35056,8 +34923,11 @@
 					{terms
 						{"1.cmp_i"
 							{var "il2_destroyed$"}
-							{op "<<"}
-							{value 8}
+							{op "!="}
+							{value 0}
+						}
+						{"2.event"
+							{id "rus_reinf/il2"}
 						}
 					}
 				}
@@ -35282,6 +35152,14 @@
 								{attack_altitude 15}
 							}
 						}
+					}
+					{"event"
+						{event "rus_reinf/il2"}
+						{mode reset}
+						{delay 0}
+					}
+					{"trigger"
+						{name "aviation/il2_attack"}
 					}
 				}
 			}
@@ -35358,7 +35236,7 @@
 						}
 					}
 					{"delay"
-						{time 10}
+						{time 1}
 					}
 					{"player"
 						{selector
@@ -35518,6 +35396,11 @@
 						{mode set}
 						{delay 0}
 					}
+					{"event"
+						{event "gameover"}
+						{mode set}
+						{delay 0}
+					}
 				}
 			}
 			{"gameover/ger_fail"
@@ -35641,6 +35524,319 @@
 					}
 					{"trigger"
 						{name "gameover/ger_fail"}
+					}
+				}
+			}
+			{"music/rus_fail"
+				{condition
+					{terms
+						{"1.event"
+							{id "port_captured"}
+						}
+						{"2.event"
+							{id "gameover"}
+						}
+					}
+				}
+				{actions
+					{"music"
+						{start "/music/blitz_german_victory.mp3"}
+						{stop_all}
+						{volume game}
+					}
+				}
+			}
+			{"gameover/gameover"
+				{condition
+					{terms
+						{"1.event"
+							{id "units"}
+						}
+					}
+				}
+				{actions
+					{"delay"
+						{time 1800}
+					}
+					{"event"
+						{event "gameover"}
+						{mode set}
+						{delay 0}
+					}
+				}
+			}
+			{"music/rus_win"
+				{condition
+					{expression "1 & !2"}
+					{terms
+						{"1.event"
+							{id "gameover"}
+						}
+						{"2.event"
+							{id "port_captured"}
+						}
+					}
+				}
+				{actions
+					{"music"
+						{start "/music/blitz_soviet_victory.mp3"}
+						{stop_all}
+						{volume game}
+					}
+				}
+			}
+			{"music/ger_wave1"
+				{condition
+					{terms
+						{"1.event"
+							{id "ger_reinf/wave1"}
+						}
+					}
+				}
+				{actions
+					{"music"
+						{start "/music/blitz_germany_vs_england.mp3"}
+						{stop_all}
+						{volume game}
+						{loop}
+					}
+				}
+			}
+			{"music/start"
+				{condition
+					{terms
+						{"1.event"
+							{id "start_true"}
+						}
+					}
+				}
+				{actions
+					{"music"
+						{start "/music/blitz_common_ambient.mp3"}
+						{stop_all}
+						{volume game}
+					}
+				}
+			}
+			{"aviation/il2_destroyed"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag il2}
+										}
+									}
+									{include
+										{tag
+											{tag destroyed}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"set_i"
+						{var "il2_destroyed$"}
+						{op "-"}
+						{value 1}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag il2}
+									}
+								}
+								{include
+									{tag
+										{tag destroyed}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type shuffle}
+							}
+						}
+						{tag_remove destroyed}
+					}
+					{"trigger"
+						{name "aviation/il2_destroyed"}
+					}
+				}
+			}
+			{"aviation/ju87_destroyed"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag ju87}
+										}
+									}
+									{include
+										{tag
+											{tag destroyed}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"set_i"
+						{var "ju87_destroyed$"}
+						{op "-"}
+						{value 1}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag ju87}
+									}
+								}
+								{include
+									{tag
+										{tag destroyed}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type shuffle}
+							}
+						}
+						{tag_remove destroyed}
+					}
+					{"trigger"
+						{name "aviation/ju87_destroyed"}
+					}
+				}
+			}
+			{"aviation/messer_destroyed"
+				{condition
+					{terms
+						{"1.entities"
+							{selector
+								{source advanced}
+								{ignore_captured_by_user 0}
+								{group
+									{select
+										{tag
+											{tag messer}
+										}
+									}
+									{include
+										{tag
+											{tag destroyed}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				{actions
+					{"set_i"
+						{var "messer_destroyed$"}
+						{op "-"}
+						{value 1}
+					}
+					{"entity_state"
+						{selector
+							{source advanced}
+							{ignore_captured_by_user 0}
+							{group
+								{select
+									{tag
+										{tag messer}
+									}
+								}
+								{include
+									{tag
+										{tag destroyed}
+									}
+								}
+							}
+							{amount 1
+							}
+							{sort
+								{type shuffle}
+							}
+						}
+						{tag_remove destroyed}
+					}
+					{"trigger"
+						{name "aviation/messer_destroyed"}
+					}
+				}
+			}
+			{"aviation/messer_init"
+				{condition
+					{terms
+						{"1.event"
+							{id "units"}
+						}
+					}
+				}
+				{actions
+					{"set_i"
+						{var "messer_destroyed$"}
+						{op "="}
+						{value 8}
+					}
+				}
+			}
+			{"aviation/il2_init"
+				{condition
+					{terms
+						{"1.event"
+							{id "units"}
+						}
+					}
+				}
+				{actions
+					{"set_i"
+						{var "il2_destroyed$"}
+						{op "="}
+						{value 6}
+					}
+				}
+			}
+			{"aviation/ju87_init"
+				{condition
+					{terms
+						{"1.event"
+							{id "units"}
+						}
+					}
+				}
+				{actions
+					{"set_i"
+						{var "ju87_destroyed$"}
+						{op "="}
+						{value 1}
 					}
 				}
 			}
