@@ -244,7 +244,7 @@
 		{Impregnability full}
 		{Player 0}
 		{MID 13}
-		{Able "crew" "-select" "-unmask" "-emit_passangers_on_enemy"}
+		{Able "-select" "-unmask" "-emit_passangers_on_enemy"}
 		{Chassis
 			{Locomotive 1}
 			{Warmingup 1}
@@ -325,6 +325,7 @@
 	{Entity "maxim" 0xe000
 		{Position -649.61 -374.16}
 		{xform zl -179.57 y 1.71 zw 179.57}
+		{SpawnedInFog}
 		{Placer
 			{State "driver" {Disable}}
 		}
@@ -345,6 +346,7 @@
 	{Entity "maxim" 0xe002
 		{Position 969.71 135.63}
 		{xform zl 111.46 y 1.52 zw -67.07}
+		{SpawnedInFog}
 		{Placer
 			{State "driver" {Disable}}
 		}
@@ -365,6 +367,7 @@
 	{Entity "maxim" 0xe004
 		{Position 443.33 -646.2}
 		{xform zl -179.57 y 1.71 zw 179.57}
+		{SpawnedInFog}
 		{Placer
 			{State "driver" {Disable}}
 		}
@@ -385,6 +388,7 @@
 	{Entity "degtyarev_stan" 0xe006
 		{Position -41.96 219.06}
 		{xform zl -44.69}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -473,6 +477,7 @@
 	{Entity "m37" 0xe00c
 		{Position -600.02 -1264.42}
 		{xform zl 179.48 y 0.1 zw -113.81}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -491,6 +496,7 @@
 	{Entity "m37" 0xe00d
 		{Position -404.99 -1311.95}
 		{xform zl 179.48 y 0.1 zw -74.89}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -524,6 +530,7 @@
 		{TexMod
 			{"/texture/common/model/bt7a" "2"}
 		}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -539,6 +546,7 @@
 		{TexMod
 			{"/texture/common/model/bt7a" "2"}
 		}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -628,6 +636,7 @@
 	{Entity "m37" 0x80ee
 		{Position -1549.28 -51.35}
 		{xform zl 9.04 y 3.01 zw 76.95}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -707,6 +716,7 @@
 	}
 	{Entity "sdkfz232" 0x8c04
 		{Position 1095.51 2101.77 -11}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -719,6 +729,7 @@
 	{Entity "pz1b" 0x8c05
 		{Position 1088.7 1968.13}
 		{TexMod ""}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -728,6 +739,7 @@
 	{Entity "pz2f" 0x8c06
 		{Position 958.61 2131.23 -10.05}
 		{xform zl 53.23 y 0.84 zw -53.57}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -737,6 +749,7 @@
 	{Entity "pz4e" 0x8802
 		{Position 788.31 2117.87 -10.74}
 		{xform zl 96.98 y 0.64 zw -96.75}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -753,6 +766,7 @@
 	}
 	{Entity "sgrw42" 0x8804
 		{Position 1195.06 2134.53}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -891,6 +905,7 @@
 	{Entity "sgrw42" 0xf84c
 		{Position 1195.61 2077.47}
 		{xform zl 1.61}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -922,6 +937,7 @@
 	{Entity "sdkfz232" 0xf853
 		{Position 1098.31 2030.77 -10.93}
 		{xform y 0.19}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -966,6 +982,7 @@
 	{Entity "pz3f" 0xf85e
 		{Position 951.39 2055.77 -11.29}
 		{xform zl 101.01 y 1.26 zw -100.92}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -1020,6 +1037,7 @@
 	{Entity "pz3f" 0xf86a
 		{Position 946.26 1973.95 -11.5}
 		{xform zl 90 y 1.23 zw -90}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -1074,6 +1092,7 @@
 	{Entity "pz4e" 0x9806
 		{Position 795.39 2034.72}
 		{xform zl -1.14}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -1299,6 +1318,7 @@
 	}
 	{Human "mp/ger/rifle" 0x8172
 		{Position 1275.44 2075.74}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 134}
 		{NameId 90 52}
@@ -1306,6 +1326,7 @@
 	}
 	{Human "mp/ger/rifle" 0x8174
 		{Position 1272.58 2050.04}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 135}
 		{NameId 125 56}
@@ -1313,6 +1334,7 @@
 	}
 	{Human "mp/ger/rifle" 0x8176
 		{Position 1273.24 2026.38}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 136}
 		{NameId 132 39}
@@ -1320,6 +1342,7 @@
 	}
 	{Human "mp/ger/rifle" 0x8178
 		{Position 1274.46 1998.94}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 229}
 		{NameId 5 115}
@@ -1327,6 +1350,7 @@
 	}
 	{Human "mp/ger/rifle" 0x817a
 		{Position 1274.26 1975.13}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 230}
 		{NameId 116 4}
@@ -1334,6 +1358,7 @@
 	}
 	{Human "mp/ger/saper" 0x817c
 		{Position 1273.04 1956.06}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 231}
 		{NameId 126 134}
@@ -1342,6 +1367,7 @@
 	{Human "mp/ger/mgun" 0x817e
 		{Position 1269.8 1935.4}
 		{xform zl 4.29}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 232}
 		{NameId 134 142}
@@ -1349,6 +1375,7 @@
 	}
 	{Human "mp/ger/smg" 0x8180
 		{Position 1272.41 2100.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 233}
 		{NameId 125 10}
@@ -1357,6 +1384,7 @@
 	}
 	{Human "mp/ger/smg" 0x8182
 		{Position 1273.21 2127.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 234}
 		{NameId 64 30}
@@ -1365,6 +1393,7 @@
 	}
 	{Human "mp/ger/oficer" 0x8184
 		{Position 1271.77 2148.29}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 235}
 		{NameId 30 49}
@@ -1373,6 +1402,7 @@
 	{Human "mp/ger/mgun" 0xa011
 		{Position 1301.6 1936.12}
 		{xform zl 4.29}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 165}
 		{NameId 131 143}
@@ -1380,6 +1410,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa012
 		{Position 1307.24 2076.46}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 166}
 		{NameId 57 61}
@@ -1387,6 +1418,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa013
 		{Position 1304.38 2050.76}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 167}
 		{NameId 110 125}
@@ -1394,6 +1426,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa014
 		{Position 1305.04 2027.1}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 168}
 		{NameId 90 130}
@@ -1401,6 +1434,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa015
 		{Position 1306.26 1999.66}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 169}
 		{NameId 137 60}
@@ -1408,6 +1442,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa016
 		{Position 1306.06 1975.85}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 170}
 		{NameId 12 112}
@@ -1415,6 +1450,7 @@
 	}
 	{Human "mp/ger/saper" 0xa017
 		{Position 1304.84 1956.78}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 171}
 		{NameId 110 52}
@@ -1422,6 +1458,7 @@
 	}
 	{Human "mp/ger/smg" 0xa018
 		{Position 1304.21 2100.99}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 172}
 		{NameId 120 112}
@@ -1430,6 +1467,7 @@
 	}
 	{Human "mp/ger/smg" 0xa019
 		{Position 1305.01 2127.99}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 173}
 		{NameId 134 124}
@@ -1438,6 +1476,7 @@
 	}
 	{Human "mp/ger/oficer" 0xa01a
 		{Position 1303.57 2149.01}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 174}
 		{NameId 70 111}
@@ -1446,6 +1485,7 @@
 	{Human "mp/ger/mgun" 0xa025
 		{Position 1338.66 1933.14}
 		{xform zl 4.29}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 175}
 		{NameId 124 19}
@@ -1453,6 +1493,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa026
 		{Position 1344.3 2073.48}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 176}
 		{NameId 17 42}
@@ -1460,6 +1501,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa027
 		{Position 1341.44 2047.78}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 177}
 		{NameId 100 7}
@@ -1467,6 +1509,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa028
 		{Position 1342.1 2024.12}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 178}
 		{NameId 20 75}
@@ -1474,6 +1517,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa029
 		{Position 1343.32 1996.68}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 179}
 		{NameId 16 96}
@@ -1481,6 +1525,7 @@
 	}
 	{Human "mp/ger/rifle" 0xa02a
 		{Position 1343.12 1972.87}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 180}
 		{NameId 133 10}
@@ -1488,6 +1533,7 @@
 	}
 	{Human "mp/ger/saper" 0xa02b
 		{Position 1341.9 1953.8}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 181}
 		{NameId 101 37}
@@ -1495,6 +1541,7 @@
 	}
 	{Human "mp/ger/smg" 0xa02c
 		{Position 1341.27 2098.01}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 182}
 		{NameId 22 118}
@@ -1503,6 +1550,7 @@
 	}
 	{Human "mp/ger/smg" 0xa02d
 		{Position 1342.07 2125.01}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 183}
 		{NameId 116 62}
@@ -1511,6 +1559,7 @@
 	}
 	{Human "mp/ger/oficer" 0xa02e
 		{Position 1340.63 2146.03}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 184}
 		{NameId 143 69}
@@ -1518,6 +1567,7 @@
 	}
 	{Human "mp/ger/flamer" 0xa02f
 		{Position 1203.86 1959.94}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 185}
 		{NameId 65 66}
@@ -1527,6 +1577,7 @@
 		{Position -1048.41 -304.14}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 190}
 		{NameId 64 29}
@@ -1536,6 +1587,7 @@
 		{Position -1048.06 -284.96}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 191}
 		{NameId 83 49}
@@ -1545,6 +1597,7 @@
 		{Position -1049.45 -267.08}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 192}
 		{NameId 56 100}
@@ -1554,6 +1607,7 @@
 		{Position -1049.46 -247.59}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 193}
 		{NameId 18 0}
@@ -1563,6 +1617,7 @@
 		{Position -1049.46 -227.27}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 194}
 		{NameId 6 52}
@@ -1572,6 +1627,7 @@
 		{Position -1051.53 -207.33}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 195}
 		{NameId 85 91}
@@ -1581,6 +1637,7 @@
 		{Position -1049.65 -182.73}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 199}
 		{NameId 8 14}
@@ -1590,6 +1647,7 @@
 		{Position -1051.18 -161.89}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 200}
 		{NameId 30 96}
@@ -1599,6 +1657,7 @@
 		{Position -1052.95 -140.37}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 201}
 		{NameId 43 70}
@@ -1608,6 +1667,7 @@
 		{Position -1075.2 -143.19}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 202}
 		{NameId 81 5}
@@ -1617,6 +1677,7 @@
 		{Position -1074.05 -163.95}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 236}
 		{NameId 78 5}
@@ -1626,6 +1687,7 @@
 		{Position -1076.37 -183.02}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 237}
 		{NameId 40 74}
@@ -1635,6 +1697,7 @@
 		{Position -1077.72 -205.69}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 238}
 		{NameId 69 82}
@@ -1644,6 +1707,7 @@
 		{Position -1078.32 -229.69}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 239}
 		{NameId 14 79}
@@ -1653,6 +1717,7 @@
 		{Position -1077.23 -249.92}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 240}
 		{NameId 38 13}
@@ -1662,6 +1727,7 @@
 		{Position -1077.61 -272.06}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 241}
 		{NameId 66 21}
@@ -1671,6 +1737,7 @@
 		{Position -1081.29 -290.3}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 242}
 		{NameId 4 79}
@@ -1680,6 +1747,7 @@
 		{Position -1081.36 -306.81}
 		{xform zl -174.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 243}
 		{NameId 40 75}
@@ -1689,6 +1757,7 @@
 		{Position -1139.29 -226.55}
 		{xform zl -5.54}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 244}
 		{NameId 74 80}
@@ -1706,6 +1775,7 @@
 	}
 	{Human "mp/rus/sniper" 0xb800
 		{Position -677.19 -260.52}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 34}
 		{NameId 80 1}
@@ -1825,6 +1895,7 @@
 		{Position -1627.24 689.63}
 		{xform zl 60.7}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 47}
 		{NameId 69 81}
@@ -1841,6 +1912,7 @@
 		{Position -871.82 729.75}
 		{xform zl 60.48}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 48}
 		{NameId 14 78}
@@ -1857,6 +1929,7 @@
 		{Position -1969.06 740.69}
 		{xform zl 73.29}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 49}
 		{NameId 38 12}
@@ -1873,6 +1946,7 @@
 		{Position -2017.7 547.08}
 		{xform zl 89.24}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 50}
 		{NameId 66 20}
@@ -1889,6 +1963,7 @@
 		{Position -844.69 474.92}
 		{xform zl 88.64}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 51}
 		{NameId 4 78}
@@ -1905,6 +1980,7 @@
 		{Position -766.59 544.96}
 		{xform zl 62.8}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 52}
 		{NameId 40 73}
@@ -1921,6 +1997,7 @@
 		{Position -1296.79 958.65}
 		{xform zl 99.77}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 53}
 		{NameId 74 79}
@@ -1937,6 +2014,7 @@
 		{Position -843.08 699.87}
 		{xform zl 13.46}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 54}
 		{NameId 53 86}
@@ -1953,6 +2031,7 @@
 		{Position -1665.37 323.44}
 		{xform zl 91.43}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 55}
 		{NameId 64 69}
@@ -1969,6 +2048,7 @@
 		{Position -1483.72 420.86}
 		{xform zl 90.74}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 56}
 		{NameId 54 29}
@@ -1985,6 +2065,7 @@
 		{Position -914.37 741.05}
 		{xform zl 101.46}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 57}
 		{NameId 18 54}
@@ -2001,6 +2082,7 @@
 		{Position -717.59 903.22}
 		{xform zl 62.8}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 58}
 		{NameId 27 46}
@@ -2017,6 +2099,7 @@
 		{Position -854.62 238.35}
 		{xform zl 48.73}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 59}
 		{NameId 31 51}
@@ -2033,6 +2116,7 @@
 		{Position -684.48 422.49}
 		{xform zl 89.78}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 60}
 		{NameId 42 19}
@@ -2049,6 +2133,7 @@
 		{Position -1474.64 647.95}
 		{xform zl 136.81}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 61}
 		{NameId 26 49}
@@ -2065,6 +2150,7 @@
 		{Position -1203.17 906.54}
 		{xform zl 122.69}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 62}
 		{NameId 55 84}
@@ -2081,6 +2167,7 @@
 		{Position -1325.26 827.33}
 		{xform zl 150.01}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 63}
 		{NameId 81 18}
@@ -2097,6 +2184,7 @@
 		{Position -1006.93 898.53}
 		{xform zl 14.46}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 64}
 		{NameId 67 29}
@@ -2113,6 +2201,7 @@
 		{Position -1094.48 888.67}
 		{xform zl 74.34}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 65}
 		{NameId 80 93}
@@ -2129,6 +2218,7 @@
 		{Position 253.97 932.92}
 		{xform zl 56.81}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 66}
 		{NameId 93 0}
@@ -2145,6 +2235,7 @@
 		{Position -306.76 911.08}
 		{xform zl 142.78}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 67}
 		{NameId 36 2}
@@ -2161,6 +2252,7 @@
 		{Position 407.08 1007.31}
 		{xform zl 21.12}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 68}
 		{NameId 42 41}
@@ -2177,6 +2269,7 @@
 		{Position 90.19 1553.57}
 		{xform zl 67.42}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 69}
 		{NameId 4 83}
@@ -2193,6 +2286,7 @@
 		{Position 909.96 978.51}
 		{xform zl 50.01}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 70}
 		{NameId 34 85}
@@ -2209,6 +2303,7 @@
 		{Position 469.94 1318.34}
 		{xform zl 53.57}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 71}
 		{NameId 82 41}
@@ -2225,6 +2320,7 @@
 		{Position 955.03 903.8}
 		{xform zl 30.76}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 72}
 		{NameId 85 86}
@@ -2241,6 +2337,7 @@
 		{Position 909.9 1319.13}
 		{xform zl 6.41}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 73}
 		{NameId 73 5}
@@ -2257,6 +2354,7 @@
 		{Position 705.98 1202.88}
 		{xform zl 34.69}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 74}
 		{NameId 20 49}
@@ -2273,6 +2371,7 @@
 		{Position -261.86 925.46}
 		{xform zl 95.76}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 75}
 		{NameId 27 94}
@@ -2289,6 +2388,7 @@
 		{Position 823.17 1410.82}
 		{xform zl 1.88}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 76}
 		{NameId 91 61}
@@ -2305,6 +2405,7 @@
 		{Position 906.48 1349.57}
 		{xform zl 6.41}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 77}
 		{NameId 78 40}
@@ -2321,6 +2422,7 @@
 		{Position -71.69 882.03}
 		{xform zl -25.85}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 78}
 		{NameId 93 10}
@@ -2337,6 +2439,7 @@
 		{Position 746.85 951.93}
 		{xform zl -2.56}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 79}
 		{NameId 81 85}
@@ -2353,6 +2456,7 @@
 		{Position 352.68 1298.53}
 		{xform zl 0.79}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 80}
 		{NameId 68 36}
@@ -2369,6 +2473,7 @@
 		{Position -4.06 846.57}
 		{xform zl -32.83}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 82}
 		{NameId 23 51}
@@ -2385,6 +2490,7 @@
 		{Position 114.22 1126.03}
 		{xform zl 30.13}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 83}
 		{NameId 34 68}
@@ -2401,6 +2507,7 @@
 		{Position 78.76 1081.81}
 		{xform zl 18.36}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 84}
 		{NameId 14 0}
@@ -2417,6 +2524,7 @@
 		{Position 42.93 1224.72}
 		{xform zl 30.13}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 85}
 		{NameId 91 67}
@@ -2433,6 +2541,7 @@
 		{Position 540.32 -555.18}
 		{xform zl 32.71}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 86}
 		{NameId 18 92}
@@ -2449,6 +2558,7 @@
 		{Position -173.91 -387.57}
 		{xform zl 18.71}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 87}
 		{NameId 27 15}
@@ -2465,6 +2575,7 @@
 		{Position 538.35 -166.86}
 		{xform zl -65.39}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 88}
 		{NameId 34 54}
@@ -2481,6 +2592,7 @@
 		{Position 770.02 337.51}
 		{xform zl 68.79}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 89}
 		{NameId 44 59}
@@ -2497,6 +2609,7 @@
 		{Position -273.99 -631.48}
 		{xform zl 0.7}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 90}
 		{NameId 33 74}
@@ -2528,6 +2641,7 @@
 		{Position 677.33 2.2}
 		{xform zl -45.03}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 92}
 		{NameId 5 45}
@@ -2544,6 +2658,7 @@
 		{Position 41.06 -374.67}
 		{xform zl 8.74}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 93}
 		{NameId 36 99}
@@ -2560,6 +2675,7 @@
 		{Position 223.39 273.74}
 		{xform zl 125.85}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 94}
 		{NameId 50 9}
@@ -2576,6 +2692,7 @@
 		{Position 167.75 92.31}
 		{xform zl -146.76}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 95}
 		{NameId 16 67}
@@ -2592,6 +2709,7 @@
 		{Position -39.75 296.95}
 		{xform zl -65.01}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 96}
 		{NameId 41 21}
@@ -2608,6 +2726,7 @@
 		{Position 797.77 294.18}
 		{xform zl -19.21}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 97}
 		{NameId 47 25}
@@ -2624,6 +2743,7 @@
 		{Position 143.04 458.6}
 		{xform zl 136.64}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 98}
 		{NameId 91 0}
@@ -2640,6 +2760,7 @@
 		{Position 746.23 -206.35}
 		{xform zl -51.54}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 99}
 		{NameId 50 56}
@@ -2656,6 +2777,7 @@
 		{Position 1003.87 -736.11}
 		{xform zl 10.16}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 100}
 		{NameId 88 57}
@@ -2672,6 +2794,7 @@
 		{Position 491.38 -865.27}
 		{xform zl -51.81 y 12.15 zw 59.14}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 101}
 		{NameId 40 21}
@@ -2688,6 +2811,7 @@
 		{Position -5.38 -507.65}
 		{xform zl -43.33}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 102}
 		{NameId 88 3}
@@ -2704,6 +2828,7 @@
 		{Position -76.47 191.91}
 		{xform zl -95.45}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 103}
 		{NameId 18 48}
@@ -2720,6 +2845,7 @@
 		{Position 189.82 -340.36}
 		{xform zl -73.31}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 104}
 		{NameId 38 70}
@@ -2752,6 +2878,7 @@
 		{Position 738.64 -1499.38}
 		{xform zl 1.56}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 107}
 		{NameId 64 30}
@@ -2768,6 +2895,7 @@
 		{Position 734.99 -1370.26}
 		{xform zl 1.58}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 108}
 		{NameId 83 50}
@@ -2784,6 +2912,7 @@
 		{Position 841.5 -566.72}
 		{xform zl -2.67}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 109}
 		{NameId 56 101}
@@ -2800,6 +2929,7 @@
 		{Position 728.33 -1067.67}
 		{xform zl 0.68}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 186}
 		{NameId 81 6}
@@ -2816,6 +2946,7 @@
 		{Position 317.08 -791.23}
 		{xform zl 0.68}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 205}
 		{NameId 38 14}
@@ -2832,6 +2963,7 @@
 		{Position 320.05 -899.69}
 		{xform zl 1.56}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 206}
 		{NameId 66 22}
@@ -2848,6 +2980,7 @@
 		{Position 323.25 -985}
 		{xform zl 1.56}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 207}
 		{NameId 4 80}
@@ -2865,6 +2998,7 @@
 		{Position 731.42 -1197.48}
 		{xform zl 1.56}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 208}
 		{NameId 40 77}
@@ -2881,6 +3015,7 @@
 		{Position 653.46 -1131.97}
 		{xform zl 52.74}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 209}
 		{NameId 74 81}
@@ -2896,6 +3031,7 @@
 	{Human "mp/rus/tankman2" 0x8145
 		{Position -2155.21 -1485.16}
 		{xform zl 180}
+		{Impregnability full}
 		{Player 0}
 		{MID 110}
 		{NameId 80 3}
@@ -2926,6 +3062,7 @@
 	}
 	{Human "mp/ger/flamer" 0xc000
 		{Position 1203.84 1985.9}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 113}
 		{NameId 116 5}
@@ -2933,10 +3070,31 @@
 	}
 	{Human "mp/ger/flamer" 0xc003
 		{Position 1202.12 2011.61}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 114}
 		{NameId 126 135}
 		{FsmState "stand"}
+	}
+	{Entity "mauzer" 0x80d7
+		{Extender "stuff"
+			{Item "mauzer" filled}
+		}
+	}
+	{Entity "mauzer" 0x80d8
+		{Extender "stuff"
+			{Item "mauzer" filled}
+		}
+	}
+	{Entity "mp40" 0x80d9
+		{Extender "stuff"
+			{Item "mp40" filled}
+		}
+	}
+	{Entity "mp40" 0x80db
+		{Extender "stuff"
+			{Item "mp40" filled}
+		}
 	}
 	{Link 0x8145 {0x8007 "driver"}}
 	{Link 0x80e5 {0x8005 "crate2"}}
@@ -3039,6 +3197,8 @@
 	{Tags "destroyed" 0x147}
 	{Tags "destroyed" 0x3d1}
 	{Tags "destroyed" 0x518}
+	{Tags "pl2" 0x80dd}
+	{Tags "pl2" "pz3j_pl2" "hidden" 0x80df}
 	{Tags "train" "pl2" 0x8007}
 	{Tags "pl3" 0xe000}
 	{Tags "pl2" 0xe002}
@@ -3256,6 +3416,10 @@
 	{Tags "pl1" 0x8149}
 	{Tags "pl5" "ger_flamer_pl5" "hidden" 0xc000}
 	{Tags "pl4" "ger_flamer_pl4" "hidden" 0xc003}
+	{Tags "pl2" 0x80d7}
+	{Tags "pl2" 0x80d8}
+	{Tags "pl2" 0x80d9}
+	{Tags "pl2" 0x80db}
 	{Inventory 0xe011
 		{box
 			{clear}
@@ -4123,7 +4287,7 @@
 	{Inventory 0xa029
 		{box
 			{clear}
-			{item "mauzer" filled {cell 0 0}{user "hand_right"}}
+			{item 0x80d7 {cell 0 0}{user "hand_right"}}
 			{item "rifle" "ammo" 10 {cell 4 0}}
 			{item "rifle" "ammo" 10 {cell 5 0}}
 			{item "rifle" "ammo" 10 {cell 4 1}}
@@ -4137,7 +4301,7 @@
 	{Inventory 0xa02a
 		{box
 			{clear}
-			{item "mauzer" filled {cell 0 0}{user "hand_right"}}
+			{item 0x80d8 {cell 0 0}{user "hand_right"}}
 			{item "rifle" "ammo" 10 {cell 4 0}}
 			{item "rifle" "ammo" 10 {cell 5 0}}
 			{item "rifle" "ammo" 10 {cell 4 1}}
@@ -4151,7 +4315,7 @@
 	{Inventory 0xa02b
 		{box
 			{clear}
-			{item "mp40" filled {cell 0 0}{user "hand_right"}}
+			{item 0x80d9 {cell 0 0}{user "hand_right"}}
 			{item "pistol" "ammo" 100 {cell 4 0}}
 			{item "mine_detector" {cell 0 2}}
 			{item "helmet1_ger" {cell 4 1}{user "head"}}
@@ -4165,7 +4329,7 @@
 			{item "bandage" 3 {cell 4 0}}
 			{item "m24" "grenade" {cell 0 1}}
 			{item "m24" "grenade" {cell 2 1}}
-			{item "mp40" filled {cell 0 2}{user "hand_right"}}
+			{item 0x80db {cell 0 2}{user "hand_right"}}
 			{item "m24x5" "grenade" {cell 4 1}}
 			{item "smoke" "grenade" {cell 4 2}}
 			{item "helmet4_ger" {cell 4 3}{user "head"}}
