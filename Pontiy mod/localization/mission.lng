@@ -1,7 +1,7 @@
 {tags
 	{"multi"
         {"4v4_gatr_crusader"
-            {"name" "<c(139 0 139)e(shadow)>[Gatr]4x4 Crusader"}
+            {"name" "<c(254 94 24)e(shadow)>[Gatr]4x4 Crusader"}
         }
         {"4v4_pontiy_sevastopol"
             {"name" "<c(139 0 139)e(shadow)>[Pontiy]4x4 Sevastopol"}
@@ -10,7 +10,7 @@
             {"name" "<c(139 0 139)e(shadow)>[Ivanchichi]3x3 Vernon"}
         }
         {"3v3_gatr_shtrafbat"
-            {"name" "<c(139 0 139)e(shadow)>[Gatr]3x3 Shtrafbat"}
+            {"name" "<c(254 94 24)e(shadow)>[Gatr]3x3 Shtrafbat"}
         }
         {"3v3_pontiy_moskow"
             {"name" "<c(139 0 139)e(shadow)>[Pontiy]3x3 Moskow"}
