@@ -290,7 +290,7 @@
 		{LastItem "mosin"}
 	}
 	{Human "single/rus/rifle" 0xe04d
-		{Position 143.4 2687.6}
+		{Position 143.39 2687.6}
 		{xform zl 140.87 y 7.22 zw -172.61}
 		{TexMod "4"}
 		{Player 0}
@@ -526,7 +526,6 @@
 	{Human "single/rus/sailor" 0xa054
 		{Position 2100.42 -1529.02}
 		{xform zl 178.7 y 17.28 zw -13.5}
-		 
 		{Player 0}
 		{MID 489}
 		{Able "-unmask"}
@@ -536,7 +535,6 @@
 	{Human "single/rus/sailor1" 0xa058
 		{Position 2130.36 -1499.38}
 		{xform zl 171.3 y 15.39 zw -81.35}
-		 
 		{Player 0}
 		{MID 493}
 		{Able "-unmask"}
@@ -546,7 +544,6 @@
 	{Human "single/rus/sailor1" 0xa057
 		{Position 2119.12 -1537.16}
 		{xform zl -177.96 y 29.94 zw 83.65}
-		 
 		{Player 0}
 		{MID 492}
 		{Able "-unmask"}
@@ -556,7 +553,6 @@
 	{Human "single/rus/sailor1" 0xa05a
 		{Position 2103.36 -1499.35}
 		{xform zl 176.73 y 17.13 zw -26.61}
-		 
 		{Player 0}
 		{MID 495}
 		{Able "-unmask"}
@@ -567,7 +563,6 @@
 		{Position 1961.89 -2237.5}
 		{xform zl -139.47}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 488}
 		{Able "-repair" "-talk" "-fight" "-unmask"}
@@ -578,7 +573,6 @@
 		{Position 1941.13 -2255.31}
 		{xform zl -143.87}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 486}
 		{Able "-repair" "-talk" "-fight" "-unmask"}
@@ -1391,6 +1385,7 @@
 		{Position 1598.2 -823.72}
 		{xform zl 3.03}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 283}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1423,6 +1418,7 @@
 	{Human "single/rus/sailor1" 0xe02a
 		{Position 1483.13 -689.64}
 		{xform zl -2.15}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 455}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1439,6 +1435,7 @@
 	{Human "single/rus/sailor1" 0xe02c
 		{Position 1501.75 -553.43}
 		{xform zl -6.46}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 456}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1478,6 +1475,7 @@
 		{xform zl -15.27}
 		{Saturation 1.1}
 		{IgnoreSaturation 0}
+		{SpawnedInFog}
 		{Fogable never}
 		{Impregnability harmless}
 		{Extender "cannon"
@@ -1572,6 +1570,7 @@
 	{Entity "zis3" 0xb000
 		{Position 1405.67 393}
 		{xform zl -175.95 y 2.38 zw 166.98}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1591,6 +1590,7 @@
 	{Entity "maxim" 0xe03c
 		{Position 1426.38 497.83}
 		{xform zl -179.97 y 1.71 zw 160.53}
+		{SpawnedInFog}
 		{Placer
 			{State "driver" {Disable}}
 		}
@@ -1629,6 +1629,7 @@
 		{Position 1811.24 357.26}
 		{xform zl -36.32}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 290}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1645,6 +1646,7 @@
 	{Human "single/rus/sailor" 0xa029
 		{Position 1850.12 444.79}
 		{xform zl 20.7}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 406}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1662,6 +1664,7 @@
 		{Position 1952.32 549.01}
 		{xform zl -77.68}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 284}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1678,6 +1681,7 @@
 	{Human "single/rus/sailor1" 0xa032
 		{Position 1837.59 508.94}
 		{xform zl 11.82}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 448}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1695,6 +1699,7 @@
 		{Position 1988.64 648.54}
 		{xform zl -71.36}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 254}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1711,6 +1716,7 @@
 	{Human "single/rus/sailor1" 0xa038
 		{Position 2068.05 664.17}
 		{xform zl -72.36}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 450}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1727,6 +1733,7 @@
 	{Entity "degtyarev_stan" 0x821e
 		{Position 2137.55 772.92}
 		{xform zl -12.36}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1750,6 +1757,7 @@
 		{Position 2129.17 855.13}
 		{xform zl -6.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 436}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1766,6 +1774,7 @@
 	{Human "single/rus/sailor" 0xa024
 		{Position 2135.79 918.86}
 		{xform zl 33.99}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 404}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1783,6 +1792,7 @@
 		{Position 2089.43 969.74}
 		{xform zl 45.17}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 439}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1799,6 +1809,7 @@
 	{Entity "degtyarev_stan" 0xc02f
 		{Position 2219.02 1731.99}
 		{xform zl -125.51}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1822,6 +1833,7 @@
 		{Position 2355.99 1692}
 		{xform zl -74.73}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 333}
 		{Able "-crew" "-talk" "-select" "-fight" "-unmask"}
@@ -1839,6 +1851,7 @@
 		{Position 2573.36 1825.47}
 		{xform zl -2.7}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 327}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1855,6 +1868,7 @@
 	{Entity "maxim_quad" 0x814c
 		{Position 2456.68 1706.78}
 		{xform zl -65.89}
+		{SpawnedInFog}
 		{Simulation {Able 0}}
 		{Extender "cannon"
 			{disable}
@@ -1875,6 +1889,7 @@
 		{Position 2486.03 1750.45}
 		{xform zl -59.69}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 312}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1885,6 +1900,7 @@
 		{Position 2619.89 2099.39}
 		{xform zl 1.45}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 313}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1902,6 +1918,7 @@
 		{Position 2564.28 1784.15}
 		{xform zl -60.71}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 334}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1919,6 +1936,7 @@
 		{Position 2585.39 1888.27}
 		{xform zl -7.39}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 331}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1935,6 +1953,7 @@
 	{Entity "m37" 0xc073
 		{Position 2433.82 1952.83}
 		{xform zl 179.48 y 0.1 zw 127.22}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1955,6 +1974,7 @@
 		{Position 2324.2 1887.25}
 		{xform zl -20.69}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 325}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1972,6 +1992,7 @@
 		{Position 2467.39 2065.25}
 		{xform zl -26.41}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 323}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -1989,6 +2010,7 @@
 		{Position 2598.23 1987.42}
 		{xform zl -7.37}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 437}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2005,6 +2027,7 @@
 	{Entity "degtyarev_stan" 0xa005
 		{Position 2658.85 2158.78}
 		{xform zl -8.96}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2028,6 +2051,7 @@
 		{Position 2741.13 2487.67}
 		{xform zl -70.91}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 265}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2045,6 +2069,7 @@
 		{Position 2698.97 2439.91}
 		{xform zl -11.9}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 270}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2062,6 +2087,7 @@
 		{Position 2655.22 2268.42}
 		{xform zl -14.02}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 273}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2078,6 +2104,7 @@
 	{Entity "degtyarev_stan" 0xa01a
 		{Position 2707.95 2355.97}
 		{xform zl -16.7}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2100,6 +2127,7 @@
 	{Entity "m37" 0x8208
 		{Position 2551.67 2432.05}
 		{xform zl -48.5 y 1.46 zw 75.99}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2120,6 +2148,7 @@
 		{Position 2841.35 2511.75}
 		{xform zl -73.45}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 269}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2137,6 +2166,7 @@
 		{Position 2439.74 2306.74}
 		{xform zl -2.03}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 277}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2147,6 +2177,7 @@
 		{Position 2423.8 2380.44}
 		{xform zl 0.24}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 292}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2157,6 +2188,7 @@
 		{Position 2423.17 2339.58}
 		{xform zl -26.08}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 281}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2167,6 +2199,7 @@
 		{Position 2405.88 2286.15}
 		{xform zl -66.81}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 300}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2379,7 +2412,7 @@
 	}
 	{Human "single/rus/rifle" 0xf705
 		{Position 2952.08 2023.83}
-		{xform zl -93.05 y 6.94 zw -43.32}
+		{xform zl -93 y 6.94 zw -43.32}
 		{Extender "vitality"
 			{Dead}
 			{Energy 0.01}
@@ -2502,6 +2535,7 @@
 	{Human "single/rus/sailor1" 0xc006
 		{Position 517.46 1787.17}
 		{xform zl -103.46}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 23}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2519,6 +2553,7 @@
 		{Position 598.78 1763.16}
 		{xform zl -104.92}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 116}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2536,6 +2571,7 @@
 		{Position 455.38 1744.02}
 		{xform zl -44.44}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 126}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2553,6 +2589,7 @@
 		{Position 890.69 1845.33}
 		{xform zl -37.3}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 6}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2570,6 +2607,7 @@
 		{Position 701.84 1737.42}
 		{xform zl -93.45}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 24}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2587,6 +2625,7 @@
 		{Position 830.33 1781.13}
 		{xform zl -45.7}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 118}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2604,6 +2643,7 @@
 		{Position 964.15 1889.93}
 		{xform zl -96.32}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 115}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2621,6 +2661,7 @@
 		{Position 1182.77 2026.46}
 		{xform zl -27.93}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 121}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2637,6 +2678,7 @@
 	{Human "single/rus/sailor1" 0xd00b
 		{Position 1858.18 403.26}
 		{xform zl -37.33}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 132}
 		{Able "-crew" "-repair" "-talk" "-select" "-fight" "-unmask"}
@@ -2653,6 +2695,7 @@
 	{Entity "degtyarev_stan" 0xf020
 		{Position 876.03 1787.62}
 		{xform zl -34.17}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2675,6 +2718,7 @@
 	{Human "single/rus/sniper" 0x8202
 		{Position 1099.42 1897.11}
 		{xform zl -24.99}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 380}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2691,6 +2735,7 @@
 	{Human "single/rus/sniper" 0x820a
 		{Position 786.34 1737.67}
 		{xform zl -36.44}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 382}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2708,6 +2753,7 @@
 		{Position 1197.33 2153.5}
 		{xform zl 17.05}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 120}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2725,6 +2771,7 @@
 		{Position 1208.75 2119.27}
 		{xform zl 29.07}
 		{TexMod "1"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 124}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2742,6 +2789,7 @@
 		{Position 1222.78 2079.37}
 		{xform zl -28.92}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 125}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2758,6 +2806,7 @@
 	{Human "single/rus/sailor1" 0xd003
 		{Position 1168.72 1998.63}
 		{xform zl -34.59}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 128}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2774,6 +2823,7 @@
 	{Human "single/rus/sailor" 0xd007
 		{Position 1031.26 1882.14}
 		{xform zl -82.01}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 130}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2790,6 +2840,7 @@
 	{Entity "zis3" 0xe013
 		{Position 1008.86 2157.9}
 		{xform zl -43.48 y 2.59 zw -0.37}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2809,6 +2860,7 @@
 	{Entity "degtyarev_stan" 0xf01c
 		{Position 1176.1 1956.33}
 		{xform zl -38.14}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2830,6 +2882,7 @@
 	{Entity "61k" 0xc028
 		{Position 635.72 2097.48}
 		{xform zl 84.07 y 2.85 zw -105.15}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2853,6 +2906,7 @@
 	{Entity "zis3" 0xe046
 		{Position 441.86 2006.99 37.02}
 		{xform zl 86.69 y 2.12 zw -114.14}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2872,6 +2926,7 @@
 	{Entity "zis3" 0xe04b
 		{Position 435.7 2369.02 51.36}
 		{xform zl 144.68 y 0.65 zw -171.54}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2891,6 +2946,7 @@
 	{Human "single/rus/sailor" 0xd002
 		{Position 215.01 1893.67}
 		{xform zl -137.14}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 127}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2907,6 +2963,7 @@
 	{Human "single/rus/sailor" 0xd00d
 		{Position 133.32 2020.45}
 		{xform zl 164.96}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 133}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2924,6 +2981,7 @@
 		{Position 171.67 2104.68}
 		{xform zl 153.27}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 478}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2941,6 +2999,7 @@
 		{Position 213.48 2317.59}
 		{xform zl -153.11}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 123}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2958,6 +3017,7 @@
 		{Position 213.94 2463.21}
 		{xform zl 142.3}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 481}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2975,6 +3035,7 @@
 		{Position 231.9 2216.1}
 		{xform zl 144.33}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 482}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -2991,6 +3052,7 @@
 	{Entity "zis3" 0xe050
 		{Position 158.02 2662.98}
 		{xform zl 140.87 y 7.22 zw -172.61}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3001,11 +3063,6 @@
 			{animation
 				{switch close}
 			}
-			{ik
-				{bone "basis"
-					{limits}
-				}
-			}
 		}
 		{AreaDisable "close"}
 		{Player 0}
@@ -3015,6 +3072,7 @@
 	{Entity "61k" 0xc08a
 		{Position 617.63 2656.01}
 		{xform zl 59.14 y 1.18 zw -64.63}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3039,6 +3097,7 @@
 		{Position 1599.05 2838.31}
 		{xform zl -10.82}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 3}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3056,6 +3115,7 @@
 		{Position 1396.75 2694.05}
 		{xform zl -162.56}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 4}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3073,6 +3133,7 @@
 		{Position 1279.04 2786.35}
 		{xform zl -104.16}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 14}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3083,6 +3144,7 @@
 		{Position 1345.79 2775.5}
 		{xform zl -108.75}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 113}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3100,6 +3162,7 @@
 		{Position 1521.9 2667.38}
 		{xform zl -83.92}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 117}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3117,6 +3180,7 @@
 		{Position 1444.8 2640.25}
 		{xform zl -72.55}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 119}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3133,6 +3197,7 @@
 	{Human "single/rus/sailor1" 0xd005
 		{Position 1485.86 2651.03}
 		{xform zl -62.91}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 129}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3149,6 +3214,7 @@
 	{Entity "zis3" 0xa01c
 		{Position 1432.78 2853.89}
 		{xform zl -43.35 y 2.44 zw 3.62}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3168,6 +3234,7 @@
 	{Human "single/rus/sailor" 0xc004
 		{Position 1581.54 2752.33}
 		{xform zl -17.95}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 20}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3184,6 +3251,7 @@
 	{Human "single/rus/sniper" 0xc00a
 		{Position 1561.43 2679.63}
 		{xform zl -22.95}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 27}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3201,6 +3269,7 @@
 		{Position 1571.27 2717.74}
 		{xform zl -5.91}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 122}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3218,6 +3287,7 @@
 		{Position 1602.93 2881.69}
 		{xform zl -8.61}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 131}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3234,6 +3304,7 @@
 	{Entity "degtyarev_stan" 0xf00e
 		{Position 1616.09 2791.07}
 		{xform zl -12.36}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -3256,6 +3327,7 @@
 	{Human "single/rus/sniper" 0x8227
 		{Position 1611.24 2936.52}
 		{xform zl -8.61}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 387}
 		{Able "-crew" "-repair" "-talk" "-select" "-unmask"}
@@ -3272,6 +3344,7 @@
 	{Entity "t34_0" 0xe025
 		{Position 2144.19 -1384.38 -15.19}
 		{xform zl 44.32 y 2.6 zw -43.88}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -3300,6 +3373,7 @@
 	{Entity "t34_0" 0xa01d
 		{Position 2149.71 -1518.7 -15.6}
 		{xform zl 5.39 y 2.31 zw -5.14}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -3318,6 +3392,7 @@
 	{Entity "t34_0" 0x825c
 		{Position 2151.77 -1235.19 -15.06}
 		{xform zl 17.73 y 4.45 zw -14.82}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -3553,7 +3628,6 @@
 	{Entity "maxim_quad" 0xbd39
 		{Position 3566.16 -765.46}
 		{xform zl 4.74}
-		{SpawnedInFog}
 		{Simulation {Able 0}}
 		{Extender "cannon"
 			{disable}
@@ -3574,7 +3648,6 @@
 		{Position 3532.62 -723.62}
 		{xform zl 9.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 150}
 		{Able "recruit"}
@@ -4220,7 +4293,6 @@
 		{Position 4289.44 2064.95}
 		{xform zl 48.64}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 239}
 		{Able "recruit"}
@@ -4396,7 +4468,6 @@
 	{Entity "karlthor" 0x81f4
 		{Position 5677.24 625.12 28.73}
 		{xform zl -75.94 y 1.8 zw -123.89}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 276}
 		{Able "-emit_passangers_on_enemy"}
@@ -4404,7 +4475,6 @@
 	{Entity "blitz3_6" 0xe00d
 		{Position 6530.03 248.35 18.49}
 		{xform zl -82.08 y 3.45 zw -112.94}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 461}
 		}
@@ -4415,7 +4485,6 @@
 	{Entity "blitz3_6" 0xc03b
 		{Position 6598.33 606.69 22.85}
 		{xform zl 179.08 y 2.54 zw 5.53}
-		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 710}
 		}
@@ -4427,7 +4496,6 @@
 		{Position 5369.15 -1278.34 -9.77}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 503}
 		{NameId 134 144}
@@ -4439,7 +4507,6 @@
 		{Position 5364.03 -1246.81 -9.38}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 504}
 		{NameId 125 12}
@@ -4451,7 +4518,6 @@
 		{Position 5577.65 -1004 -11.79}
 		{xform zl -103.08 y 1.07 zw -71.6}
 		{TexMod "1"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 285}
 		{Able "-emit_passangers_on_enemy"}
@@ -4473,7 +4539,6 @@
 	{Human "single/ger/oficer" 0x81df
 		{Position 5359.04 -1218.95}
 		{xform zl 176.17}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 10}
 		{NameId 90 59}
@@ -4483,7 +4548,6 @@
 		{Position 5357.29 -1124.83}
 		{xform zl 171.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 257}
 		{NameId 125 59}
@@ -4493,7 +4557,6 @@
 		{Position 5355.05 -1094.7 -9.02}
 		{xform zl -173.75}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 278}
 		{NameId 5 118}
@@ -4503,7 +4566,6 @@
 		{Position 5358.06 -1152.9}
 		{xform zl 179.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 282}
 		{NameId 116 6}
@@ -4513,7 +4575,6 @@
 		{Position 5353.46 -1069.12}
 		{xform zl 175.24}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 315}
 		{NameId 134 143}
@@ -4523,7 +4584,6 @@
 		{Position 5359.38 -1183.95 -9.51}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 307}
 		{NameId 126 135}
@@ -4888,7 +4948,6 @@
 	{Entity "sdkfz223" 0x9050
 		{Position 3988.61 -1868.17 -15.76}
 		{xform zl 162.31 y 3.74 zw 15.61}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -4921,7 +4980,6 @@
 	{Entity "sdkfz223" 0x9056
 		{Position 3991.42 -1816.61 -16.08}
 		{xform zl 150.63 y 3.51 zw 28.16}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -4955,7 +5013,6 @@
 	{Entity "sdkfz223" 0x905c
 		{Position 3991.5 -1768.5 -16.31}
 		{xform zl 164.09 y 2.75 zw 14.97}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -5410,7 +5467,6 @@
 	{Entity "stug4g" 0x90bd
 		{Position 3805.28 -1405.14 -16.41}
 		{xform zl 6.18 y 0.72 zw 176.4}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -5427,7 +5483,6 @@
 	{Human "single/ger/flamer" 0x90d2
 		{Position 4121.4 -1818.43}
 		{xform zl 164.64}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 530}
 		{NameId 81 99}
@@ -5436,7 +5491,6 @@
 	{Human "single/ger/oficer" 0x90d4
 		{Position 4144.99 -1816.58}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 532}
 		{NameId 102 75}
@@ -5446,7 +5500,6 @@
 		{Position 4162.52 -1882.08 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 535}
 		{NameId 103 103}
@@ -5456,7 +5509,6 @@
 		{Position 4141.85 -1881.95 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 536}
 		{NameId 25 35}
@@ -5466,7 +5518,6 @@
 		{Position 4168.49 -1863.25 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 539}
 		{NameId 67 79}
@@ -5476,7 +5527,6 @@
 		{Position 4143.33 -1863.32 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 540}
 		{NameId 70 57}
@@ -5486,7 +5536,6 @@
 		{Position 4120.05 -1862.41 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 541}
 		{NameId 88 96}
@@ -5496,7 +5545,6 @@
 		{Position 4160.72 -1817.54}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 543}
 		{NameId 14 109}
@@ -5506,7 +5554,6 @@
 		{Position 4167.66 -1842.75}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 546}
 		{NameId 49 138}
@@ -5517,7 +5564,6 @@
 		{Position 4145.25 -1841.05}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 547}
 		{NameId 82 15}
@@ -5528,7 +5574,6 @@
 		{Position 4121.55 -1842.08}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 548}
 		{NameId 65 59}
@@ -5538,7 +5583,6 @@
 	{Human "single/ger/flamer" 0x90f9
 		{Position 4120.69 -1701.65}
 		{xform zl 161.07}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 549}
 		{NameId 22 14}
@@ -5547,7 +5591,6 @@
 	{Human "single/ger/oficer" 0x90fb
 		{Position 4144.28 -1699.8}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 551}
 		{NameId 143 23}
@@ -5557,7 +5600,6 @@
 		{Position 4161.81 -1765.3 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 554}
 		{NameId 109 32}
@@ -5567,7 +5609,6 @@
 		{Position 4141.14 -1765.17 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 555}
 		{NameId 36 80}
@@ -5577,7 +5618,6 @@
 		{Position 4167.78 -1746.47 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 558}
 		{NameId 75 79}
@@ -5587,7 +5627,6 @@
 		{Position 4142.62 -1746.54 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 559}
 		{NameId 137 115}
@@ -5597,7 +5636,6 @@
 		{Position 4119.34 -1745.63 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 560}
 		{NameId 34 92}
@@ -5607,7 +5645,6 @@
 		{Position 4160.01 -1700.76}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 562}
 		{NameId 107 131}
@@ -5617,7 +5654,6 @@
 		{Position 4166.95 -1725.97}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 565}
 		{NameId 37 142}
@@ -5628,7 +5664,6 @@
 		{Position 4144.54 -1724.27}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 566}
 		{NameId 103 8}
@@ -5639,7 +5674,6 @@
 		{Position 4120.84 -1725.3}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 567}
 		{NameId 114 56}
@@ -5649,7 +5683,6 @@
 	{Human "single/ger/flamer" 0x9120
 		{Position 4114.63 -1587.25}
 		{xform zl -173.07}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 568}
 		{NameId 53 3}
@@ -5658,7 +5691,6 @@
 	{Human "single/ger/oficer" 0x9122
 		{Position 4138.22 -1585.4}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 570}
 		{NameId 109 77}
@@ -5668,7 +5700,6 @@
 		{Position 4155.75 -1650.9 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 573}
 		{NameId 73 63}
@@ -5678,7 +5709,6 @@
 		{Position 4135.08 -1650.77 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 574}
 		{NameId 27 108}
@@ -5688,7 +5718,6 @@
 		{Position 4161.72 -1632.07 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 577}
 		{NameId 142 75}
@@ -5698,7 +5727,6 @@
 		{Position 4136.56 -1632.14 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 578}
 		{NameId 61 86}
@@ -5708,7 +5736,6 @@
 		{Position 4113.28 -1631.23 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 579}
 		{NameId 66 15}
@@ -5718,7 +5745,6 @@
 		{Position 4153.95 -1586.36}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 581}
 		{NameId 12 101}
@@ -5728,7 +5754,6 @@
 		{Position 4160.89 -1611.57}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 584}
 		{NameId 101 103}
@@ -5739,7 +5764,6 @@
 		{Position 4138.48 -1609.87}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 585}
 		{NameId 78 136}
@@ -5750,7 +5774,6 @@
 		{Position 4114.78 -1610.9}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 586}
 		{NameId 77 78}
@@ -5805,7 +5828,6 @@
 	{Entity "sgrw42" 0x913d
 		{Position 4321.9 -1845.46}
 		{xform zl -178.49}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5840,7 +5862,6 @@
 	{Entity "sgrw42" 0x9142
 		{Position 4323.34 -1794.64}
 		{xform zl -179.85}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5875,7 +5896,6 @@
 	{Entity "sgrw42" 0x9147
 		{Position 4321.03 -1741.21}
 		{xform zl -179.6}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5910,7 +5930,6 @@
 	{Entity "flak38_wheeled" 0xa804
 		{Position 4319.2 -1520.6 -15.55}
 		{xform zl -32.53 y 0.94 zw -146.24}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5948,7 +5967,6 @@
 	{Entity "flak38_wheeled" 0xa809
 		{Position 4317.85 -1475.82}
 		{xform zl -3.72 y 0.82 zw -174.71}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -5986,7 +6004,6 @@
 	{Entity "flak38_wheeled" 0xa80e
 		{Position 4316.84 -1433.92}
 		{xform zl -2.63 y 0.82 zw -175.42}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -6024,7 +6041,6 @@
 	{Entity "pak41-le" 0x914c
 		{Position 4289.62 -1270.73}
 		{xform zl -175.67 y 1.93 zw -0.12}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -6062,7 +6078,6 @@
 	{Entity "pak41-le" 0x9151
 		{Position 4285.86 -1228.33}
 		{xform zl 161.39 y 1.68 zw 24.79}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -6100,7 +6115,6 @@
 	{Entity "pak41-le" 0x9156
 		{Position 4281.82 -1185.13}
 		{xform zl 153.44 y 2.42 zw 31.55}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -6121,7 +6135,6 @@
 		{Position 5771.1 712.11 27.98}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 19}
 		{NameId 116 69}
@@ -6133,7 +6146,6 @@
 		{Position 5765.98 743.64 27.98}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 52}
 		{NameId 96 36}
@@ -6145,7 +6157,6 @@
 		{Position 5759.24 865.62}
 		{xform zl 171.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 53}
 		{NameId 19 49}
@@ -6155,7 +6166,6 @@
 		{Position 5757 895.75 27.98}
 		{xform zl -173.75}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 54}
 		{NameId 100 129}
@@ -6165,7 +6175,6 @@
 		{Position 5760.01 837.55}
 		{xform zl 179.9}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 55}
 		{NameId 13 65}
@@ -6175,7 +6184,6 @@
 		{Position 5755.41 921.33}
 		{xform zl 175.24}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 60}
 		{NameId 111 14}
@@ -6185,7 +6193,6 @@
 		{Position 5761.33 806.5 27.99}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 61}
 		{NameId 103 106}
@@ -6196,7 +6203,6 @@
 	{Human "single/ger/oficer" 0xa81d
 		{Position 5760.99 771.5}
 		{xform zl 165.65}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 64}
 		{NameId 1 128}
@@ -6291,7 +6297,6 @@
 	{Human "single/ger/flamer" 0x822f
 		{Position 4118.41 -1464.08}
 		{xform zl -176.62}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 75}
 		{NameId 90 52}
@@ -6300,7 +6305,6 @@
 	{Human "single/ger/oficer" 0x8231
 		{Position 4142 -1462.23}
 		{xform zl 147.57}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 81}
 		{NameId 132 39}
@@ -6310,7 +6314,6 @@
 		{Position 4159.53 -1527.73 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 84}
 		{NameId 126 134}
@@ -6320,7 +6323,6 @@
 		{Position 4138.86 -1527.6 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 85}
 		{NameId 134 142}
@@ -6330,7 +6332,6 @@
 		{Position 4165.5 -1508.9 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 88}
 		{NameId 30 49}
@@ -6340,7 +6341,6 @@
 		{Position 4140.34 -1508.97 -16.02}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 89}
 		{NameId 131 144}
@@ -6350,7 +6350,6 @@
 		{Position 4117.06 -1508.06 -16.03}
 		{xform zl 176.17}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 90}
 		{NameId 57 61}
@@ -6360,7 +6359,6 @@
 		{Position 4157.73 -1463.19}
 		{xform zl 167.67}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 92}
 		{NameId 90 130}
@@ -6370,7 +6368,6 @@
 		{Position 4164.67 -1488.4}
 		{xform zl 170.42}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 95}
 		{NameId 110 54}
@@ -6381,7 +6378,6 @@
 		{Position 4142.26 -1486.7}
 		{xform zl 171.29}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 96}
 		{NameId 120 112}
@@ -6392,7 +6388,6 @@
 		{Position 4118.56 -1487.73}
 		{xform zl 174.28}
 		{TexMod "2"}
-		{SpawnedInFog}
 		{Player 0}
 		{MID 97}
 		{NameId 134 125}
@@ -6516,7 +6511,6 @@
 	{Entity "sdkfz223" 0x8261
 		{Position 3994.54 -1718.35 -16.18}
 		{xform zl 175.33 y 2.92 zw 3.54}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6552,7 +6546,6 @@
 	{Entity "sgrw42" 0x8266
 		{Position 4321.11 -1686.39}
 		{xform zl -179.6}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -6687,7 +6680,6 @@
 	{Entity "stug4g" 0x8283
 		{Position 3800.13 -1339.93 -16.14}
 		{xform zl 76.07 y 1.6 zw 106.68}
-		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -6722,7 +6714,6 @@
 	{Entity "pak41-le" 0x8288
 		{Position 4277.41 -1138.57}
 		{xform zl 180 y 2.2 zw 5.01}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -6760,7 +6751,6 @@
 	{Entity "flak38_wheeled" 0x828d
 		{Position 4314.21 -1389.34}
 		{xform y 0.82 zw -178.07}
-		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -6868,6 +6858,7 @@
 	{Entity "m37" 0xf008
 		{Position 713.7 3243.67}
 		{xform zl 162.36 y 2.54 zw -71.53}
+		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -6912,6 +6903,7 @@
 	{Entity "m37" 0xf00d
 		{Position 721.69 3245.7}
 		{xform zl 135.03 y 1.85 zw -49.66}
+		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -6995,6 +6987,7 @@
 	{Entity "zis5" 0xf024
 		{Position 755.73 3151.59}
 		{xform zl 17.79 y 0.97 zw -62.96}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 466}
 		}
@@ -7062,6 +7055,7 @@
 	{Entity "zis5" 0xf031
 		{Position 755 3150.22}
 		{xform zl 9.96 y 0.87 zw -60.28}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 759}
 		}
@@ -7359,6 +7353,7 @@
 	{Entity "zis5" 0x81b7
 		{Position 751.97 3152.44 76}
 		{xform zl 15.84 y 1.35 zw -60.5}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 843}
 		}
@@ -7432,6 +7427,7 @@
 	{Entity "zis5" 0xb016
 		{Position 757.05 3151.72}
 		{xform zl 18.71 y 0.98 zw -61.53}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 1}
 		}
@@ -7505,6 +7501,7 @@
 	{Entity "zis5" 0xb029
 		{Position 759.96 3150.91 75.73}
 		{xform zl 21.88 y 0.82 zw -67.91}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 375}
 		}
@@ -7578,6 +7575,7 @@
 	{Entity "zis5" 0xb047
 		{Position 761.24 3149.24}
 		{xform zl -24.5 y 1.2 zw -39.11}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 436}
 		}
@@ -7615,6 +7613,7 @@
 	{Entity "61k" 0xf055
 		{Position 709.16 3236.58}
 		{xform zl 158.86 y 0.88 zw -67.28}
+		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -7652,6 +7651,7 @@
 	{Entity "61k" 0xf05a
 		{Position 682.36 3220.75}
 		{xform zl -169.2 y 0.83 zw -53.44}
+		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -7691,6 +7691,7 @@
 	{Entity "zis3" 0xa80a
 		{Position 719.38 3247.85}
 		{xform zl 147.21 y 2.71 zw -57.34}
+		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -7737,6 +7738,7 @@
 	{Entity "zis3" 0xa812
 		{Position 752.31 3253.76}
 		{xform zl 150.03 y 2.5 zw -78.14}
+		{SpawnedInFog}
 		{Placer
 			{State "gunner" {Disable}}
 			{State "commander" {Disable}}
@@ -7863,6 +7865,7 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 196}
 		}
@@ -7991,6 +7994,7 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 152}
 		}
@@ -8110,6 +8114,7 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 807}
 		}
@@ -8130,7 +8135,6 @@
 		{Position 1862.1 -320.01}
 		{xform zl 47.23 y 4.75 zw -40.98}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 740}
 		{Able "-unmask"}
@@ -8140,7 +8144,6 @@
 		{Position 1913.33 -319.9}
 		{xform zl 79.06 y 4.36 zw -72.92}
 		{TexMod "4"}
-		 
 		{Player 0}
 		{MID 741}
 		{Able "-unmask"}
@@ -8150,7 +8153,6 @@
 		{Position 1876.11 -321.12}
 		{xform zl 109.11 y 4.11 zw -110.58}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 742}
 		{Able "-unmask"}
@@ -8161,7 +8163,6 @@
 		{Position 1849.74 -331.89}
 		{xform zl 151.98 y 10.02 zw -143.54}
 		{TexMod "1"}
-		 
 		{Player 0}
 		{MID 743}
 		{Able "-unmask"}
@@ -8172,7 +8173,6 @@
 		{Position 1892.06 -330.23}
 		{xform zl 155.04 y 11.76 zw -124.56}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 744}
 		{Able "-unmask"}
@@ -8183,7 +8183,6 @@
 		{Position 1861.36 -308.34}
 		{xform zl 157.08 y 7.9 zw -172.02}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 745}
 		{Able "-unmask"}
@@ -8194,7 +8193,6 @@
 		{Position 1876.28 -307.39}
 		{xform zl 155.34 y 9.43 zw -150.72}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 746}
 		{Able "-unmask"}
@@ -8205,7 +8203,6 @@
 		{Position 1848.17 -314.12}
 		{xform zl 158.43 y 7.44 zw -179.3}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 747}
 		{Able "-unmask"}
@@ -8216,7 +8213,6 @@
 		{Position 1863.02 -333.69}
 		{xform zl 152 y 9.86 zw -146.37}
 		{TexMod "2"}
-		 
 		{Player 0}
 		{MID 748}
 		{Able "-unmask"}
@@ -8227,7 +8223,6 @@
 		{Position 1911.46 -310.07}
 		{xform zl 155.83 y 10.08 zw -155.06}
 		{TexMod "4"}
-		 
 		{Player 0}
 		{MID 749}
 		{Able "-unmask"}
@@ -8239,6 +8234,7 @@
 		{TexMod
 			{"/texture/common/model/all_wheels01" "2"}
 		}
+		{SpawnedInFog}
 		{Extender "enumerator"
 			{number 195}
 		}
@@ -8281,6 +8277,7 @@
 	{Entity "kv1" 0xb008
 		{Position 2164.37 -843.42 -9.81}
 		{xform zl 35.28 y 3.85 zw -31.09}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -8326,6 +8323,7 @@
 	{Entity "kv1" 0xb01a
 		{Position 2158.64 -668.2 -2.63}
 		{xform zl 37.14 y 4.84 zw -33}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -8374,6 +8372,7 @@
 	{Entity "t34_0" 0xc009
 		{Position 2134.63 -1110.98 -14.22}
 		{xform zl 14.81 y 4.78 zw -12}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -8424,6 +8423,7 @@
 	{Entity "kv1" 0xc011
 		{Position 2134.48 -494.96 2.82}
 		{xform zl 38.87 y 5.32 zw -34.76}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -8472,6 +8472,7 @@
 	{Entity "kv1" 0xc019
 		{Position 2101.7 -303.67 7.28}
 		{xform zl 38.48 y 4.88 zw -34.34}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -10324,7 +10325,6 @@
 	{Entity "bf109g" 0xa004
 		{Position 6481.26 -873.11}
 		{xform zl -176.88}
-		{SpawnedInFog}
 		{Fogable never}
 		{Extender "enumerator"
 			{number 31}
@@ -10344,7 +10344,6 @@
 	{Entity "ju-87" 0xa007
 		{Position 6489.58 1620.08}
 		{xform zl -178.13}
-		{SpawnedInFog}
 		{Fogable never}
 		{Extender "enumerator"
 			{number 572}
@@ -10364,6 +10363,7 @@
 	{Entity "il-2" 0xa009
 		{Position -362.64 911.62}
 		{xform zl -0.96}
+		{SpawnedInFog}
 		{Fogable never}
 		{Extender "enumerator"
 			{number 23}
@@ -31507,7 +31507,7 @@
 				}
 				{actions
 					{"delay"
-						{time 1800}
+						{time 1920}
 					}
 					{"event"
 						{event "gameover"}
