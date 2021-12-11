@@ -5,9 +5,25 @@
 	}
 	{Clips
 		{"[auto]"
-			{world -11794.8 -6554.4 3605.43 6646.84}
-			{camera -11285.7 -6289.43 1697.99 6450.91}
-			{pather -11010.5 -6045.14 1565.92 6152.33}
+			{world -12109.5 -8379.53 4620.47 10900.5}
+			{camera -11285.7 -6289.43 1663 6450.91}
+			{pather -11010.5 -6045.14 1563.06 6152.33}
+			{distance 200 1160}
+			{viewAngle 20 60}
+			{water -1.5}
+		}
+		{"clip1"
+			{world -12109.5 -8379.53 4620.47 10900.5}
+			{camera -6166.48 -6266.95 1387.16 3913.94}
+			{pather -6138.79 -6016.49 1318.01 3924.04}
+			{distance 200 1160}
+			{viewAngle 20 60}
+			{water -1.5}
+		}
+		{"clip2"
+			{world -12109.5 -8379.53 4620.47 10900.5}
+			{camera -11285.7 -6289.43 -4802.6 6450.91}
+			{pather -11010.5 -6045.14 -4778.62 6152.33}
 			{distance 200 1160}
 			{viewAngle 20 60}
 			{water -1.5}
@@ -19849,9 +19865,6 @@
 	}
 	{Entity "500_w2" 0x43c3
 		{TexMod "1"}
-		{Volume "hole1"
-			{able {touch 0}}
-		}
 	}
 	{Entity "500_c1" 0x43c4
 		{TexMod "1"}
@@ -49160,163 +49173,136 @@
 		{Position -3561.77 -405.23 81}
 		{xform zl 3.29}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x2da0
 		{Position -3580.24 -260.98 81}
 		{xform zl 101.79}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x2da1
 		{Position -3608.73 -134.06 81}
 		{xform zl 103.23}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x2da2
 		{Position -3677.69 116.96 91.63}
 		{xform zl 110.74}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exp3" 0x2da3
 		{Position -3730.57 250.99 104.11}
 		{xform zl 111.97}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exp" 0x2da4
 		{Position -3638.63 -5.99 84.26}
 		{xform zl -77.15}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x2da6
 		{Position -3663.91 -410.74 81}
 		{xform zl 92.17}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4d7b
 		{Position -3821.12 212.43 114.29}
 		{xform zl 116.47}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4d7c
 		{Position -3385.53 -1770.05 83.18}
 		{xform zl 20.63}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4d7d
 		{Position -3267.17 -2317.68 80.67}
 		{xform zl -171.7}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exp" 0x4d7e
 		{Position -3323.81 -1977.11 81.1}
 		{xform zl -79.76}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d7f
 		{Position -3357.23 -1852.51 81.65}
 		{xform zl 108.13}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d80
 		{Position -3299.77 -2106.41 82}
 		{xform zl 100.62}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d81
 		{Position -3279.34 -2233.64 82}
 		{xform zl 97.17}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4d82
 		{Position -4382.11 -2993.74 143.09}
 		{xform zl -23.7}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4d83
 		{Position -4680.15 -3468.17 128.88}
 		{xform zl 143.97}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exp" 0x4d84
 		{Position -4482.66 -3184.98 144.1}
 		{xform zl -124.09}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d85
 		{Position -4419.49 -3072.5 145.65}
 		{xform zl 63.8}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d86
 		{Position -4555.83 -3294.26 146}
 		{xform zl 56.29}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d87
 		{Position -4630.12 -3399.55 144}
 		{xform zl 52.84}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exp3" 0x4d88
 		{Position -3863.16 -3809.97 144.73}
 		{xform zl 93.1}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4d89
 		{Position -3959.46 -3816.61 147.82}
 		{xform zl 95.48}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d8a
 		{Position -3867.55 -4082.84 144.65}
 		{xform zl 77.45}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exp" 0x4d8b
 		{Position -3904.25 -4205.59 144}
 		{xform zl -109.77}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d8c
 		{Position -3948.11 -4329.57 145}
 		{xform zl 70.61}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground_exit2" 0x4d90
 		{Position -4099.35 -4431.55 147.17}
 		{xform zl 75.27}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "trench_ground2" 0x4d91
 		{Position -3856.01 -3956.15 145.65}
 		{xform zl 91.69}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "destroy_chip" 0x2b52
 		{Position -4837.59 -3245.82}
@@ -50840,7 +50826,6 @@
 		{Position -3999.63 -4468.2 155.47}
 		{xform zl -22.21}
 		{TexMod "1"}
-		{AreaDisable "cut"}
 	}
 	{Entity "border_stairs" 0x40d3
 		{Position -3785 3100.86 68.24}
@@ -55474,6 +55459,13 @@
 		{Position 2324.16 2057.98}
 		{xform zl 70.88 scale 0.543}
 		{Color 0xffd9adec}
+	}
+	{Human "single/ger/desant3" 0x1721
+		{Position 3003.98 3691.17}
+		{Player 0}
+		{MID 10001}
+		{NameId 90 52}
+		{FsmState "stand"}
 	}
 	{Entity "bush_curly_a" 0x1722
 		{Position 2657.12 2682.28}
@@ -60687,86 +60679,10 @@
 		{xform zl -142.23}
 		{Constrain zero}
 	}
-	{Entity "301_w3" 0x1cf
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "asl02_w1" 0x1fd
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "afric_small_f1_w8" 0x215
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "asl02_w1" 0x405
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "asl02_w7" 0x58a
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "301_w4" 0x5b9
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "asl02_w1" 0x6c2
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "tower_f3_w1" 0x936
-		{Volume "touch"
-			{able {touch 0}}
-		}
-	}
-	{Entity "303_dw3r" 0xa30
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "sv_f2c2" 0xdf9
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "sv_f2c3" 0xdfa
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "af_h_dwnw3" 0x106b
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "af_h_dwnw2" 0x1079
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
-	{Entity "asl02_w1" 0x12ec
-		{Volume "hole1"
-			{able {touch 0}}
-		}
-	}
 	{Link 0x10 {0x1 "asl01_f1_w15"}}
 	{Link 0xde {0xf5 "asl01_f1_w15"}}
 	{Link 0x120 {0x146 "asl01_f1_w15"}}
 	{Link 0x1ba {0x1ab "asl01_f1_w15"}}
-	{Link 0x1cf {0x207 "301_w3"}}
-	{Link 0x1fd {0x24d "asl2_w1"}}
-	{Link 0x215 {0x25d "f1_w8"}}
-	{Link 0x405 {0x2087 "asl2_w1"}}
-	{Link 0x58a {0x8ee "asl2_w7"}}
-	{Link 0x5b9 {0x93b "301_w4"}}
 	{Link 0x40f4 {0x410c "asl01_f1_w15"}}
 	{Link 0x6d3 {0x9a2 "asl2_c1"}}
 	{Link 0x6d4 {0x9a2 "asl2_c2"}}
@@ -60783,10 +60699,8 @@
 	{Link 0x6df {0x9a2 "asl2_w6"}}
 	{Link 0x6e0 {0x9a2 "asl2_w7"}}
 	{Link 0x6e1 {0x9a2 "asl2_w8"}}
-	{Link 0x6c2 {0xa26 "asl2_w1"}}
 	{Link 0xca5 {0xcbc "asl01_f1_w15"}}
 	{Link 0x1021 {0x1084 "asl01_f1_w15"}}
-	{Link 0x936 {0x206f "tower_f3_w1"}}
 	{Link 0xfcc {0x418a "1"}}
 	{Link 0xfcd {0x418a "2"}}
 	{Link 0xfce {0x418a "3"}}
@@ -60837,7 +60751,6 @@
 	{Link 0x60af {0x60b8 "500_w6"}}
 	{Link 0x60b0 {0x60b8 "500_w7"}}
 	{Link 0x60b1 {0x60b8 "500_w8"}}
-	{Link 0xa30 {0x1377 "303_dw3"}}
 	{Link 0x14d9 {0x1525 "303_dc1"}}
 	{Link 0x14da {0x1525 "303_dc2"}}
 	{Link 0x14db {0x1525 "303_dc3"}}
@@ -61086,8 +60999,6 @@
 	{Link 0x169e {0x169d "c1_502"}}
 	{Link 0x16a3 {0x169d "w2_502"}}
 	{Link 0x168e {0x1732 "f1c1"}}
-	{Link 0xdf9 {0x1732 "f2c2"}}
-	{Link 0xdfa {0x1732 "f2c3"}}
 	{Link 0x2055 {0x2162 "f1c1"}}
 	{Link 0x2164 {0x219c "f1c1"}}
 	{Link 0x60cb {0x60d5 "c1_502"}}
@@ -61098,8 +61009,6 @@
 	{Link 0x4ced {0x4cee "3"}}
 	{Link 0x611 {0x11f2 "c1_502"}}
 	{Link 0x83c {0x11f2 "w2_502"}}
-	{Link 0x106b {0x4e2c "af_h_dwnw3"}}
-	{Link 0x1079 {0x7010 "af_h_dwnw2"}}
 	{Link 0x7025 {0x7027 "103_c1"}}
 	{Link 0x7026 {0x7027 "103_c2"}}
 	{Link 0x613e {0x6141 "2"}}
@@ -61108,7 +61017,17 @@
 	{Link 0x4544 {0x4546 "w2_502"}}
 	{Link 0x61e4 {0x61f2 "103_c1"}}
 	{Link 0x61e5 {0x61f2 "103_c2"}}
-	{Link 0x12ec {0x17da "asl2_w1"}}
+	{Inventory 0x1721
+		{box
+			{clear}
+			{item "bandage" 5 {cell 0 0}}
+			{item "bandage" {cell 2 0}}
+			{item "knife_ger" {cell 4 0}}
+			{item "pistol" "ammo" 32 {cell 0 1}}
+			{item "valter" {cell 2 1}}
+			{item "helmet_paratrooper" {cell 4 1}{user "head"}}
+		}
+	}
 	{Helpers
 		{edifice
 			{"home_1"

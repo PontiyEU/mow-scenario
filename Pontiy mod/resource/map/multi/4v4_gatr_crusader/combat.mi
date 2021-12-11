@@ -264,6 +264,7 @@
 	{Human "single/ger/rifleman_afr" 0xa024
 		{Position -2865.17 -1353.03}
 		{xform zl -66.34}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 359}
 		{NameId 56 22}
@@ -397,6 +398,7 @@
 	{Human "single/ger/rifleman_afr" 0x8143
 		{Position -2764.45 -1002.1}
 		{xform zl 13.71}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 231}
 		{NameId 75 110}
@@ -413,6 +415,7 @@
 	{Human "single/ger/rifleman_afr" 0x8145
 		{Position -2787.66 -905.31}
 		{xform zl 12.82}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 232}
 		{NameId 28 0}
@@ -470,6 +473,7 @@
 	{Entity "pak35" 0x8000
 		{Position -2845.08 -1308.35}
 		{xform zl 138.97 y 4.03 zw -147.4}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -522,6 +526,7 @@
 	{Entity "sgrw42" 0x81af
 		{Position -2983.03 -1285.64}
 		{xform zl -15.59}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -548,6 +553,7 @@
 	{Human "single/ger/rifleman_afr" 0xe018
 		{Position -3372.95 -1770.45}
 		{xform zl 20.64}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 66}
 		{NameId 45 83}
@@ -564,6 +570,7 @@
 	{Human "single/ger/rifleman_afr" 0xe01a
 		{Position -3296.33 -2065.87}
 		{xform zl 9.58}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 67}
 		{NameId 104 147}
@@ -580,6 +587,7 @@
 	{Entity "pak35" 0xa01b
 		{Position -3453.54 -2244.22}
 		{xform zl 93.03 y 1.99 zw -73.42}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -598,6 +606,7 @@
 	{Human "single/ger/rifleman_afr" 0x819e
 		{Position -3273.04 -2197.33}
 		{xform zl 6.12}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 77}
 		{NameId 100 79}
@@ -614,6 +623,7 @@
 	{Human "single/ger/rifleman_afr" 0x81a7
 		{Position -3344.12 -1866.98}
 		{xform zl 9.08}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 78}
 		{NameId 139 27}
@@ -630,6 +640,7 @@
 	{Human "single/ger/rifleman_afr" 0x81a9
 		{Position -3265.65 -2273.06}
 		{xform zl 14.17}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 79}
 		{NameId 89 44}
@@ -646,6 +657,7 @@
 	{Human "single/ger/rifleman_afr" 0x81ab
 		{Position -3254.67 -2322.17}
 		{xform zl 8.31}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 80}
 		{NameId 97 7}
@@ -662,6 +674,7 @@
 	{Entity "mg34_stan" 0xb017
 		{Position -3293.26 -1957.38}
 		{xform zl 39.26}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -682,6 +695,7 @@
 	{Human "single/ger/rifleman_afr" 0x83c0
 		{Position -3318.01 -1929.25}
 		{xform zl 20.23}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 630}
 		{NameId 25 10}
@@ -698,6 +712,7 @@
 	{Human "single/ger/rifleman_afr" 0x83c2
 		{Position -3288.72 -2120.31}
 		{xform zl -178.42}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 632}
 		{NameId 44 53}
@@ -710,6 +725,7 @@
 		{TexMod
 			{"/entity/-vehicle/tank_light/pz2f/pz2f" "d"}
 		}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -1123,6 +1139,7 @@
 	{Human "single/ger/rifleman_afr" 0xa000
 		{Position -4461.44 -2252.44}
 		{xform zl 112.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 37}
 		{NameId 125 57}
@@ -1131,6 +1148,7 @@
 	{Human "single/ger/rifleman_afr" 0xa002
 		{Position -4477.66 -2259.56}
 		{xform zl 112.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 38}
 		{NameId 132 40}
@@ -1139,6 +1157,7 @@
 	{Human "single/ger/rifleman_afr" 0xa004
 		{Position -4492.9 -2266.78}
 		{xform zl 112.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 39}
 		{NameId 5 116}
@@ -1147,6 +1166,7 @@
 	{Human "single/ger/rifleman_afr" 0xa006
 		{Position -4506.93 -2274.77}
 		{xform zl 112.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 40}
 		{NameId 116 5}
@@ -1155,6 +1175,7 @@
 	{Human "single/ger/rifleman_afr" 0xa009
 		{Position -4521.63 -2281.49}
 		{xform zl 112.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 41}
 		{NameId 126 135}
@@ -1163,6 +1184,7 @@
 	{Human "single/ger/rifleman_afr" 0xa00c
 		{Position -4537.8 -2288.56}
 		{xform zl 112.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 42}
 		{NameId 134 143}
@@ -1171,6 +1193,7 @@
 	{Human "single/ger/rifleman_afr" 0xa00e
 		{Position -4554.49 -2297.45}
 		{xform zl 112.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 43}
 		{NameId 125 11}
@@ -1179,6 +1202,7 @@
 	{Human "single/ger/oficer_afr" 0xd000
 		{Position -4547.06 -2205.54}
 		{xform zl -67.74}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 44}
 		{NameId 110 53}
@@ -1187,6 +1211,7 @@
 	{Human "single/ger/mgun_afr" 0x8800
 		{Position -4568.52 -2304.42}
 		{xform zl 112.28}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 47}
 		{NameId 134 125}
@@ -1195,6 +1220,7 @@
 	{Human "single/ger/rifleman_afr" 0x880b
 		{Position -4512.6 -793.31}
 		{xform zl 140.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 48}
 		{NameId 70 112}
@@ -1203,6 +1229,7 @@
 	{Human "single/ger/rifleman_afr" 0x880c
 		{Position -4523.55 -807.23}
 		{xform zl 140.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 49}
 		{NameId 124 19}
@@ -1211,6 +1238,7 @@
 	{Human "single/ger/rifleman_afr" 0x880d
 		{Position -4533.6 -820.78}
 		{xform zl 140.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 50}
 		{NameId 17 42}
@@ -1219,6 +1247,7 @@
 	{Human "single/ger/rifleman_afr" 0x880e
 		{Position -4542.2 -834.44}
 		{xform zl 140.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 51}
 		{NameId 100 7}
@@ -1227,6 +1256,7 @@
 	{Human "single/ger/rifleman_afr" 0x880f
 		{Position -4552 -847.28}
 		{xform zl 140.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 52}
 		{NameId 20 75}
@@ -1235,6 +1265,7 @@
 	{Human "single/ger/rifleman_afr" 0x8810
 		{Position -4562.94 -861.14}
 		{xform zl 140.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 53}
 		{NameId 16 96}
@@ -1243,6 +1274,7 @@
 	{Human "single/ger/rifleman_afr" 0x8811
 		{Position -4573.48 -876.84}
 		{xform zl 140.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 54}
 		{NameId 133 10}
@@ -1251,6 +1283,7 @@
 	{Human "single/ger/oficer_afr" 0x8812
 		{Position -4637.56 -773.7}
 		{xform zl -34.34}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 55}
 		{NameId 101 37}
@@ -1259,6 +1292,7 @@
 	{Human "single/ger/mgun_afr" 0x8813
 		{Position -4582.56 -889.6}
 		{xform zl 140.39}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 56}
 		{NameId 22 118}
@@ -1267,6 +1301,7 @@
 	{Human "single/ger/oficer_afr" 0x8824
 		{Position -3354.91 -1826.43}
 		{xform zl 22.13}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 68}
 		{NameId 8 116}
@@ -1315,6 +1350,7 @@
 	{Human "single/ger/rifleman_afr" 0xc809
 		{Position -3846.4 -3931.79}
 		{xform zl 5.68}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 57}
 		{NameId 75 80}
@@ -1330,6 +1366,7 @@
 	{Human "single/ger/rifleman_afr" 0xc80a
 		{Position -3855.2 -4081.24}
 		{xform zl -8.56}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 58}
 		{NameId 54 28}
@@ -1345,6 +1382,7 @@
 	{Human "single/ger/rifleman_afr" 0xc80b
 		{Position -3872.87 -4152.97}
 		{xform zl -9.77}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 59}
 		{NameId 107 122}
@@ -1360,6 +1398,7 @@
 	{Human "single/ger/rifleman_afr" 0xc80c
 		{Position -3925.49 -4297.89}
 		{xform zl -20.44}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 60}
 		{NameId 137 132}
@@ -1375,6 +1414,7 @@
 	{Human "single/ger/rifleman_afr" 0xc80d
 		{Position -3849.96 -3867.63}
 		{xform zl 6.09}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 61}
 		{NameId 98 142}
@@ -1390,6 +1430,7 @@
 	{Human "single/ger/rifleman_afr" 0xc80e
 		{Position -3844.35 -4008.47}
 		{xform zl 8.69}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 62}
 		{NameId 81 148}
@@ -1405,6 +1446,7 @@
 	{Human "single/ger/rifleman_afr" 0xc80f
 		{Position -3964.43 -4409.05}
 		{xform zl -23.25}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 64}
 		{NameId 107 70}
@@ -1420,6 +1462,7 @@
 	{Human "single/ger/oficer_afr" 0xc810
 		{Position -3941.06 -4338.94}
 		{xform zl 151.56}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 69}
 		{NameId 60 95}
@@ -1443,6 +1486,7 @@
 	{Entity "pak35" 0xc815
 		{Position -4104.67 -4297.93}
 		{xform zl -154.87 y 4.93 zw -169.34}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1494,6 +1538,7 @@
 	{Entity "mg34_stan" 0xc81d
 		{Position -3847.55 -3787.37}
 		{xform zl 39.22}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1528,6 +1573,7 @@
 	{Entity "mg34_stan" 0xc823
 		{Position -3868.26 -4206.01}
 		{xform zl -6.76}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1548,6 +1594,7 @@
 	{Human "single/ger/rifleman_afr" 0xa810
 		{Position -4384.61 -3026.9}
 		{xform zl -27.25}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 73}
 		{NameId 28 105}
@@ -1563,6 +1610,7 @@
 	{Human "single/ger/rifleman_afr" 0xa812
 		{Position -4369.9 -2994.85}
 		{xform zl -23.7}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 94}
 		{NameId 85 119}
@@ -1578,6 +1626,7 @@
 	{Human "single/ger/rifleman_afr" 0xa813
 		{Position -4552.84 -3306.73}
 		{xform zl -42.75}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 95}
 		{NameId 109 49}
@@ -1593,6 +1642,7 @@
 	{Human "single/ger/rifleman_afr" 0xa814
 		{Position -4618.23 -3403.24}
 		{xform zl -33.16}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 96}
 		{NameId 130 136}
@@ -1608,6 +1658,7 @@
 	{Human "single/ger/rifleman_afr" 0xa815
 		{Position -4674.77 -3480.7}
 		{xform zl -36.02}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 97}
 		{NameId 20 19}
@@ -1623,6 +1674,7 @@
 	{Human "single/ger/rifleman_afr" 0xa816
 		{Position -4405.59 -3070.13}
 		{xform zl -22.21}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 98}
 		{NameId 106 23}
@@ -1638,6 +1690,7 @@
 	{Human "single/ger/oficer_afr" 0xa817
 		{Position -4437.62 -3135.56}
 		{xform zl 160.8}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 99}
 		{NameId 137 131}
@@ -1653,6 +1706,7 @@
 	{Human "single/ger/mgun_afr" 0xa818
 		{Position -4497.54 -3230.92}
 		{xform zl -42.13}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 100}
 		{NameId 115 116}
@@ -1668,6 +1722,7 @@
 	{Human "single/ger/rifleman_afr" 0xf009
 		{Position -4644.55 5201.52}
 		{xform zl -18.5}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 93}
 		{NameId 21 44}
@@ -1683,6 +1738,7 @@
 	{Human "single/ger/rifleman_afr" 0xf00a
 		{Position -4802.69 4406.54}
 		{xform zl 33.24}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 101}
 		{NameId 86 122}
@@ -1698,6 +1754,7 @@
 	{Human "single/ger/rifleman_afr" 0xf00b
 		{Position -4673.45 4707.34}
 		{xform zl -53.96}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 102}
 		{NameId 74 148}
@@ -1713,6 +1770,7 @@
 	{Human "single/ger/rifleman_afr" 0xf00c
 		{Position -4653.4 4759.98}
 		{xform zl 26.07}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 103}
 		{NameId 112 57}
@@ -1728,6 +1786,7 @@
 	{Human "single/ger/rifleman_afr" 0xf00d
 		{Position -4638.7 5122.22}
 		{xform zl 0.32}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 104}
 		{NameId 122 22}
@@ -1743,6 +1802,7 @@
 	{Human "single/ger/rifleman_afr" 0xf00e
 		{Position -4662.84 4990.26}
 		{xform zl -11.31}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 105}
 		{NameId 94 79}
@@ -1758,6 +1818,7 @@
 	{Human "single/ger/rifleman_afr" 0xf00f
 		{Position -4662.94 4928.47}
 		{xform zl -8.41}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 106}
 		{NameId 128 30}
@@ -1773,6 +1834,7 @@
 	{Human "single/ger/oficer_afr" 0xf010
 		{Position -4880.41 4474.47}
 		{xform zl 28.71}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 107}
 		{NameId 85 51}
@@ -1788,6 +1850,7 @@
 	{Human "single/ger/tank_crew" 0x9802
 		{Position -4653.12 5051.42}
 		{xform zl -20.09}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 108}
 		{NameId 20 45}
@@ -1796,6 +1859,7 @@
 	{Human "single/ger/tank_crew" 0x9803
 		{Position -4647.69 5063.24}
 		{xform zl -20.09}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 109}
 		{NameId 95 148}
@@ -1824,6 +1888,7 @@
 	{Human "single/ger/mgun_afr" 0x9806
 		{Position -4856.73 4449.6}
 		{xform zl 59.32}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 111}
 		{NameId 27 105}
@@ -1843,6 +1908,7 @@
 			{"/entity/-vehicle/tank_medium/pz3f/pz3f" "d"}
 			{"/entity/-vehicle/tank_medium/x/pz3f_x/pz3f_x" "d"}
 		}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -1984,6 +2050,7 @@
 	{Entity "sgrw42" 0xe005
 		{Position -4731.76 -2552.21}
 		{xform zl -24.6}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -1999,6 +2066,7 @@
 	{Entity "sgrw42" 0xe006
 		{Position -4612.92 -194.38}
 		{xform zl 38.65}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2080,6 +2148,7 @@
 	{Entity "pak35" 0xd012
 		{Position -4817.84 -3239.14}
 		{xform zl 142.56 y 1.88 zw -152.41}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2278,6 +2347,7 @@
 	{Entity "sgrw42" 0xc01d
 		{Position -3953.57 -5034.97}
 		{xform zl 55.17}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2344,6 +2414,7 @@
 		{Position -7631.72 1519.17}
 		{xform y 0.7 zw -40.85}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2362,6 +2433,7 @@
 		{Position -7814.33 -4826.37}
 		{xform zl -59.03}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2380,6 +2452,7 @@
 		{Position -7351.21 5655.32}
 		{xform zl 20.03}
 		{TexMod "2"}
+		{SpawnedInFog}
 		{Placer
 			{State "driver1" {Disable}}
 			{State "driver2" {Disable}}
@@ -2442,6 +2515,7 @@
 	{Human "single/ger/rifleman_afr" 0x900c
 		{Position -7499.75 1238.34}
 		{xform zl 32.87}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 152}
 		{NameId 27 108}
@@ -2457,6 +2531,7 @@
 	{Human "single/ger/rifleman_afr" 0x900d
 		{Position -7507.24 1190.92}
 		{xform zl -32.19}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 153}
 		{NameId 78 119}
@@ -2472,6 +2547,7 @@
 	{Human "single/ger/rifleman_afr" 0x900e
 		{Position -7584.07 822.7}
 		{xform zl -35.35}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 154}
 		{NameId 38 82}
@@ -2487,6 +2563,7 @@
 	{Human "single/ger/rifleman_afr" 0x900f
 		{Position -7574.16 867.84}
 		{xform zl 20.22}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 155}
 		{NameId 142 75}
@@ -2516,6 +2593,7 @@
 	{Human "single/ger/rifleman_afr" 0x9011
 		{Position -7586.97 949.81}
 		{xform zl 41.31}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 157}
 		{NameId 66 15}
@@ -2559,6 +2637,7 @@
 	{Human "single/ger/mgun_afr" 0x9014
 		{Position -7579.98 904.12}
 		{xform zl -14.28}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 160}
 		{NameId 115 79}
@@ -2574,6 +2653,7 @@
 	{Human "single/ger/rifleman_afr" 0x901e
 		{Position -7517.53 5405.47}
 		{xform zl -55.02}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 161}
 		{NameId 21 81}
@@ -2586,6 +2666,7 @@
 	{Human "single/ger/rifleman_afr" 0x901f
 		{Position -7643.53 5293.47}
 		{xform zl -49.55}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 162}
 		{NameId 101 103}
@@ -2598,6 +2679,7 @@
 	{Human "single/ger/rifleman_afr" 0x9020
 		{Position -7783.53 4901.47}
 		{xform zl -36.44}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 163}
 		{NameId 78 136}
@@ -2609,7 +2691,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0x9021
 		{Position -7783.53 4614.47}
-		{xform zl -44.71 y 7.5 zw -43.14}
+		{xform zl -45.2 y 7.5 zw -43.14}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 164}
 		{NameId 77 78}
@@ -2622,6 +2705,7 @@
 	{Human "single/ger/rifleman_afr" 0x9022
 		{Position -7713.53 5062.47}
 		{xform zl -42.43}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 165}
 		{NameId 129 149}
@@ -2633,7 +2717,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0x9023
 		{Position -7902.53 4432.47}
-		{xform zl -31.2 y 10.78 zw -14.9}
+		{xform zl -32.11 y 10.78 zw -14.9}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 166}
 		{NameId 56 23}
@@ -2645,7 +2730,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0x9024
 		{Position -7853.53 4565.47}
-		{xform zl 74.3 y 5.72 zw -87.15}
+		{xform zl 74.44 y 5.72 zw -87.15}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 167}
 		{NameId 100 143}
@@ -2658,6 +2744,7 @@
 	{Human "single/ger/oficer_afr" 0x9025
 		{Position -8000.53 4474.47}
 		{xform zl 1.5 y 1.47 zw -20.6}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 168}
 		{NameId 39 115}
@@ -2669,7 +2756,8 @@
 	}
 	{Human "single/ger/mgun_afr" 0x9026
 		{Position -7748.53 4761.47}
-		{xform zl -10.76 y 3.11 zw -6.32}
+		{xform zl -10.79 y 3.11 zw -6.32}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 169}
 		{NameId 105 107}
@@ -2716,6 +2804,7 @@
 	{Human "single/ger/rifleman_afr" 0x806d
 		{Position -7125.53 5832.47}
 		{xform zl -20.22}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 170}
 		{NameId 110 17}
@@ -2728,6 +2817,7 @@
 	{Human "single/ger/rifleman_afr" 0x806e
 		{Position -6818.16 6254.51}
 		{xform zl -45.42}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 171}
 		{NameId 141 82}
@@ -2743,6 +2833,7 @@
 	{Human "single/ger/rifleman_afr" 0x806f
 		{Position -6787.17 6319.56}
 		{xform zl -36.27}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 173}
 		{NameId 43 37}
@@ -2758,6 +2849,7 @@
 	{Human "single/ger/rifleman_afr" 0x8070
 		{Position -6736.99 6359}
 		{xform zl -44.38}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 174}
 		{NameId 37 141}
@@ -2773,6 +2865,7 @@
 	{Human "single/ger/rifleman_afr" 0x8071
 		{Position -6697.45 6406.94}
 		{xform zl -51.39}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 175}
 		{NameId 135 4}
@@ -2788,6 +2881,7 @@
 	{Human "single/ger/rifleman_afr" 0x8072
 		{Position -7335.97 5489.62}
 		{xform zl -58.79}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 176}
 		{NameId 61 149}
@@ -2803,6 +2897,7 @@
 	{Human "single/ger/rifleman_afr" 0x8073
 		{Position -7309.1 5520.38}
 		{xform zl -28.79}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 177}
 		{NameId 39 33}
@@ -2818,6 +2913,7 @@
 	{Human "single/ger/oficer_afr" 0x8074
 		{Position -6968.52 6041.23}
 		{xform zl -82.15}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 178}
 		{NameId 134 110}
@@ -2833,6 +2929,7 @@
 	{Human "single/ger/mgun_afr" 0x8075
 		{Position -6934.46 6066.68}
 		{xform zl -26.11}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 179}
 		{NameId 113 5}
@@ -2890,6 +2987,7 @@
 	{Human "single/ger/rifleman_afr" 0xc031
 		{Position -7776.72 -4571.49}
 		{xform zl 33.79}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 186}
 		{NameId 96 36}
@@ -2905,6 +3003,7 @@
 	{Human "single/ger/rifleman_afr" 0xc032
 		{Position -7773.23 -4608.66}
 		{xform zl -6.78}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 187}
 		{NameId 19 49}
@@ -2920,6 +3019,7 @@
 	{Human "single/ger/rifleman_afr" 0xc033
 		{Position -7869.8 -4444.43}
 		{xform zl 66.32}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 188}
 		{NameId 100 129}
@@ -2949,6 +3049,7 @@
 	{Human "single/ger/rifleman_afr" 0xc035
 		{Position -7728.51 -5225.76}
 		{xform zl -72.3}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 190}
 		{NameId 111 14}
@@ -2964,6 +3065,7 @@
 	{Human "single/ger/rifleman_afr" 0xc036
 		{Position -7834.2 -4477.76}
 		{xform zl 16.32}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 191}
 		{NameId 103 106}
@@ -2979,6 +3081,7 @@
 	{Human "single/ger/rifleman_afr" 0xc037
 		{Position -7696.67 -5182.65}
 		{xform zl 3.31}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 192}
 		{NameId 1 128}
@@ -2994,6 +3097,7 @@
 	{Human "single/ger/oficer_afr" 0xc038
 		{Position -7726.01 -5100.81}
 		{xform zl 75.43}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 193}
 		{NameId 69 69}
@@ -3009,6 +3113,7 @@
 	{Human "single/ger/mgun_afr" 0xc039
 		{Position -7712.56 -5136.18}
 		{xform zl 10.44}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 194}
 		{NameId 126 85}
@@ -3037,7 +3142,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa01d
 		{Position -7755.53 -1195.53}
-		{xform zl -11.6 y 8.05 zw -45}
+		{xform zl -11.83 y 8.05 zw -45}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 196}
 		{NameId 24 39}
@@ -3049,7 +3155,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa01e
 		{Position -7720.53 -1104.53}
-		{xform zl -80.01 y 11.63 zw -29.05}
+		{xform zl -80.41 y 11.63 zw -29.05}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 197}
 		{NameId 78 109}
@@ -3061,7 +3168,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa01f
 		{Position -7832.53 -1349.53}
-		{xform zl -16.24 y 8.36 zw -35.31}
+		{xform zl -16.58 y 8.36 zw -35.31}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 198}
 		{NameId 3 131}
@@ -3073,7 +3181,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa020
 		{Position -7902.53 -1482.53}
-		{xform zl 15.67 y 8.4 zw -35.64}
+		{xform zl 16 y 8.4 zw -35.64}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 199}
 		{NameId 78 145}
@@ -3085,7 +3194,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa021
 		{Position -8000.53 -1580.53}
-		{xform zl -1.2 y 8.45 zw -23.82}
+		{xform zl -1.23 y 8.45 zw -23.82}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 200}
 		{NameId 118 92}
@@ -3097,7 +3207,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa022
 		{Position -8203.53 -1692.53}
-		{xform zl 83.46 y 6.84 zw -90}
+		{xform zl 83.55 y 6.84 zw -90}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 201}
 		{NameId 13 48}
@@ -3109,7 +3220,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa023
 		{Position -8112.53 -1636.53}
-		{xform zl 78.47 y 5.37 zw -90}
+		{xform zl 78.57 y 5.37 zw -90}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 202}
 		{NameId 116 68}
@@ -3121,7 +3233,8 @@
 	}
 	{Human "single/ger/oficer_afr" 0xa026
 		{Position -7657.53 -901.53}
-		{xform zl 87.15 y 13.5 zw -14.97}
+		{xform zl 87.31 y 13.5 zw -14.97}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 203}
 		{NameId 97 30}
@@ -3133,7 +3246,8 @@
 	}
 	{Human "single/ger/mgun_afr" 0xa027
 		{Position -7671.53 -992.53}
-		{xform zl -83.76 y 10.21 zw -6.37}
+		{xform zl -83.96 y 10.21 zw -6.37}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 204}
 		{NameId 109 151}
@@ -3146,6 +3260,7 @@
 	{Human "single/ger/rifleman_afr" 0xa031
 		{Position -7324.28 -2419.99}
 		{xform zl 63.91}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 205}
 		{NameId 98 128}
@@ -3161,6 +3276,7 @@
 	{Human "single/ger/rifleman_afr" 0xa032
 		{Position -7204.19 -2676.68}
 		{xform zl -38.08}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 206}
 		{NameId 127 30}
@@ -3176,6 +3292,7 @@
 	{Human "single/ger/rifleman_afr" 0xa033
 		{Position -7122.64 -2941.43}
 		{xform zl 13.39}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 207}
 		{NameId 118 90}
@@ -3184,6 +3301,7 @@
 	{Human "single/ger/rifleman_afr" 0xa034
 		{Position -8053.98 -3428.29}
 		{xform zl 16.13}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 208}
 		{NameId 145 30}
@@ -3191,7 +3309,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa035
 		{Position -7769.53 -5605.53}
-		{xform zl 12.99 y 2.86}
+		{xform zl 13.02 y 2.86}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 209}
 		{NameId 143 115}
@@ -3204,6 +3323,7 @@
 	{Human "single/ger/rifleman_afr" 0xa036
 		{Position -7976.52 -3725.8}
 		{xform zl 4.43}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 210}
 		{NameId 126 95}
@@ -3211,7 +3331,8 @@
 	}
 	{Human "single/ger/rifleman_afr" 0xa037
 		{Position -7818.53 -5773.53}
-		{xform zl 62.6 y 8.35 zw -37.81}
+		{xform zl 63.1 y 8.35 zw -37.81}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 211}
 		{NameId 16 147}
@@ -3224,6 +3345,7 @@
 	{Human "single/ger/oficer_afr" 0xa038
 		{Position -7212.74 -2541.4}
 		{xform zl 5.53}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 212}
 		{NameId 40 101}
@@ -3323,6 +3445,7 @@
 			{"/entity/-vehicle/btr/sdkfz232/sd232" "d"}
 			{"/texture/common/model/all_wheels01" "2"}
 		}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -3339,6 +3462,7 @@
 			{"/texture/common/model/sdkfz251_1" "d"}
 			{"/texture/common/model/all_wheels01" "d"}
 		}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -4702,6 +4826,7 @@
 	{Entity "ab41" 0xd813
 		{Position -8187.35 -5139.04 79.46}
 		{xform zl 180 y 0.92 zw 154.85}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -4751,6 +4876,7 @@
 	{Entity "ab41" 0xd81c
 		{Position -8161.79 -875.36 80}
 		{xform zl -54.78}
+		{SpawnedInFog}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}}
 		}
@@ -5382,7 +5508,6 @@
 	{Entity "oerlikon" 0xb004
 		{Position 2534.34 -1266.93}
 		{xform zl -179.78 y 0.09 zw 179.78}
-		{SpawnedInFog}
 		{Placer
 			{State "driver" {Disable}}
 			{State "seat1" {Disable}}
@@ -5420,6 +5545,7 @@
 	{Human "single/ger/oficer_afr" 0xa003
 		{Position -7957.18 -5196.65}
 		{xform zl -129.84}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 438}
 		{NameId 126 137}
@@ -5428,6 +5554,7 @@
 	{Human "single/ger/smg_afr" 0xd00a
 		{Position -7961.44 -5253.04}
 		{xform zl 68.17}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 437}
 		{NameId 110 127}
@@ -5436,6 +5563,7 @@
 	{Human "single/ger/smg_afr" 0xd017
 		{Position -7976.54 -5245.34}
 		{xform zl 60.71}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 439}
 		{NameId 90 132}
@@ -5444,6 +5572,7 @@
 	{Human "single/ger/smg_afr" 0xd025
 		{Position -7993.34 -5234.62}
 		{xform zl 69.06}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 440}
 		{NameId 137 62}
@@ -5452,6 +5581,7 @@
 	{Human "single/ger/smg_afr" 0xd027
 		{Position -8010.89 -5224.38}
 		{xform zl 65.81}
+		{SpawnedInFog}
 		{Player 0}
 		{MID 441}
 		{NameId 12 114}
@@ -12809,7 +12939,7 @@
 								{type cmp_i}
 								{var "players:count@"}
 								{op "=="}
-								{value 6}
+								{value 8}
 							}
 							{"player"
 								{selector
