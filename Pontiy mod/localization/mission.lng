@@ -24,6 +24,9 @@
         {"2v2_pontiy_escape"
             {"name" "<c(139 0 139)e(shadow)>[Pontiy]2x2 Escape"}
         }
+        {"3v3_gatr_korsun"
+            {"name" "<c(254 94 24)e(shadow)>[Gatr]3x3 Korsun"}
+        }
 		{"farmland"
 			{"name" "Farmland"}
 		}
