@@ -27,6 +27,9 @@
         {"3v3_gatr_korsun"
             {"name" "<c(254 94 24)e(shadow)>[Gatr]3x3 Korsun"}
         }
+        {"4x4_gatr_battle"
+            {"name" "<c(254 94 24)e(shadow)>[Gatr]4x4 Battle"}
+        }
 		{"farmland"
 			{"name" "Farmland"}
 		}
