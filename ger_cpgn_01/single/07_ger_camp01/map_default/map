@@ -1,0 +1,76 @@
+{map
+	{Land
+		{Position 0 0}
+	}
+	{Clips
+		{"[auto]"
+			{world -4500 -4500 4500 4500}
+			{camera -4500 -4500 4500 4500}
+			{pather -4500 -4500 4500 4500}
+			{distance 200 800}
+			{viewAngle 20 50}
+		}
+	}
+	{Ocean
+		{active 0}
+		{state calm}
+		{zlevel 0}
+		{waveamount 8}
+		{wavedir 50}
+	}
+	{Entity "bridge_wood" 0x3
+		{Position -869.32 1500.56 -70.21}
+		{xform zl -89.67 scale 2.42}
+	}
+	{Entity "house_ru_141" 0x2000
+		{Position -388.1 481.09}
+	}
+	{Entity "house_ru_141" 0x2041
+		{Position -1226.21 522.93}
+	}
+	{Entity "house_ru_141" 0x2062
+		{Position -1596.93 -216.21}
+	}
+	{Entity "house_ru_141" 0x2083
+		{Position -390.56 -109.59}
+	}
+	{Entity "house_ru_141" 0x20a4
+		{Position -986.3 -765.14}
+	}
+	{Entity "house_ru_141" 0x20c5
+		{Position -295.59 -867.95}
+	}
+	{Entity "house_ru_141" 0x20e6
+		{Position -1781.14 -1000.04}
+	}
+	{Entity "house_ru_141" 0x2107
+		{Position -2517.91 -1567.84}
+	}
+	{Entity "house_ru_141" 0x2128
+		{Position -1007.59 -1652.84}
+	}
+	{Entity "house_ru_141" 0x2149
+		{Position -2021.98 -2579.7}
+	}
+	{Entity "house_ru_141" 0x216a
+		{Position -2695.53 -2871.52}
+	}
+	{Entity "house_ru_141" 0x218b
+		{Position -1211.07 -3281}
+	}
+	{Entity "house_ru_141" 0x21ac
+		{Position -196.24 -2196.64}
+	}
+	{Entity "house_ru_141" 0x21cd
+		{Position -220.19 -3278.7}
+	}
+	{Entity "house_ru_141" 0x21ee
+		{Position -389.87 -3970.96}
+	}
+	{Entity "house_ru_141" 0x220f
+		{Position -2181.15 -3906.5}
+	}
+	{Entity "church2" 0x2210
+		{Position 2751.21 2194.44}
+	}
+}
